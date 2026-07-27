@@ -1,181 +1,256 @@
 /* ==========================================================================
-   CULTURAL STUDIES PORTAL ENGINE - GROUNDED AI ASSISTANT (STRICT COURSE DATA)
+   CULTURAL STUDIES PREMIUM PORTAL ENGINE - FULL TEXTBOOK BOOK READER & AI
    ========================================================================== */
 
 const GEMINI_API_KEY = "AIzaSyCSc4Kp0tIIXsSYiF0DtbfOQJOebpT2N0s";
 
 let currentLang = 'ru'; // 'ru' or 'en'
-let selectedWeek = '1'; // '1', '2', ..., '10', 'all'
-let mainViewMode = 'quiz'; // 'quiz' or 'main'
+let selectedWeek = '1';
+let mainViewMode = 'quiz';
 let questionLimit = 10;
 let userAnswers = {};
-let activeReaderWeek = 1;
 
-// Full Academic Course Knowledge Vault extracted directly from repo files
+let activeReaderWeek = 1;
+let activeChapterIdx = 0; // 0 = Chapter 1, ..., 9 = Chapter 10, -1 = Show All
+
+// Full Academic Course Knowledge Vault
 const COURSE_KNOWLEDGE_VAULT = `
 ОФИЦИАЛЬНЫЙ АКАДЕМИЧЕСКИЙ ФОНД ЗНАНИЙ КУРСА CULTURAL STUDIES (AITU):
-
-НЕЕДЕЛЯ 1: МОРФОЛОГИЯ И ЯЗЫК КУЛЬТУРЫ
-1. Этимология: Слово «культура» восходит к латинскому colere (возделывать почву). Первичное значение выражения agri cultura — возделывание земли / земледелие (cultivation).
-2. Марк Туллий Цицерон (45 г. до н.э., «Тускуланские беседы») впервые применил метафору Cultura Animi — «возделывание души» с помощью философии.
-3. Сэр Эдвард Бернетт Тайлор (1871, «Первобытная культура»): «Культура — это сложный комплекс, включающий знания, верования, искусство, мораль, законы, обычаи и привычки, усвоенные человеком как членом общества».
-4. А. Крёбер и К. Клакхон (1952) выделили поведенческое определение: «совместное, усвоенное человеческое поведение, образ жизни».
-5. Лесли Элвин Уайт (1949, «Наука о культуре») основал Культурологию (Culturology) на основе символизирующей способности человека (symboling).
-6. Морфологические подсистемы: Материальная (физические артефакты, орудия труда, юрты, техника), Духовная (наука, религия, этика, эстетика, ценности), Социально-институциональная (законы, семья, обряды). ВНИМАНИЕ: Орудия труда и технологии относятся СТРОГО к материальной культуре!
-7. Генетический метод: изучает происхождение (генезис) и эволюцию культурных форм.
-8. Социобиологическая теория: Ричард Докинз (1976, «Эгоистичный ген») объяснил передачу культуры через мемы.
-9. Казахская юрта: Шанырак (Шаңырақ) — священный символ семейного очага, единства рода и космоса на Государственном Гербе РК.
-10. Культурный лаг (Cultural Lag): Уильям Огборн (1922) — разрыв между быстрым развитием материальных технологий и отставанием нематериальных законов/морали.
-11. Гипотеза Сепира-Уорфа и эксперименты Леры Бородицкой: язык направляет мышление и восприятие (аборигены Куук Таайорре, синий/голубой в русском ЭЭГ, немецкий/испанский род моста).
-12. Семиотика Соссюра: Обозначающее (Signifier — акустический образ) и Обозначаемое (Signified — ментальный смысл). Связь произвольна (l'arbitraire du signe).
-
-НЕДЕЛЯ 2: СЕМИОТИКА И АНАТОМИЯ КУЛЬТУРЫ
-1. 4 Глобальных Культурных Кода: Дописьменный (устная речь, ритуалы, слуховое мышление), Письменный (алфавит, книги, линейная логика), Экранный (кино, ТВ, визуальный образ) и Цифровой (интернет, гипертекст, просьюмеры, клиповое мышление).
-2. 6 Форм верований по Э. Тайлору: Анимизм (вера в духи природы), Фетишизм (поклонение неодушевленным предметам-магическим защитникам, напр. Казахский Тумар), Тотемизм (кровное родство с животным-тотемом, напр. Священный Волк Бөрі), Пантеизм (отождествление Бога с природой, напр. Тенгрианство — Тенгри и Жер-Су), Деизм (Бог-Часовщик Просвещения), Монотеизм (один Бог).
-3. Моральные парадоксы и Проблема вагонетки (Trolley Problem): Утилитаризм (Бентам) требует переключить стрелку ради спасения 5 жизней ценой 1 (математика пользы); Кантианская деонтология запрещает активное убийство.
-4. Семиотика Чарльза Пирса: Триада знака — Икона (визуальное сходство, орнамент Кошкар Муиз), Индекс (физическая причинно-следственная связь, дым-огонь, след ноги), Символ (социальное соглашение, знак STOP, пентаграмма).
-5. Разделы семиотики Чарльза Морриса: Синтактика (знак-знак), Семантика (знак-объект), Прагматика (знак-интерпретатор).
-6. Лев Выготский: культурно-историческая психология и опосредование психики знаками.
-7. Юлия Кристева: Семанализ (semanalysis) — критика производства смысла, альтернатива Соссюру.
-8. Ролан Барт («Мифологии», 1957): Миф как вторичная семиотическая система (вторичное означаемое/коннотация). Главная функция мифа — натурализация буржуазной идеологии (превращение политики в естественный здравый смысл).
-9. Юрий Лотман: Семиосфера (Semiosphere) — единый семиотический континуум культуры, культура как динамический текст с кодами.
-10. Олжас Сулейменов («АЗ и Я», 1975): семиотический и лингвистический анализ «Слова о полку Игореве» с тюркской позиции.
-11. Петроглифы Танбалы: изображение Солнцеголового божества (Кунхан), отражающего древнеевразийский солярный культ Неба (Тенгри).
+- ЭТИМОЛОГИЯ: colere (возделывать почву). agri cultura — земледелие.
+- ЦИЦЕРОН (45 г. до н.э.): Cultura Animi — возделывание души философией.
+- ЭДВАРД ТАЙЛОР (1871): Первобытная культура — сложный комплекс знаний, верований, обычаев.
+- КРЁБЕР И КЛАКХОН (1952): поведенческое определение — совместное усвоенное поведение, образ жизни.
+- ЛЕСЛИ УАЙТ (1949): Культурология (Culturology), символизирующая способность (symboling).
+- ОРУДИЯ ТРУДА И ТЕХНОЛОГИИ: относятся СТРОГО к Материальной культуре!
+- КУЛЬТУРНЫЙ ЛАГ: У. Огборн (1922) — разрыв между технологиями и нематериальной моралью/законами.
+- СЕПИР-УОРФ & БОРОДИЦКАЯ: язык направляет восприятие (Куук Таайорре, синий/голубой, род моста).
+- 4 КУЛЬТУРНЫХ КОДА: Дописьменный, Письменный, Экранный, Цифровой.
+- 6 ФОРМ ВЕРОВАНИЙ: Анимизм, Фетишизм (Тумар), Тотемизм (Степной Волк Бөрі), Пантеизм (Тенгри), Деизм, Монотеизм.
+- ПРОБЛЕМА ВАГОНЕТКИ: Утилитаризм (5 жизней > 1) vs Кантианская Деонтология (запрет убийства).
+- СЕМИОТИКА СОССЮРА: Обозначающее (Signifier) + Обозначаемое (Signified). Произвольность знака.
+- ТРИАДА ПИРСА: Икона (сходство), Индекс (причинная связь, дым-огонь), Символ (соглашение, STOP).
+- ЧАРЛЬЗ МОРРИС: Синтактика, Семантика, Прагматика.
+- РОЛАН БАРТ (1957): Мифологии — вторичная система, натурализация буржуазной идеологии.
+- ЮРИЙ ЛОТМАН: Семиосфера — культура как динамический текст.
+- ОЛЖАС СУЛЕЙМЕНОВ (1975): «АЗ и Я» — семиотический анализ «Слова о полку Игореве».
+- ТАНБАЛЫ: петроглиф Солнцеголового божества (Кунхан) — культ Неба (Тенгри).
 `;
 
-// Bilingual UI Text Translations
-const uiTranslations = {
+// Complete Chapter-by-Chapter Master Textbook Database
+const fullBookDatabase = {
     ru: {
-        logoSub: "10-Недельный Портал",
-        lblSelectWeek: "Неделя курса:",
-        tabQuiz: "Quiz Trainer",
-        tabMain: "Master Textbook",
-        modeLbl: "Режим вопросов:",
-        opt10: "10 Вопросов",
-        opt30: "30 Вопросов",
-        opt50: "50 Вопросов",
-        opt100: "100 Вопросов (Мега Режим)",
-        btnRestart: "Сбросить Тест",
-        lblActiveTest: "Активный Тест",
-        lblScore: "Счет",
-        lblAccuracy: "Точность",
-        titleW1: "Неделя 1: Морфология и Язык Культуры",
-        titleW2: "Неделя 2: Семиотика и Анатомия Культуры",
-        titleAll: "Полный Мега-Экзамен по всем неделям курса",
-        btnReadW1: "📘 Учебник Недели 1",
-        btnReadW2: "📙 Учебник Недели 2",
-        qWord: "Вопрос",
-        aiBtn: "AI Помощник",
-        aiSub: "Ответ строго по материалам наших лекций AITU"
+        week1: [
+            {
+                title: "Глава 1: Академический Регламент и Формула Оценок",
+                content: `
+                    <h1>🎓 Неделя 1. Глава 1: Академический Регламент и Формула Оценок</h1>
+                    <p>Обучение дисциплине «Cultural Studies» в Astana IT University строится на строгой системе рубежного контроля знания. Итоговая оценка по курсу рассчитывается по формуле взвешенного среднего арифметического:</p>
+                    <blockquote>Total Grade = (Midterm Grade × 0.30) + (Endterm Grade × 0.30) + (Final Exam Grade × 0.40)</blockquote>
+                    <p>В первом периоде обучения (Midterm Period, вес 30%) каждый студент сдает индивидуальную устную презентацию (50% балла за Midterm, дедлайн: среда 29 июля 2026 г. до 11:59 AM), лекционные квизы (20%) и MCQ-тест 31 июля (30%). Во втором периоде (Endterm, 30%) выполняется групповой исследовательский проект (50%), текущие квизы (20%) и MCQ-тест 5 августа (30%). Финальный компьютерный экзамен (40%) проводится 6 августа 2026 года.</p>
+                `
+            },
+            {
+                title: "Глава 2: Историческая эволюция понятия «Культура» (AITU 1.1)",
+                content: `
+                    <h1>📜 Неделя 1. Глава 2: Историческая эволюция понятия «Культура»</h1>
+                    <h2>2.1 Древнеримская этимология: colere и agri cultura</h2>
+                    <p>Слово «культура» восходит к древнелатинскому глаголу <strong>colere</strong> — <em>возделывать почву, пахать землю, ухаживать за посевами</em>. Первоначальным значением выражения <strong>agri cultura</strong> являлось <strong>возделывание земли / земледелие (cultivation)</strong>. Культура обозначала агрономический процесс воздействия человека на природу. Земля без воздействия человека оставалась дикой (silva); обработанная земля становилась культурой.</p>
+                    
+                    <h2>2.2 Цицерон и трактат Cultura Animi (45 г. до н.э.)</h2>
+                    <p>В 45 году до нашей эры древнеримский оратор <strong>Марк Туллий Цицерон</strong> в трактате «Тускуланские беседы» (Tusculan Disputations) впервые применил этот термин как метафору: <strong>Cultura Animi Virtus Est</strong> — <em>«Философия есть возделывание/культивирование души»</em>. Цицерон доказал, что подобно тому, как даже самое плодородное поле не принесет урожая без пахоты, так и человеческая душа остается необразованной без духовного культивирования философией и науками.</p>
+
+                    <h2>2.3 Эпоха Просвещения и Этнография Тайлора (1871)</h2>
+                    <p>В XVIII веке (Вольтер, Монтескье, Гердер) культура рассматривалась как разумение и социальный прогресс. В 1871 году <strong>Сэр Эдвард Бернетт Тайлор</strong> в книге «Первобытная культура» дал классическое определение: <em>«Культура — это сложный комплекс, включающий знания, верования, искусство, мораль, законы, обычаи и привычки, усвоенные человеком как членом общества»</em>. В 1949 году <strong>Лесли Уайт</strong> основал <strong>Культурологию (Culturology)</strong> на основе символизирующей способности (symboling).</p>
+                `
+            },
+            {
+                title: "Глава 3: Морфология культуры и её подсистемы (AITU 1.2)",
+                content: `
+                    <h1>🏛️ Неделя 1. Глава 3: Морфология культуры и её подсистемы</h1>
+                    <h2>3.1 Три морфологические подсистемы культуры</h2>
+                    <p>Морфология культуры изучает внутреннее строение культуры и механизмы формирования её форм. Выделяются 3 главные подсистемы:</p>
+                    <p>1. <strong>Материальная подсистема:</strong> Орудия производства, жилье (юрты), одежда, техника и транспорт. <strong>(ВНИМАНИЕ ДЛЯ ТЕСТОВ: Орудия труда и технологии относятся СТРОГО к материальной культуре и НЕ входят в духовную!)</strong>.</p>
+                    <p>2. <strong>Духовная подсистема:</strong> Идеи, наука, религия, философия, мораль, ценности, литература и искусство.</p>
+                    <p>3. <strong>Социально-институциональная подсистема:</strong> Законы, семейные институты, государственные нормы и обряды.</p>
+                    
+                    <h2>3.2 Генетический метод и Мемы Докинза</h2>
+                    <p>Исследовательский метод, изучающий происхождение (генезис) и эволюцию культурных форм, называется <strong>Генетическим методом (Genetic Method)</strong>. Концепция Ричарда Докинза (1976, «Эгоистичный ген») объясняет трансляцию культуры через мемы в рамках <strong>Социобиологической теории</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 4: Пять базовых элементов культуры и Общество vs Культура",
+                content: `
+                    <h1>🧩 Неделя 1. Глава 4: Элементы культуры и Социологические различия</h1>
+                    <p>Базовыми элементами культуры выступают: Ценности, Верования, Нормы (Folkways и Mores), Символы и Язык.</p>
+                    <p>В социологической аналогии с компьютерами: <strong>Общество (Society)</strong> — это коллектив людей (Hardware / Железо), а <strong>Культура (Culture)</strong> — система правил, идей и языковых матриц, организующих их жизнь (Software / ПО).</p>
+                `
+            },
+            {
+                title: "Глава 5: Казахская Юрта и Теория Культурного Запаздывания",
+                content: `
+                    <h1>🛖 Неделя 1. Глава 5: Казахская Юрта и Культурный Лаг</h1>
+                    <p>Казахская юрта (Киіз үй) объединяет материальный каркас и священный нематериальный смысл. Вершинный круг <strong>Шанырак (Шаңырақ)</strong> является символом семейного очага, единства рода и мироздания на Государственном Гербе Республики Казахстан.</p>
+                    <p>Теория <strong>Культурного Запаздывания (Cultural Lag)</strong> Уильяма Огборна (1922) описывает разрыв, возникающий когда материальные технологии развиваются стремительно, а нематериальная мораль и законы отстают.</p>
+                `
+            },
+            {
+                title: "Глава 6: Типология культурных форм (Crash Course #11)",
+                content: `
+                    <h1>🎭 Неделя 1. Глава 6: Типология культурных форм</h1>
+                    <p>Выделяются Доминирующая культура, Элитарная культура, Популярная культура, Субкультуры (по К. Баркеру) и Контркультуры. Оценка других культур различает Этноцентризм (предвзятое осуждение со своей колокольни) и Культурный релятивизм (объективная оценка культуры в её контексте).</p>
+                `
+            },
+            {
+                title: "Глава 7: Лингвистическая относительность и Семиотика Языка (AITU 1.3)",
+                content: `
+                    <h1>🗣️ Неделя 1. Глава 7: Лингвистическая относительность и Семиотика</h1>
+                    <p>Гипотеза Сепира-Уорфа утверждает, что язык направляет восприятие человека. Эксперименты Леры Бородицкой доказали это (абстракции пространства у Куук Таайорре, синий/голубой в русском ЭЭГ, грамматический род моста в немецком/испанском). Знак Соссюра объединяет Обозначающее (Signifier) и Обозначаемое (Signified).</p>
+                `
+            },
+            {
+                title: "Глава 8: Цифровая культура и Молодежные субкультуры",
+                content: `
+                    <h1>🌐 Неделя 1. Глава 8: Цифровая культура и Субкультуры</h1>
+                    <p>Нина Узелац (2008) охарактеризовала цифровую среду как Культуру участия (Participatory culture), где пользователи выступают просьюмерами. Крис Баркер (2012) доказал зависимость субкультур от цифровых сетей.</p>
+                `
+            },
+            {
+                title: "Глава 9: Официальный Ключ Теста Недели 1",
+                content: `
+                    <h1>🔥 Неделя 1. Глава 9: Ключ к тесту Недели 1 (10 из 10)</h1>
+                    <p>1. <strong>agri cultura</strong> -> cultivation.<br>
+                    2. <strong>cultura animi</strong> -> Cicero.<br>
+                    3. <strong>physical objects/tools</strong> -> material culture.<br>
+                    4. <strong>identification with animals</strong> -> totemism and animism.<br>
+                    5. <strong>NOT spiritual culture</strong> -> tools and technologies.<br>
+                    6. <strong>Enlightenment</strong> -> Voltaire, Montesquieu, Herder.<br>
+                    7. <strong>Kroeber & Kluckhohn</strong> -> shared, learned human behavior.<br>
+                    8. <strong>origin research method</strong> -> genetic.<br>
+                    9. <strong>memes theory</strong> -> sociobiological theory.<br>
+                    10. <strong>Tylor definition</strong> -> Complex which includes knowledge, belief...</p>
+                `
+            },
+            {
+                title: "Глава 10: Устная зачетная защита (10 Билетов с ответами)",
+                content: `
+                    <h1>💬 Неделя 1. Глава 10: Разбор 10 устных билетов к экзамену</h1>
+                    <p><strong>Билет 1: Разница между Folkways и Mores?</strong><br>Ответ: Folkways — неформальные обычаи этикета с мягкими санкциями; Mores — строгие моральные законы и табу, критичные для выживания группы.</p>
+                    <p><strong>Билет 2: Культурный лаг Огборна?</strong><br>Ответ: Разрыв между быстрым развитием материальных технологий и медленным изменением морали и законов.</p>
+                `
+            }
+        ],
+        week2: [
+            {
+                title: "Глава 1: Четыре Глобальных Культурных Кода",
+                content: `
+                    <h1>📘 Неделя 2. Глава 1: Четыре Глобальных Культурных Кода</h1>
+                    <p><strong>Культурный код</strong> — зашифрованная матрица знаков и ценностей общества. Выделяются 4 глобальных кода:</p>
+                    <p>1. <strong>Дописьменный (Традиционный) код:</strong> Устная речь, ритуалы, жырау и акыны, слуховое эмоциональное мышление.</p>
+                    <p>2. <strong>Письменный (Книжный) код:</strong> Алфавит, Гутенберговский печатный станок, книги, линейная аналитическая логика.</p>
+                    <p>3. <strong>Экранный код:</strong> Кино, ТВ, фото, массовое вещание, визуально-пассивный когнитивный стиль.</p>
+                    <p>4. <strong>Цифровой код:</strong> Интернет, гипертекст, просьюмеры, клиповое мышление и алгоритмы ИИ.</p>
+                `
+            },
+            {
+                title: "Глава 2: 6 Форм Религиозных Верований по Э. Тайлору",
+                content: `
+                    <h1>🕯️ Неделя 2. Глава 2: 6 Форм Религиозных Верований по Э. Тайлору</h1>
+                    <p>1. <strong>Анимизм (Animism):</strong> Вера в одушевленность всей природы и духов (источник всех религий по Тайлору).</p>
+                    <p>2. <strong>Фетишизм (Fetishism):</strong> Поклонение неодушевленным предметам-защитникам (Казахский Тұмар).</p>
+                    <p>3. <strong>Тотемизм (Totemism):</strong> Сакральное кровное родство рода с животным (Степной Волк Көк Бөрі).</p>
+                    <p>4. <strong>Пантеизм (Pantheism):</strong> Отождествление Бога с природой (Тенгрианство — Тенгри и Жер-Су).</p>
+                    <p>5. <strong>Деизм (Deism):</strong> Бог как верховный Часовщик Просвещения.</p>
+                    <p>6. <strong>Монотеизм (Monotheism):</strong> Вера в Единого Бога.</p>
+                `
+            },
+            {
+                title: "Глава 3: Формирование Морали и Проблема Вагонетки",
+                content: `
+                    <h1>⚖️ Неделя 2. Глава 3: Формирование Морали и Проблема Вагонетки</h1>
+                    <p>Золотое правило морали: «Өзіңе тілемейтінді өзгеге тілеме». В Проблеме вагонетки (Trolley Problem): <strong>Утилитаризм (Бентам/Милль)</strong> требует переключить стрелку ради спасения 5 жизней ценой 1 (математика пользы); <strong>Кантианская деонтология</strong> запрещает активное убийство.</p>
+                `
+            },
+            {
+                title: "Глава 4: Семиотика: Соссюр, Пирс, Моррис, Выготский, Кристева (AITU 2.1)",
+                content: `
+                    <h1>🔍 Неделя 2. Глава 4: Структурализм и Семиотика</h1>
+                    <p><strong>Семиотика</strong> (от греч. <em>semeion</em> — знак). <strong>Фердинанд де Соссюр</strong> доказал связку Обозначающего (Signifier) и Обозначаемого (Signified). <strong>Чарльз Пирс</strong> сформировал триаду: Икона (сходство), Индекс (причинная связь, дым-огонь) и Символ (социальное соглашение). <strong>Чарльз Моррис</strong> выделил Синтактику, Семантику и Прагматику. <strong>Юлия Кристева</strong> создала <strong>Семанализ (semanalysis)</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 5: Ролан Барт и Мифологии (AITU 2.2)",
+                content: `
+                    <h1>🎬 Неделя 2. Глава 5: Ролан Барт и Мифологии</h1>
+                    <p>В книге «Мифологии» (1957) <strong>Ролан Барт</strong> доказал, что миф — это вторичная семиотическая система. Первичная Денотация становится Обозначающим для вторичной Коннотации (Мифа). Главная функция мифа — <strong>натурализация идеологии</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 6: Условные знаки, Семиосфера Лотмана и Олжас Сулейменов (AITU 2.3)",
+                content: `
+                    <h1>🌌 Неделя 2. Глава 6: Условные знаки, Лотман и Сулейменов</h1>
+                    <p>Условные знаки (STOP) основаны на договоре. <strong>Юрий Лотман</strong> обосновал концепцию <strong>Семиосферы (Semiosphere)</strong>. <strong>Олжас Сулейменов</strong> в труде <strong>«АЗ и Я» (1975)</strong> провел семиотический анализ «Слова о полку Игореве».</p>
+                `
+            },
+            {
+                title: "Глава 7: Семиотический анализ «Кода да Винчи»",
+                content: `
+                    <h1>🎨 Неделя 2. Глава 7: Киноанализ «Кода да Винчи»</h1>
+                    <p>Эволюция Пентаграммы в лекции Лэнгдона: языческий символ Венеры -> 5 ран Христа -> голливудский сатанинский штамп.</p>
+                `
+            },
+            {
+                title: "Глава 8: Миф и Петроглифы Танбалы",
+                content: `
+                    <h1>☀️ Неделя 2. Глава 8: Миф и Петроглифы Танбалы</h1>
+                    <p>Петроглифы Танбалы содержат изображение Солнцеголового божества (Кунхан), отражающего солярный культ Неба (Тенгри).</p>
+                `
+            },
+            {
+                title: "Глава 9: Официальный Ключ Теста Недели 2",
+                content: `
+                    <h1>🔥 Неделя 2. Глава 9: Ключ к тесту Недели 2 (10 из 10)</h1>
+                    <p>1. <strong>semiotics meaning</strong> -> sign.<br>
+                    2. <strong>culture as dynamic text</strong> -> Yuri Lotman.<br>
+                    3. <strong>conventional sign</strong> -> traffic sign.<br>
+                    4. <strong>structuralism founder</strong> -> Ferdinand de Saussure.<br>
+                    5. <strong>logical smoke-fire link</strong> -> index.<br>
+                    6. <strong>Morris 3 branches</strong> -> syntactics, semantics, pragmatics.<br>
+                    7. <strong>Barthes book</strong> -> Mythologies.<br>
+                    8. <strong>AZ i IA author</strong> -> Olzhas Suleimenov.<br>
+                    9. <strong>acoustic image</strong> -> signifier.<br>
+                    10. <strong>semanalysis</strong> -> critique of meaning alternative to Saussure.</p>
+                `
+            },
+            {
+                title: "Глава 10: Устная зачетная защита Недели 2",
+                content: `
+                    <h1>💬 Неделя 2. Глава 10: Устные зачетные билеты Недели 2</h1>
+                    <p><strong>Билет 1: Что такое Семиосфера Лотмана?</strong><br>Ответ: Единый семиотический континуум культуры, необходимый для существования любого языка и функционирования культуры как коллективного интеллекта.</p>
+                `
+            }
+        ]
     },
     en: {
-        logoSub: "10-Week Portal",
-        lblSelectWeek: "Course Week:",
-        tabQuiz: "Quiz Trainer",
-        tabMain: "Master Textbook",
-        modeLbl: "Questions Mode:",
-        opt10: "10 Questions",
-        opt30: "30 Questions",
-        opt50: "50 Questions",
-        opt100: "100 Questions (Mega Mode)",
-        btnRestart: "Restart Test",
-        lblActiveTest: "Active Test",
-        lblScore: "Score",
-        lblAccuracy: "Accuracy",
-        titleW1: "Week 1: Morphology & Language of Culture",
-        titleW2: "Week 2: Semiotics & Anatomy of Culture",
-        titleAll: "Full Comprehensive Exam Across All Weeks",
-        btnReadW1: "📘 Week 1 Textbook",
-        btnReadW2: "📙 Week 2 Textbook",
-        qWord: "Question",
-        aiBtn: "AI Assistant",
-        aiSub: "Answer grounded strictly in AITU course files"
-    }
-};
-
-// Bilingual Question Master Bank
-const masterQuestionBank = [
-    {
-        cat: '1',
-        q: {
-            ru: "1. Каково первоначальное значение латинского выражения «agri cultura»?",
-            en: "1. What was the original meaning of the Latin word «agri cultura»?"
-        },
-        opts: {
-            ru: ["возделывание земли / земледелие", "цивилизация", "религия", "традиция", "образование"],
-            en: ["cultivation", "civilization", "religion", "tradition", "education"]
-        },
-        ans: 0,
-        exp: {
-            ru: "✅ 'Agri cultura' буквально означает возделывание почвы от латинского глагола 'colere'.",
-            en: "✅ 'Agri cultura' literally means cultivation of the soil/agriculture from Latin 'colere'."
-        }
-    },
-    {
-        cat: '1',
-        q: {
-            ru: "2. Какой древнеримский мыслитель впервые использовал фразу «cultura animi»?",
-            en: "2. Which ancient Roman thinker used the phrase «cultura animi»?"
-        },
-        opts: {
-            ru: ["Платон", "Аристотель", "Цицерон", "Сенека", "Марк Аврелий"],
-            en: ["Plato", "Aristotle", "Cicero", "Seneca", "Marcus Aurelius"]
-        },
-        ans: 2,
-        exp: {
-            ru: "✅ Марк Туллий Цицерон (45 г. до н.э., 'Тускуланские беседы') сформулировал концепцию 'Cultura Animi' (возделывание души).",
-            en: "✅ Marcus Tullius Cicero (45 BCE, 'Tusculan Disputations') coined 'Cultura Animi'."
-        }
-    },
-    {
-        cat: '2',
-        q: {
-            ru: "1. Что означает греческое слово «семиотика»?",
-            en: "1. What does the Greek word «semiotics» mean?"
-        },
-        opts: {
-            ru: ["структура", "символ", "знак", "слово", "культура"],
-            en: ["structure", "symbol", "sign", "word", "culture"]
-        },
-        ans: 2,
-        exp: {
-            ru: "✅ Семиотика происходит от греческого 'semeion' — знак.",
-            en: "✅ Semiotics comes from Greek 'semeion', meaning 'sign'."
-        }
-    }
-];
-
-// Master Guide Summary Text Database
-const masterTextDatabase = {
-    ru: {
-        week1: `
-            <h1>📘 Учебник Недели 1: Морфология и Язык Культуры</h1>
-            <h2>1. Историческая эволюция понятия «Культура»</h2>
-            <p>Слово «культура» восходит к латинскому глаголу <strong>colere</strong> — <em>возделывать почву, пахать землю, ухаживать за посевами</em>. Первоначальным значением латинского выражения <strong>agri cultura</strong> являлось <strong>возделывание земли / земледелие (cultivation)</strong>.</p>
-            <p>В 45 году до нашей эры римский оратор и философ <strong>Марк Туллий Цицерон</strong> в трактате «Тускуланские беседы» впервые применил это слово в метафорическом контексте: <strong>Cultura Animi</strong> — <em>«возделывание души»</em> с помощью философии.</p>
-        `,
-        week2: `
-            <h1>📙 Учебник Недели 2: Семиотика и Анатомия Культуры</h1>
-            <h2>1. Четыре Глобальных Культурных Кода</h2>
-            <p><strong>Культурный код</strong> — зашифрованная система знаков и смысловых матриц общества. Выделяются 4 глобальных кода: Дописьменный, Письменный, Экранный и Цифровой.</p>
-            <h2>2. Семиотика и Знаковые Системы</h2>
-            <p><strong>Фердинанд де Соссюр</strong> доказал, что знак состоит из Обозначающего и Обозначаемого. <strong>Чарльз Пирс</strong> выделил Икону, Индекс (дым-огонь) и Символ.</p>
-        `
-    },
-    en: {
-        week1: `
-            <h1>📘 Week 1 Textbook: Morphology & Language of Culture</h1>
-            <h2>1. Historical Evolution of Culture</h2>
-            <p>The word "culture" originates from the Latin verb <strong>colere</strong>. The original literal meaning of <strong>agri cultura</strong> was <strong>cultivation of the soil / agriculture (cultivation)</strong>.</p>
-            <p>In 45 BCE, Roman thinker <strong>Marcus Tullius Cicero</strong> coined the metaphor <strong>Cultura Animi</strong> — <em>"cultivation of the soul"</em>.</p>
-        `,
-        week2: `
-            <h1>📙 Week 2 Textbook: Semiotics & Anatomy of Culture</h1>
-            <h2>1. Four Global Cultural Codes</h2>
-            <p>The 4 global codes are: Preliterate, Written, Screen, and Digital.</p>
-            <h2>2. Semiotics & Sign Systems</h2>
-            <p><strong>Ferdinand de Saussure</strong> established Signifier and Signified. <strong>Charles Sanders Peirce</strong> classified signs into Icon, Index, and Symbol.</p>
-        `
+        week1: [
+            {
+                title: "Chapter 1: Academic Regulations & Grading Formula",
+                content: `<h1>🎓 Week 1. Chapter 1: Academic Regulations</h1><p>Total Grade = (Midterm × 0.30) + (Endterm × 0.30) + (Final Exam × 0.40)</p>`
+            },
+            {
+                title: "Chapter 2: Historical Evolution of Culture (Cicero, Tylor)",
+                content: `<h1>📜 Week 1. Chapter 2: Evolution of Culture</h1><p>Latin colere -> agri cultura (cultivation). Cicero (45 BCE) coined Cultura Animi (cultivation of soul). E.B. Tylor (1871) defined culture as that complex whole. Leslie White (1949) founded Culturology.</p>`
+            }
+        ],
+        week2: [
+            {
+                title: "Chapter 1: Four Global Cultural Codes",
+                content: `<h1>📘 Week 2. Chapter 1: Cultural Codes</h1><p>Preliterate, Written, Screen, and Digital codes.</p>`
+            },
+            {
+                title: "Chapter 2: Semiotics (Saussure, Peirce, Barthes, Lotman)",
+                content: `<h1>🔍 Week 2. Chapter 2: Semiotics</h1><p>Saussure (Signifier/Signified), Peirce (Icon/Index/Symbol), Barthes (Mythologies 1957), Lotman (Semiosphere), Suleimenov (AZ i IA 1975).</p>`
+            }
+        ]
     }
 };
 
@@ -494,19 +569,88 @@ function resetCurrentQuiz() {
     renderQuiz();
 }
 
-// Master Textbook Reader Functions
+// Master Textbook Reader & Book Flip Engine
 function loadReaderWeek(w) {
     activeReaderWeek = w;
+    activeChapterIdx = 0;
     document.getElementById('btn-read-week1').classList.remove('active');
     document.getElementById('btn-read-week2').classList.remove('active');
     document.getElementById(`btn-read-week${w}`).classList.add('active');
+    
+    populateChapterDropdown();
+    renderReader();
+}
+
+function populateChapterDropdown() {
+    const dropdown = document.getElementById('chapter-select-dropdown');
+    dropdown.innerHTML = '';
+
+    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
+
+    chapters.forEach((chap, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.innerText = chap.title;
+        dropdown.appendChild(opt);
+    });
+
+    const optAll = document.createElement('option');
+    optAll.value = -1;
+    optAll.innerText = "📖 Показать весь учебник целиком";
+    dropdown.appendChild(optAll);
+
+    dropdown.value = activeChapterIdx;
+}
+
+function jumpToChapter(idx) {
+    activeChapterIdx = parseInt(idx, 10);
+    renderReader();
+}
+
+function prevChapter() {
+    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
+    if (activeChapterIdx > 0) {
+        activeChapterIdx--;
+        document.getElementById('chapter-select-dropdown').value = activeChapterIdx;
+        renderReader();
+    }
+}
+
+function nextChapter() {
+    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
+    if (activeChapterIdx < chapters.length - 1 && activeChapterIdx !== -1) {
+        activeChapterIdx++;
+        document.getElementById('chapter-select-dropdown').value = activeChapterIdx;
+        renderReader();
+    }
+}
+
+function showFullBook() {
+    activeChapterIdx = -1;
+    document.getElementById('chapter-select-dropdown').value = -1;
     renderReader();
 }
 
 function renderReader() {
     const textArea = document.getElementById('reader-text-area');
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
-    textArea.innerHTML = masterTextDatabase[currentLang][weekKey];
+    const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
+
+    if (activeChapterIdx === -1) {
+        // Render entire book continuously
+        let fullHtml = '';
+        chapters.forEach(chap => {
+            fullHtml += chap.content + '<hr style="border:0; border-top:1px solid rgba(255,255,255,0.1); margin:2.5rem 0;">';
+        });
+        textArea.innerHTML = fullHtml;
+    } else {
+        // Render single chapter like a book page
+        const chap = chapters[activeChapterIdx] || chapters[0];
+        textArea.innerHTML = chap.content;
+    }
 }
 
 document.addEventListener('DOMContentLoaded', initApp);

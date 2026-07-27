@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="website/css/styles.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -153,16 +154,33 @@
 
             <!-- Master Study Guide Reader Container (For Main Mode) -->
             <div class="reader-container" id="reader-container" style="display: none;">
-                <div class="reader-controls">
-                    <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">
-                        <span>📘 Week 1 Master Guide</span>
-                    </button>
-                    <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">
-                        <span>📙 Week 2 Master Guide</span>
-                    </button>
+                <!-- Book Navigation Bar -->
+                <div class="book-nav-bar">
+                    <div class="reader-controls">
+                        <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">
+                            <span>📘 Week 1 Textbook</span>
+                        </button>
+                        <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">
+                            <span>📙 Week 2 Textbook</span>
+                        </button>
+                    </div>
+
+                    <!-- Chapter Flip Controls -->
+                    <div class="chapter-flip-controls">
+                        <button class="flip-btn" onclick="prevChapter()">◄ <span id="lbl-prev-chap">Назад</span></button>
+                        <div class="custom-select-wrapper small-select">
+                            <select id="chapter-select-dropdown" class="custom-select" onchange="jumpToChapter(this.value)">
+                                <!-- Dynamically populated by JS -->
+                            </select>
+                        </div>
+                        <button class="flip-btn" onclick="nextChapter()"><span id="lbl-next-chap">Вперед</span> ►</button>
+                        <button class="flip-btn show-all-btn" onclick="showFullBook()"><span id="lbl-all-chap">Весь текст</span></button>
+                    </div>
                 </div>
+
+                <!-- Reader Text Box -->
                 <div class="reader-content card-glass" id="reader-text-area">
-                    <!-- Master Guide Content dynamically rendered -->
+                    <!-- Master Guide Content dynamically rendered chapter by chapter -->
                 </div>
             </div>
 
@@ -173,6 +191,7 @@
         <p>Astana IT University • Cultural Studies AI Exam Portal • Summer Trimester 2026</p>
     </footer>
 
+    <script src="website/js/app.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

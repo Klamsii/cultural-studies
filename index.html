@@ -154,16 +154,33 @@
 
             <!-- Master Study Guide Reader Container (For Main Mode) -->
             <div class="reader-container" id="reader-container" style="display: none;">
-                <div class="reader-controls">
-                    <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">
-                        <span>📘 Week 1 Master Guide</span>
-                    </button>
-                    <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">
-                        <span>📙 Week 2 Master Guide</span>
-                    </button>
+                <!-- Book Navigation Bar -->
+                <div class="book-nav-bar">
+                    <div class="reader-controls">
+                        <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">
+                            <span>📘 Week 1 Textbook</span>
+                        </button>
+                        <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">
+                            <span>📙 Week 2 Textbook</span>
+                        </button>
+                    </div>
+
+                    <!-- Chapter Flip Controls -->
+                    <div class="chapter-flip-controls">
+                        <button class="flip-btn" onclick="prevChapter()">◄ <span id="lbl-prev-chap">Назад</span></button>
+                        <div class="custom-select-wrapper small-select">
+                            <select id="chapter-select-dropdown" class="custom-select" onchange="jumpToChapter(this.value)">
+                                <!-- Dynamically populated by JS -->
+                            </select>
+                        </div>
+                        <button class="flip-btn" onclick="nextChapter()"><span id="lbl-next-chap">Вперед</span> ►</button>
+                        <button class="flip-btn show-all-btn" onclick="showFullBook()"><span id="lbl-all-chap">Весь текст</span></button>
+                    </div>
                 </div>
+
+                <!-- Reader Text Box -->
                 <div class="reader-content card-glass" id="reader-text-area">
-                    <!-- Master Guide Content dynamically rendered -->
+                    <!-- Master Guide Content dynamically rendered chapter by chapter -->
                 </div>
             </div>
 
