@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CULTURAL STUDIES PREMIUM PORTAL ENGINE - FULL TEXTBOOK BOOK READER & AI
+   CULTURAL STUDIES PREMIUM PORTAL ENGINE - FULL BILINGUAL (RU/EN) & AI
    ========================================================================== */
 
 const GEMINI_API_KEY = "AIzaSyCSc4Kp0tIIXsSYiF0DtbfOQJOebpT2N0s";
@@ -16,27 +16,27 @@ let activeChapterIdx = 0; // 0 = Chapter 1, ..., 9 = Chapter 10, -1 = Show All
 // Full Academic Course Knowledge Vault
 const COURSE_KNOWLEDGE_VAULT = `
 ОФИЦИАЛЬНЫЙ АКАДЕМИЧЕСКИЙ ФОНД ЗНАНИЙ КУРСА CULTURAL STUDIES (AITU):
-- ЭТИМОЛОГИЯ: colere (возделывать почву). agri cultura — земледелие.
-- ЦИЦЕРОН (45 г. до н.э.): Cultura Animi — возделывание души философией.
-- ЭДВАРД ТАЙЛОР (1871): Первобытная культура — сложный комплекс знаний, верований, обычаев.
-- КРЁБЕР И КЛАКХОН (1952): поведенческое определение — совместное усвоенное поведение, образ жизни.
-- ЛЕСЛИ УАЙТ (1949): Культурология (Culturology), символизирующая способность (symboling).
-- ОРУДИЯ ТРУДА И ТЕХНОЛОГИИ: относятся СТРОГО к Материальной культуре!
-- КУЛЬТУРНЫЙ ЛАГ: У. Огборн (1922) — разрыв между технологиями и нематериальной моралью/законами.
-- СЕПИР-УОРФ & БОРОДИЦКАЯ: язык направляет восприятие (Куук Таайорре, синий/голубой, род моста).
-- 4 КУЛЬТУРНЫХ КОДА: Дописьменный, Письменный, Экранный, Цифровой.
-- 6 ФОРМ ВЕРОВАНИЙ: Анимизм, Фетишизм (Тумар), Тотемизм (Степной Волк Бөрі), Пантеизм (Тенгри), Деизм, Монотеизм.
-- ПРОБЛЕМА ВАГОНЕТКИ: Утилитаризм (5 жизней > 1) vs Кантианская Деонтология (запрет убийства).
-- СЕМИОТИКА СОССЮРА: Обозначающее (Signifier) + Обозначаемое (Signified). Произвольность знака.
-- ТРИАДА ПИРСА: Икона (сходство), Индекс (причинная связь, дым-огонь), Символ (соглашение, STOP).
-- ЧАРЛЬЗ МОРРИС: Синтактика, Семантика, Прагматика.
-- РОЛАН БАРТ (1957): Мифологии — вторичная система, натурализация буржуазной идеологии.
-- ЮРИЙ ЛОТМАН: Семиосфера — культура как динамический текст.
-- ОЛЖАС СУЛЕЙМЕНОВ (1975): «АЗ и Я» — семиотический анализ «Слова о полку Игореве».
-- ТАНБАЛЫ: петроглиф Солнцеголового божества (Кунхан) — культ Неба (Тенгри).
+- ETYMOLOGY: colere (cultivate soil). agri cultura — agriculture / cultivation.
+- CICERO (45 BCE): Cultura Animi — cultivation of the soul through philosophy.
+- E.B. TYLOR (1871): Primitive Culture — complex whole including knowledge, belief, art, morals, law, custom.
+- KROEBER & KLUCKHOHN (1952): behavioral definition — shared, learned human behavior, a way of life.
+- LESLIE WHITE (1949): Culturology, symboling capacity.
+- TOOLS & TECHNOLOGIES: belong STRICTLY to Material Culture!
+- CULTURAL LAG: W. Ogburn (1922) — gap between material technology and non-material morals/laws.
+- SAPIR-WHORF & BORODITSKY: language shapes perception (Kuuk Thaayorre, Russian blue/light blue EEG, bridge gender).
+- 4 CULTURAL CODES: Preliterate, Written, Screen, Digital.
+- 6 BELIEF FORMS: Animism, Fetishism (Tumar), Totemism (Steppe Wolf Böri), Pantheism (Tengriism), Deism, Monotheism.
+- TROLLEY PROBLEM: Utilitarianism (5 lives > 1) vs Kantian Deontology (active killing prohibition).
+- SAUSSURE SEMIOTICS: Signifier + Signified. Arbitrariness of the sign.
+- PEIRCE TRIAD: Icon (similarity), Index (causal link, smoke-fire), Symbol (convention, STOP).
+- CHARLES MORRIS: Syntactics, Semantics, Pragmatics.
+- ROLAND BARTHES (1957): Mythologies — secondary semiotic system, naturalizing ideology.
+- YURI LOTMAN: Semiosphere — culture as a dynamic text.
+- OLZHAS SULEIMENOV (1975): "AZ i IA" — semiotic analysis of "The Song of Igor's Campaign".
+- TAMGALY: Sun-Headed Deity (Kunhan) petroglyph — solar cult of Heaven (Tengri).
 `;
 
-// Complete Chapter-by-Chapter Master Textbook Database
+// Complete Chapter-by-Chapter Master Textbook Database (RU & EN)
 const fullBookDatabase = {
     ru: {
         week1: [
@@ -234,25 +234,317 @@ const fullBookDatabase = {
         week1: [
             {
                 title: "Chapter 1: Academic Regulations & Grading Formula",
-                content: `<h1>🎓 Week 1. Chapter 1: Academic Regulations</h1><p>Total Grade = (Midterm × 0.30) + (Endterm × 0.30) + (Final Exam × 0.40)</p>`
+                content: `
+                    <h1>🎓 Week 1. Chapter 1: Academic Regulations & Grading Formula</h1>
+                    <p>Course evaluation at Astana IT University relies on a weighted average formula:</p>
+                    <blockquote>Total Grade = (Midterm Grade × 0.30) + (Endterm Grade × 0.30) + (Final Exam Grade × 0.40)</blockquote>
+                    <p>Midterm Period (30% weight): Oral presentation (50% of Midterm), quizzes (20%), and 30-min MCQ test (30%). Endterm Period (30% weight): Group research project (50%), quizzes (20%), and MCQ test (30%). Final Computer Exam (40% weight) takes place on August 6, 2026.</p>
+                `
             },
             {
-                title: "Chapter 2: Historical Evolution of Culture (Cicero, Tylor)",
-                content: `<h1>📜 Week 1. Chapter 2: Evolution of Culture</h1><p>Latin colere -> agri cultura (cultivation). Cicero (45 BCE) coined Cultura Animi (cultivation of soul). E.B. Tylor (1871) defined culture as that complex whole. Leslie White (1949) founded Culturology.</p>`
+                title: "Chapter 2: Historical Evolution of Culture (AITU 1.1)",
+                content: `
+                    <h1>📜 Week 1. Chapter 2: Historical Evolution of Concept 'Culture'</h1>
+                    <h2>2.1 Ancient Roman Etymology: colere and agri cultura</h2>
+                    <p>The word "culture" traces back to Latin <strong>colere</strong> — <em>to cultivate soil, plow, tend crops</em>. The literal meaning of <strong>agri cultura</strong> was <strong>cultivation of soil / agriculture (cultivation)</strong>.</p>
+                    
+                    <h2>2.2 Cicero and Cultura Animi (45 BCE)</h2>
+                    <p>In 45 BCE, Roman orator <strong>Marcus Tullius Cicero</strong> coined the metaphor: <strong>Cultura Animi Virtus Est</strong> — <em>"Philosophy is the cultivation of the soul"</em> in <em>Tusculan Disputations</em>.</p>
+
+                    <h2>2.3 Enlightenment & Tylor's Anthropology (1871)</h2>
+                    <p>In 1871, <strong>Sir Edward Burnett Tylor</strong> defined culture as: <em>"that complex whole which includes knowledge, belief, art, morals, law, custom, and any other capabilities and habits acquired by man as a member of society."</em> In 1949, <strong>Leslie White</strong> established <strong>Culturology</strong> based on symboling capacity.</p>
+                `
+            },
+            {
+                title: "Chapter 3: Morphology of Culture & Subsystems (AITU 1.2)",
+                content: `
+                    <h1>🏛️ Week 1. Chapter 3: Morphology of Culture</h1>
+                    <h2>3.1 Three Morphological Subsystems</h2>
+                    <p>1. <strong>Material Subsystem:</strong> Tools of production, housing (yurts), clothing, technology, and transport. <strong>(EXAM NOTICE: Tools and technologies belong STRICTLY to material culture!)</strong></p>
+                    <p>2. <strong>Spiritual Subsystem:</strong> Ideas, science, religion, philosophy, ethics, values, art.</p>
+                    <p>3. <strong>Social-Institutional Subsystem:</strong> Laws, family norms, state regulations, and rituals.</p>
+                    
+                    <h2>3.2 Genetic Method & Dawkins Memes</h2>
+                    <p>The research method studying origin and evolution of cultural forms is the <strong>Genetic Method</strong>. Richard Dawkins (1976) introduced memes under <strong>Sociobiological Theory</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 4: Five Basic Elements & Society vs Culture",
+                content: `
+                    <h1>🧩 Week 1. Chapter 4: Basic Elements of Culture</h1>
+                    <p>Five elements: Values, Beliefs, Norms (Folkways and Mores), Symbols, and Language.</p>
+                    <p>Computer analogy: <strong>Society</strong> is the Hardware (people), while <strong>Culture</strong> is the Software (system of rules, ideas, values).</p>
+                `
+            },
+            {
+                title: "Chapter 5: Kazakh Yurt & Cultural Lag Theory",
+                content: `
+                    <h1>🛖 Week 1. Chapter 5: Kazakh Yurt & Cultural Lag</h1>
+                    <p>The Kazakh Yurt combines physical structure with sacred non-material meaning. The top ring <strong>Shanyraq (Шаңырақ)</strong> represents family hearth and cosmos on the Coat of Arms of Kazakhstan.</p>
+                    <p>William Ogburn (1922) introduced <strong>Cultural Lag Theory</strong>: the gap when material technology evolves rapidly while non-material morals and laws lag behind.</p>
+                `
+            },
+            {
+                title: "Chapter 6: Typology of Cultural Forms (Crash Course #11)",
+                content: `
+                    <h1>🎭 Week 1. Chapter 6: Typology of Cultural Forms</h1>
+                    <p>Forms: Dominant culture, High culture, Popular culture, Subcultures (Barker), and Countercultures. Evaluating other cultures distinguishes Ethnocentrism (biased judgment) from Cultural Relativism (objective evaluation in context).</p>
+                `
+            },
+            {
+                title: "Chapter 7: Linguistic Relativity & Semiotics (AITU 1.3)",
+                content: `
+                    <h1>🗣️ Week 1. Chapter 7: Linguistic Relativity</h1>
+                    <p>The Sapir-Whorf hypothesis states language shapes perception. Lera Boroditsky's TED experiments proved this (Kuuk Thaayorre spatial orientation, Russian EEG blue distinction, German vs Spanish bridge gender). Saussure's sign links Signifier (sound image) and Signified (mental concept).</p>
+                `
+            },
+            {
+                title: "Chapter 8: Digital Culture & Youth Subcultures",
+                content: `
+                    <h1>🌐 Week 1. Chapter 8: Digital Culture & Subcultures</h1>
+                    <p>Nina Uzelac (2008) defined digital environment as Participatory Culture (users as prosumers). Chris Barker (2012) highlighted subcultures' reliance on digital networks.</p>
+                `
+            },
+            {
+                title: "Chapter 9: Official Week 1 Test Answer Key",
+                content: `
+                    <h1>🔥 Week 1. Chapter 9: Test Answer Key (10/10)</h1>
+                    <p>1. <strong>agri cultura</strong> -> cultivation.<br>2. <strong>cultura animi</strong> -> Cicero.<br>3. <strong>physical objects/tools</strong> -> material culture.<br>4. <strong>identification with animals</strong> -> totemism and animism.<br>5. <strong>NOT spiritual culture</strong> -> tools and technologies.<br>6. <strong>Enlightenment</strong> -> Voltaire, Montesquieu, Herder.<br>7. <strong>Kroeber & Kluckhohn</strong> -> shared, learned human behavior.<br>8. <strong>origin research method</strong> -> genetic.<br>9. <strong>memes theory</strong> -> sociobiological theory.<br>10. <strong>Tylor definition</strong> -> Complex which includes knowledge, belief...</p>
+                `
+            },
+            {
+                title: "Chapter 10: Oral Defense Tickets (10 Detailed Q&As)",
+                content: `
+                    <h1>💬 Week 1. Chapter 10: 10 Exam Tickets Breakdown</h1>
+                    <p><strong>Ticket 1: Folkways vs Mores?</strong><br>Answer: Folkways are informal etiquette customs with mild sanctions; Mores are strict moral laws and taboos critical for survival.</p>
+                `
             }
         ],
         week2: [
             {
                 title: "Chapter 1: Four Global Cultural Codes",
-                content: `<h1>📘 Week 2. Chapter 1: Cultural Codes</h1><p>Preliterate, Written, Screen, and Digital codes.</p>`
+                content: `
+                    <h1>📘 Week 2. Chapter 1: Four Global Cultural Codes</h1>
+                    <p>1. <strong>Preliterate Code:</strong> Oral speech, rituals, bards (zhyrau), auditory thinking.</p>
+                    <p>2. <strong>Written Code:</strong> Alphabet, Gutenberg printing press, books, linear analytical logic.</p>
+                    <p>3. <strong>Screen Code:</strong> Cinema, TV, mass broadcasting, visual-passive style.</p>
+                    <p>4. <strong>Digital Code:</strong> Internet, hypertext, prosumers, clip thinking, AI algorithms.</p>
+                `
             },
             {
-                title: "Chapter 2: Semiotics (Saussure, Peirce, Barthes, Lotman)",
-                content: `<h1>🔍 Week 2. Chapter 2: Semiotics</h1><p>Saussure (Signifier/Signified), Peirce (Icon/Index/Symbol), Barthes (Mythologies 1957), Lotman (Semiosphere), Suleimenov (AZ i IA 1975).</p>`
+                title: "Chapter 2: 6 Religious Belief Forms (E.B. Tylor)",
+                content: `
+                    <h1>🕯️ Week 2. Chapter 2: 6 Belief Forms</h1>
+                    <p>1. Animism (nature spirits), 2. Fetishism (protective objects / Tumar), 3. Totemism (blood kinship with animal / Steppe Wolf Böri), 4. Pantheism (identifying God with nature / Tengriism), 5. Deism (Clockmaker God), 6. Monotheism (One God).</p>
+                `
+            },
+            {
+                title: "Chapter 3: Morality Formation & Trolley Problem",
+                content: `
+                    <h1>⚖️ Week 2. Chapter 3: Morality & Trolley Problem</h1>
+                    <p>Golden Rule of Morality. In the Trolley Problem: Utilitarianism (Bentham/Mill) switch track to save 5 lives over 1 (utility math); Kantian Deontology prohibits active killing.</p>
+                `
+            },
+            {
+                title: "Chapter 4: Semiotics (Saussure, Peirce, Morris, Kristeva)",
+                content: `
+                    <h1>🔍 Week 2. Chapter 4: Structuralism & Semiotics</h1>
+                    <p>Semiotics (Greek semeion = sign). Saussure (Signifier/Signified). Peirce triad: Icon (similarity), Index (causal link, smoke-fire), Symbol (social convention). Morris: Syntactics, Semantics, Pragmatics. Julia Kristeva: Semanalysis.</p>
+                `
+            },
+            {
+                title: "Chapter 5: Roland Barthes & Mythologies (1957)",
+                content: `
+                    <h1>🎬 Week 2. Chapter 5: Roland Barthes & Mythologies</h1>
+                    <p>Barthes proved myth is a secondary semiotic system. Primary Denotation becomes Signifier for secondary Connotation (Myth). Main function: Naturalization of ideology.</p>
+                `
+            },
+            {
+                title: "Chapter 6: Conventional Signs, Lotman's Semiosphere, Suleimenov",
+                content: `
+                    <h1>🌌 Week 2. Chapter 6: Conventional Signs & Semiosphere</h1>
+                    <p>Conventional signs (STOP sign). Yuri Lotman founded <strong>Semiosphere</strong> (culture as dynamic text). Olzhas Suleimenov wrote <strong>AZ i IA (1975)</strong> analyzing Turkic-Slavic codes in Tale of Igor's Campaign.</p>
+                `
+            },
+            {
+                title: "Chapter 7: Semiotic Film Analysis of The Da Vinci Code",
+                content: `
+                    <h1>🎨 Week 2. Chapter 7: Film Analysis</h1>
+                    <p>Evolution of Pentagram: Venus pagan symbol -> 5 wounds of Christ -> Hollywood satanic trope.</p>
+                `
+            },
+            {
+                title: "Chapter 8: Myth & Tamgaly Petroglyphs",
+                content: `
+                    <h1>☀️ Week 2. Chapter 8: Tamgaly Petroglyphs</h1>
+                    <p>Sun-Headed Deity (Kunhan) petroglyphs in Tamgaly reflect solar cult of Heaven (Tengri).</p>
+                `
+            },
+            {
+                title: "Chapter 9: Official Week 2 Test Answer Key",
+                content: `
+                    <h1>🔥 Week 2. Chapter 9: Answer Key (10/10)</h1>
+                    <p>1. semiotics meaning -> sign.<br>2. culture as dynamic text -> Yuri Lotman.<br>3. conventional sign -> traffic sign.<br>4. structuralism founder -> Ferdinand de Saussure.<br>5. smoke-fire link -> index.<br>6. Morris 3 branches -> syntactics, semantics, pragmatics.<br>7. Barthes book -> Mythologies.<br>8. AZ i IA author -> Olzhas Suleimenov.<br>9. acoustic image -> signifier.<br>10. semanalysis -> critique of meaning.</p>
+                `
+            },
+            {
+                title: "Chapter 10: Oral Defense Tickets (10 Detailed Q&As)",
+                content: `
+                    <h1>💬 Week 2. Chapter 10: Oral Tickets</h1>
+                    <p><strong>Ticket 1: What is Lotman's Semiosphere?</strong><br>Answer: Unified semiotic continuum of culture necessary for any language to exist and function as collective intellect.</p>
+                `
             }
         ]
     }
 };
+
+// Bilingual UI Text Translations
+const uiTranslations = {
+    ru: {
+        logoSub: "10-Недельный Портал",
+        lblSelectWeek: "Неделя курса:",
+        tabQuiz: "Quiz Trainer",
+        tabMain: "Master Textbook",
+        modeLbl: "Режим вопросов:",
+        opt10: "10 Вопросов",
+        opt30: "30 Вопросов",
+        opt50: "50 Вопросов",
+        opt100: "100 Вопросов (Мега Режим)",
+        btnRestart: "Сбросить Тест",
+        lblActiveTest: "Активный Тест",
+        lblScore: "Счет",
+        lblAccuracy: "Точность",
+        titleW1: "Неделя 1: Морфология и Язык Культуры",
+        titleW2: "Неделя 2: Семиотика и Анатомия Культуры",
+        titleAll: "Полный Мега-Экзамен по всем неделям курса",
+        btnReadW1: "📘 Учебник Недели 1",
+        btnReadW2: "📙 Учебник Недели 2",
+        qWord: "Вопрос",
+        aiBtn: "AI Помощник",
+        aiSub: "Ответ строго по материалам наших лекций AITU",
+        lblPrevChap: "Назад",
+        lblNextChap: "Вперед",
+        lblAllChap: "Весь текст",
+        optAllChapText: "📖 Показать весь учебник целиком",
+        weekOpt1: "Week 1: Morphology & Language",
+        weekOpt2: "Week 2: Semiotics & Anatomy",
+        weekOptAll: "🔥 Full Course Mega-Test"
+    },
+    en: {
+        logoSub: "10-Week Portal",
+        lblSelectWeek: "Course Week:",
+        tabQuiz: "Quiz Trainer",
+        tabMain: "Master Textbook",
+        modeLbl: "Questions Mode:",
+        opt10: "10 Questions",
+        opt30: "30 Questions",
+        opt50: "50 Questions",
+        opt100: "100 Questions (Mega Mode)",
+        btnRestart: "Restart Test",
+        lblActiveTest: "Active Test",
+        lblScore: "Score",
+        lblAccuracy: "Accuracy",
+        titleW1: "Week 1: Morphology & Language of Culture",
+        titleW2: "Week 2: Semiotics & Anatomy of Culture",
+        titleAll: "Full Comprehensive Exam Across All Weeks",
+        btnReadW1: "📘 Week 1 Textbook",
+        btnReadW2: "📙 Week 2 Textbook",
+        qWord: "Question",
+        aiBtn: "AI Assistant",
+        aiSub: "Answer grounded strictly in AITU course files",
+        lblPrevChap: "Back",
+        lblNextChap: "Next",
+        lblAllChap: "Full Book",
+        optAllChapText: "📖 Show Entire Textbook",
+        weekOpt1: "Week 1: Morphology & Language",
+        weekOpt2: "Week 2: Semiotics & Anatomy",
+        weekOptAll: "🔥 Full Course Mega-Test"
+    }
+};
+
+// Bilingual Question Master Bank
+const masterQuestionBank = [
+    {
+        cat: '1',
+        q: {
+            ru: "1. Каково первоначальное значение латинского выражения «agri cultura»?",
+            en: "1. What was the original meaning of the Latin word «agri cultura»?"
+        },
+        opts: {
+            ru: ["возделывание земли / земледелие", "цивилизация", "религия", "традиция", "образование"],
+            en: ["cultivation", "civilization", "religion", "tradition", "education"]
+        },
+        ans: 0,
+        exp: {
+            ru: "✅ 'Agri cultura' буквально означает возделывание почвы от латинского глагола 'colere'.",
+            en: "✅ 'Agri cultura' literally means cultivation of the soil/agriculture from Latin 'colere'."
+        }
+    },
+    {
+        cat: '1',
+        q: {
+            ru: "2. Какой древнеримский мыслитель впервые использовал фразу «cultura animi»?",
+            en: "2. Which ancient Roman thinker used the phrase «cultura animi»?"
+        },
+        opts: {
+            ru: ["Платон", "Аристотель", "Цицерон", "Сенека", "Марк Аврелий"],
+            en: ["Plato", "Aristotle", "Cicero", "Seneca", "Marcus Aurelius"]
+        },
+        ans: 2,
+        exp: {
+            ru: "✅ Марк Туллий Цицерон (45 г. до н.э., 'Тускуланские беседы') сформулировал концепцию 'Cultura Animi' (возделывание души).",
+            en: "✅ Marcus Tullius Cicero (45 BCE, 'Tusculan Disputations') coined 'Cultura Animi'."
+        }
+    },
+    {
+        cat: '1',
+        q: {
+            ru: "3. Какой тип культуры основан на физических артефактах, орудиях труда и технологиях?",
+            en: "3. Which type of culture is based on physical objects and technologies?"
+        },
+        opts: {
+            ru: ["Материальная культура", "Духовная культура", "Социальная культура", "Политическая культура", "Символическая культура"],
+            en: ["Material culture", "Spiritual culture", "Social culture", "Political culture", "Symbolic culture"]
+        },
+        ans: 0,
+        exp: {
+            ru: "✅ Орудия труда, жилье и технологии относятся СТРОГО к материальной культуре!",
+            en: "✅ Tools, physical objects, and technologies belong STRICTLY to material culture."
+        }
+    },
+    {
+        cat: '2',
+        q: {
+            ru: "1. Что означает греческое слово «семиотика»?",
+            en: "1. What does the Greek word «semiotics» mean?"
+        },
+        opts: {
+            ru: ["структура", "символ", "знак", "слово", "культура"],
+            en: ["structure", "symbol", "sign", "word", "culture"]
+        },
+        ans: 2,
+        exp: {
+            ru: "✅ Семиотика происходит от греческого 'semeion' — знак.",
+            en: "✅ Semiotics comes from Greek 'semeion', meaning 'sign'."
+        }
+    },
+    {
+        cat: '2',
+        q: {
+            ru: "2. Кто сформулировал концепцию «Семиосферы» и культуры как динамического текста?",
+            en: "2. Who introduced the idea that culture can be studied as a dynamic text with its own codes?"
+        },
+        opts: {
+            ru: ["Юрий Лотман", "Ролан Барт", "Фердинанд де Соссюр", "Чарльз Пирс", "Олжас Сулейменов"],
+            en: ["Yuri Lotman", "Roland Barthes", "Ferdinand de Saussure", "Charles Peirce", "Olzhas Suleimenov"]
+        },
+        ans: 0,
+        exp: {
+            ru: "✅ Юрий Михайлович Лотман ввел понятие Семиосферы и обосновал концепцию культуры как текста.",
+            en: "✅ Yuri Lotman founded the Semiosphere concept and viewed culture as a dynamic text."
+        }
+    }
+];
 
 function initApp() {
     switchLanguage('ru');
@@ -329,34 +621,25 @@ function searchLocalCourseVault(q) {
     const qLower = q.toLowerCase();
     
     if (qLower.includes('цицерон') || qLower.includes('cicero') || qLower.includes('cultura animi')) {
-        return "Марк Туллий Цицерон в 45 году до нашей эры в трактате «Тускуланские беседы» впервые применил термин «Cultura Animi», означающий «возделывание души» с помощью философии. Он провел аналогию с земледелием (agri cultura), доказывая, что подобно тому, как земля не приносит урожая без пахоты, так и человеческий разум остается необразованным без духовного культивирования.";
+        return currentLang === 'ru' 
+            ? "Марк Туллий Цицерон в 45 году до нашей эры в трактате «Тускуланские беседы» впервые применил термин «Cultura Animi», означающий «возделывание души» с помощью философии. Он провел аналогию с земледелием (agri cultura), доказывая, что подобно тому, как земля не приносит урожая без пахоты, так и человеческий разум остается необразованным без духовного культивирования."
+            : "In 45 BCE, Marcus Tullius Cicero coined the phrase 'Cultura Animi' in Tusculan Disputations, meaning the cultivation of the soul through philosophy. He drew an analogy with agriculture (agri cultura), arguing that just as fertile soil yields no crops without tilling, the human soul remains uneducated without spiritual cultivation.";
     }
     if (qLower.includes('тайлор') || qLower.includes('tylor') || qLower.includes('анимизм')) {
-        return "Сэр Эдвард Бернетт Тайлор в 1871 году в труде «Первобытная культура» сформулировал классическое этнографическое определение культуры как сложного комплекса знаний, верований, искусства, морали, законов и обычаев, усвоенных человеком в обществе. Тайлор также выделил анимизм как первичную форму религии, возникшую из попыток понять сны и смерть.";
-    }
-    if (qLower.includes('соссюр') || qLower.includes('saussure') || qLower.includes('обозначающее')) {
-        return "По Фердинанду де Соссюру, языковой знак связывает Обозначающее (акустический или визуальный образ слова) и Обозначаемое (ментальный смысл понятия). Главным принципом является произвольность знака (l'arbitraire du signe), означающая, что связь между звучанием и смыслом держится исключительно на социальном соглашении общества.";
-    }
-    if (qLower.includes('пирс') || qLower.includes('peirce') || qLower.includes('индекс')) {
-        return "Чарльз Сандерс Пирс выделил триаду знаков: Икона (визуальное сходство), Индекс (непосредственная физическая причинно-следственная связь, например дым как знак огня или след на песке) и Символ (условный знак по социальному договору, как знак STOP).";
-    }
-    if (qLower.includes('барт') || qLower.includes('barthes') || qLower.includes('миф')) {
-        return "Ролан Барт в труде «Мифологии» 1957 года доказал, что современный миф представляет собой вторичную семиотическую систему, в которой первичный знак становится Обозначающим для вторичной коннотации. Главная социальная функция мифа — «натурализация идеологии», то есть превращение политических ценностей в якобы естественный здравый смысл.";
-    }
-    if (qLower.includes('лотман') || qLower.includes('lotman') || qLower.includes('семиосфера')) {
-        return "Юрий Лотман сформулировал концепцию «Семиосферы» как единого семиотического пространства культуры, необходимого для существования и функционирования любых языков. В его теории культура рассматривается как коллективный intellect и динамический текст, пронизанный культурными кодами.";
-    }
-    if (qLower.includes('сулейменов') || qLower.includes('suleimenov') || qLower.includes('аз и я')) {
-        return "Олжас Сулейменов в своем историко-лингвистическом труде «АЗ и Я» 1975 года провел глубокий семиотический и языковой анализ «Слова о полку Игореве». Он доказал наличие двуязычных славяно-тюркских смысловых пластов и символических кодов в древнем тексте.";
+        return currentLang === 'ru'
+            ? "Сэр Эдвард Бернетт Тайлор в 1871 году в труде «Первобытная культура» сформулировал классическое этнографическое определение культуры как сложного комплекса знаний, верований, искусства, морали, законов и обычаев, усвоенных человеком в обществе. Тайлор также выделил анимизм как первичную форму религии."
+            : "Sir Edward Burnett Tylor in 1871 (Primitive Culture) defined culture as that complex whole including knowledge, belief, art, morals, law, and custom acquired by man as a member of society. He also established Animism as the primary form of religion.";
     }
     
-    return "Согласно академическим материалам нашего курса Cultural Studies, данный вопрос рассматривается через систему зашифрованных культурных кодов и морфологических подсистем. Концепция объясняет, как нематериальные ценности и традиции транслируются в обществе, формируя когнитивный стиль мышления человекa.";
+    return currentLang === 'ru'
+        ? "Согласно академическим материалам нашего курса Cultural Studies, данный вопрос рассматривается через систему зашифрованных культурных кодов и морфологических подсистем. Концепция объясняет, как нематериальные ценности и традиции транслируются в обществе."
+        : "According to our AITU Cultural Studies materials, this topic is analyzed through cultural codes and morphological subsystems, explaining how non-material values and traditions are transmitted in society.";
 }
 
 function copyAiResponse() {
     const text = document.getElementById('ai-response-text').innerText;
     navigator.clipboard.writeText(text);
-    alert("✅ Текст ответа скопирован! Можете зачитывать преподавателю.");
+    alert(currentLang === 'ru' ? "✅ Текст ответа скопирован!" : "✅ Answer copied!");
 }
 
 // Instant Language Switcher (No Page Reload!)
@@ -380,6 +663,16 @@ function switchLanguage(lang) {
     document.getElementById('btn-read-week2').innerText = t.btnReadW2;
     document.getElementById('txt-ai-btn').innerText = t.aiBtn;
     document.getElementById('ai-subtitle').innerText = t.aiSub;
+    document.getElementById('lbl-prev-chap').innerText = t.lblPrevChap;
+    document.getElementById('lbl-next-chap').innerText = t.lblNextChap;
+    document.getElementById('lbl-all-chap').innerText = t.lblAllChap;
+
+    const weekSelect = document.getElementById('week-select-dropdown');
+    if (weekSelect) {
+        weekSelect.options[0].text = t.weekOpt1;
+        weekSelect.options[1].text = t.weekOpt2;
+        weekSelect.options[10].text = t.weekOptAll;
+    }
 
     const select = document.getElementById('q-count-select');
     select.options[0].text = t.opt10;
@@ -589,6 +882,7 @@ function populateChapterDropdown() {
 
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
+    const t = uiTranslations[currentLang];
 
     chapters.forEach((chap, idx) => {
         const opt = document.createElement('option');
@@ -599,7 +893,7 @@ function populateChapterDropdown() {
 
     const optAll = document.createElement('option');
     optAll.value = -1;
-    optAll.innerText = "📖 Показать весь учебник целиком";
+    optAll.innerText = t.optAllChapText;
     dropdown.appendChild(optAll);
 
     dropdown.value = activeChapterIdx;
