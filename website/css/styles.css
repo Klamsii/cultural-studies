@@ -44,7 +44,7 @@ body {
 
 /* Premium Header Nav */
 .app-header {
-    background: rgba(10, 14, 23, 0.9);
+    background: rgba(10, 14, 23, 0.92);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-color);
@@ -726,6 +726,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.55rem;
+    flex-wrap: wrap;
 }
 
 .flip-btn {
@@ -800,31 +801,168 @@ body {
     background: rgba(99, 102, 241, 0.1);
     border-left: 4px solid var(--accent-indigo);
     padding: 1rem 1.25rem;
+    border-radius: 0 12px 12px 0;
     margin: 1.25rem 0;
-    border-radius: 0 10px 10px 0;
     font-style: italic;
 }
 
-/* Footer */
 .app-footer {
     border-top: 1px solid var(--border-color);
+    padding: 1.5rem;
     text-align: center;
-    padding: 1.75rem;
     color: var(--text-muted);
-    font-size: 0.88rem;
+    font-size: 0.85rem;
+    margin-top: 3rem;
+    background: rgba(7, 9, 14, 0.95);
 }
 
-/* Responsive Layout Adjustments */
+/* ==========================================================================
+   ULTRA-SLEEK RESPONSIVE MOBILE OPTIMIZATIONS (PHONES <= 768PX & <= 480PX)
+   ========================================================================== */
 @media (max-width: 900px) {
     .header-container {
         flex-direction: column;
         align-items: stretch;
+        gap: 0.85rem;
+        padding: 0.85rem 1rem;
     }
-    .header-center, .header-right {
+
+    .logo-group {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-center {
+        width: 100%;
         justify-content: space-between;
     }
+
+    .header-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #week-select-dropdown {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-content {
+        padding: 1rem 0.75rem;
+    }
+
+    /* Mobile Stats Bar */
+    .stats-bar {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+        padding: 1rem;
+    }
+
+    /* Mobile Control Panel */
+    .control-panel {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
+
+    .mode-selector {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .reset-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Mobile Quiz Question Card */
+    .question-card {
+        padding: 1.25rem;
+    }
+
+    .q-title {
+        font-size: 1.05rem;
+    }
+
+    .option-btn {
+        padding: 0.95rem 1.1rem;
+        font-size: 0.9rem;
+    }
+
+    /* Mobile Book Reader Navigation Bar */
+    .book-nav-bar {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0.85rem;
+    }
+
+    .reader-controls {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .reader-btn {
+        width: 100%;
+        text-align: center;
+        padding: 0.6rem 0.5rem;
+        font-size: 0.82rem;
+    }
+
+    .chapter-flip-controls {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+
+    .chapter-flip-controls .custom-select-wrapper {
+        grid-column: span 2;
+        width: 100%;
+    }
+
     #chapter-select-dropdown {
-        min-width: 140px;
-        max-width: 200px;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .show-all-btn {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .reader-content {
+        padding: 1.35rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .reader-content h1 {
+        font-size: 1.4rem;
+    }
+
+    .reader-content h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Mobile Phone iOS/Android Bottom Sheet Drawer for AI Assistant */
+    .ai-drawer {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100vw;
+        max-width: 100vw;
+        border-radius: 24px 24px 0 0;
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.8);
+        animation: slideUpBottom 0.3s ease;
+    }
+
+    @keyframes slideUpBottom {
+        from { transform: translateY(100%); }
+        to { transform: translateY(0); }
     }
 }
