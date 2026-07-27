@@ -42,3 +42,8 @@ This document establishes the binding operational rules for the Cultural Studies
 
 ## 8. MOBILE-FIRST RESPONSIVE UI REQUIREMENT
 - All web interfaces must feature mobile-first responsive styling, full-width touch-friendly controls, and iOS/Android bottom-sheet AI drawers on smartphones.
+
+## 9. MANDATORY 100% BILINGUAL SYNCHRONIZATION RULE (RU <-> EN PARITY)
+- **ALL INFORMATION IN THE ENTIRE REPOSITORY AND WEB PORTAL MUST BE 100% SYNCHRONIZED BETWEEN RUSSIAN AND ENGLISH.**
+- Whatever concept, scholar, case study, lecture note, or test question exists in Russian MUST exist in English in equal depth, and vice versa.
+- The two languages must fully complement each other with zero gaps, omissions, or asymmetric information.
