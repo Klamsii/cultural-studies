@@ -201,7 +201,7 @@ body {
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 0.85rem;
-    padding: 0.5rem 2.2rem 0.5rem 2.2rem;
+    padding: 0.5rem 2.2rem 0.5rem 1.2rem;
     border-radius: 10px;
     outline: none;
     cursor: pointer;
@@ -218,6 +218,15 @@ body {
     background: #0f172a;
     color: #fff;
     padding: 0.5rem;
+}
+
+/* Specific styling for Chapter Select Dropdown */
+#chapter-select-dropdown {
+    min-width: 220px;
+    max-width: 320px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* View Toggle Buttons */
@@ -716,7 +725,7 @@ body {
 .chapter-flip-controls {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.55rem;
 }
 
 .flip-btn {
@@ -757,7 +766,7 @@ body {
 
 .reader-content h1 {
     font-family: var(--font-heading);
-    font-size: 2rem;
+    font-size: 1.85rem;
     font-weight: 800;
     color: var(--accent-amber);
     margin-bottom: 1.25rem;
@@ -767,19 +776,19 @@ body {
 
 .reader-content h2 {
     font-family: var(--font-heading);
-    font-size: 1.45rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--accent-cyan);
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     margin-bottom: 0.85rem;
 }
 
 .reader-content h3 {
     font-family: var(--font-heading);
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 700;
     color: #fff;
-    margin-top: 1.4rem;
+    margin-top: 1.3rem;
     margin-bottom: 0.6rem;
 }
 
@@ -813,5 +822,9 @@ body {
     }
     .header-center, .header-right {
         justify-content: space-between;
+    }
+    #chapter-select-dropdown {
+        min-width: 140px;
+        max-width: 200px;
     }
 }

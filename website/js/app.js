@@ -71,7 +71,7 @@ const fullBookDatabase = {
                     <p>Морфология культуры изучает внутреннее строение культуры и механизмы формирования её форм. Выделяются 3 главные подсистемы:</p>
                     <p>1. <strong>Материальная подсистема:</strong> Орудия производства, жилье (юрты), одежда, техника и транспорт. <strong>(ВНИМАНИЕ ДЛЯ ТЕСТОВ: Орудия труда и технологии относятся СТРОГО к материальной культуре и НЕ входят в духовную!)</strong>.</p>
                     <p>2. <strong>Духовная подсистема:</strong> Идеи, наука, религия, философия, мораль, ценности, литература и искусство.</p>
-                    <p>3. <strong>Социально-институциональная подсистема:</strong> Законы, семейные институты, государственные нормы и обряды.</p>
+                    <p>3. <strong>Социально-институциональная подсистема:</strong> Законы, семейные институты, государственные нормы, обряды и правила взаимодействия.</p>
                     
                     <h2>3.2 Генетический метод и Мемы Докинза</h2>
                     <p>Исследовательский метод, изучающий происхождение (генезис) и эволюцию культурных форм, называется <strong>Генетическим методом (Genetic Method)</strong>. Концепция Ричарда Докинза (1976, «Эгоистичный ген») объясняет трансляцию культуры через мемы в рамках <strong>Социобиологической теории</strong>.</p>
@@ -389,6 +389,7 @@ function switchLanguage(lang) {
 
     // Refresh active view
     if (mainViewMode === 'main') {
+        populateChapterDropdown();
         renderReader();
     } else {
         renderQuiz();
@@ -425,7 +426,7 @@ function switchMainView(mode) {
         quizProgress.style.display = 'none';
         quizContainer.style.display = 'none';
         readerContainer.style.display = 'flex';
-        renderReader();
+        loadReaderWeek(activeReaderWeek);
     } else {
         quizControl.style.display = 'flex';
         quizStats.style.display = 'grid';
@@ -583,6 +584,7 @@ function loadReaderWeek(w) {
 
 function populateChapterDropdown() {
     const dropdown = document.getElementById('chapter-select-dropdown');
+    if (!dropdown) return;
     dropdown.innerHTML = '';
 
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
@@ -611,46 +613,60 @@ function jumpToChapter(idx) {
 function prevChapter() {
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
-    if (activeChapterIdx > 0) {
+    
+    if (activeChapterIdx === -1 || activeChapterIdx <= 0) {
+        activeChapterIdx = 0;
+    } else {
         activeChapterIdx--;
-        document.getElementById('chapter-select-dropdown').value = activeChapterIdx;
-        renderReader();
     }
+    
+    const dropdown = document.getElementById('chapter-select-dropdown');
+    if (dropdown) dropdown.value = activeChapterIdx;
+    renderReader();
 }
 
 function nextChapter() {
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
-    if (activeChapterIdx < chapters.length - 1 && activeChapterIdx !== -1) {
+    
+    if (activeChapterIdx === -1) {
+        activeChapterIdx = 0;
+    } else if (activeChapterIdx < chapters.length - 1) {
         activeChapterIdx++;
-        document.getElementById('chapter-select-dropdown').value = activeChapterIdx;
-        renderReader();
     }
+
+    const dropdown = document.getElementById('chapter-select-dropdown');
+    if (dropdown) dropdown.value = activeChapterIdx;
+    renderReader();
 }
 
 function showFullBook() {
     activeChapterIdx = -1;
-    document.getElementById('chapter-select-dropdown').value = -1;
+    const dropdown = document.getElementById('chapter-select-dropdown');
+    if (dropdown) dropdown.value = -1;
     renderReader();
 }
 
 function renderReader() {
     const textArea = document.getElementById('reader-text-area');
+    if (!textArea) return;
+
     const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
 
     if (activeChapterIdx === -1) {
-        // Render entire book continuously
         let fullHtml = '';
         chapters.forEach(chap => {
             fullHtml += chap.content + '<hr style="border:0; border-top:1px solid rgba(255,255,255,0.1); margin:2.5rem 0;">';
         });
         textArea.innerHTML = fullHtml;
     } else {
-        // Render single chapter like a book page
         const chap = chapters[activeChapterIdx] || chapters[0];
         textArea.innerHTML = chap.content;
     }
+
+    // Smooth scroll to top of reader container
+    document.getElementById('reader-container').scrollIntoView({ behavior: 'smooth' });
 }
 
 document.addEventListener('DOMContentLoaded', initApp);
