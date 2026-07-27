@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultural Studies — Premium 10-Week Exam & Quiz Portal</title>
+    <title>Cultural Studies — Premium 10-Week Exam & AI Assistant Portal</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +35,12 @@
                     </button>
                 </div>
 
+                <!-- AI Quick Answer Trigger Button -->
+                <button class="ai-trigger-btn" onclick="toggleAiDrawer()">
+                    <span class="ai-sparkle">🤖</span>
+                    <span id="txt-ai-btn">AI Exam Assistant</span>
+                </button>
+
                 <!-- Scalable 10-Week Selector Dropdown -->
                 <div class="custom-select-wrapper">
                     <span class="select-icon">📅</span>
@@ -65,6 +71,36 @@
             </div>
         </div>
     </header>
+
+    <!-- Floating AI Oral Answer Drawer -->
+    <div class="ai-drawer" id="ai-drawer">
+        <div class="ai-drawer-header">
+            <div class="ai-title">
+                <span class="ai-icon">🤖</span>
+                <div>
+                    <h3>AI Oral Exam Helper</h3>
+                    <p id="ai-subtitle">Мгновенный готовый ответ для зачитывания преподавателю</p>
+                </div>
+            </div>
+            <button class="ai-close-btn" onclick="toggleAiDrawer()">✕</button>
+        </div>
+        
+        <div class="ai-drawer-body">
+            <div class="ai-input-group">
+                <textarea id="ai-prompt-input" rows="2" placeholder="Задайте вопрос учителя (напр. 'В чем отличие Folkways и Mores?')..."></textarea>
+                <button class="ai-submit-btn" id="ai-submit-btn" onclick="askAiAssistant()">
+                    <span>⚡ Получить ответ</span>
+                </button>
+            </div>
+
+            <!-- Output Box -->
+            <div class="ai-output-box" id="ai-output-box" style="display: none;">
+                <div class="ai-status" id="ai-status-indicator">✨ Готовый ответ для устной речи:</div>
+                <div class="ai-response-text" id="ai-response-text"></div>
+                <button class="ai-copy-btn" onclick="copyAiResponse()">📋 Скопировать текст</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Main Container -->
     <main class="main-content">
@@ -134,7 +170,7 @@
     </main>
 
     <footer class="app-footer">
-        <p>Astana IT University • Cultural Studies Premium Portal • Summer Trimester 2026</p>
+        <p>Astana IT University • Cultural Studies AI Exam Portal • Summer Trimester 2026</p>
     </footer>
 
     <script src="js/app.js"></script>

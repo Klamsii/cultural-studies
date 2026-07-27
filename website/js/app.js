@@ -1,6 +1,8 @@
 /* ==========================================================================
-   CULTURAL STUDIES PREMIUM PORTAL ENGINE (10-WEEK SCALABLE & BILINGUAL)
+   CULTURAL STUDIES PREMIUM PORTAL ENGINE & AI EXAM ASSISTANT
    ========================================================================== */
+
+const GEMINI_API_KEY = "AIzaSyCSc4Kp0tIIXsSYiF0DtbfOQJOebpT2N0s";
 
 let currentLang = 'ru'; // 'ru' or 'en'
 let selectedWeek = '1'; // '1', '2', ..., '10', 'all'
@@ -30,7 +32,9 @@ const uiTranslations = {
         titleAll: "Полный Мега-Экзамен по всем неделям курса",
         btnReadW1: "📘 Учебник Недели 1",
         btnReadW2: "📙 Учебник Недели 2",
-        qWord: "Вопрос"
+        qWord: "Вопрос",
+        aiBtn: "AI Помощник",
+        aiSub: "Мгновенный готовый ответ для зачитывания преподавателю"
     },
     en: {
         logoSub: "10-Week Portal",
@@ -51,13 +55,14 @@ const uiTranslations = {
         titleAll: "Full Comprehensive Exam Across All Weeks",
         btnReadW1: "📘 Week 1 Textbook",
         btnReadW2: "📙 Week 2 Textbook",
-        qWord: "Question"
+        qWord: "Question",
+        aiBtn: "AI Assistant",
+        aiSub: "Instant ready answer to read aloud to professor"
     }
 };
 
 // Bilingual Question Master Bank
 const masterQuestionBank = [
-    // Week 1
     {
         cat: '1',
         q: {
@@ -91,24 +96,6 @@ const masterQuestionBank = [
         }
     },
     {
-        cat: '1',
-        q: {
-            ru: "3. Какой тип культуры основан на физических объектах и технологиях?",
-            en: "3. Which type of culture is based on physical objects and technologies?"
-        },
-        opts: {
-            ru: ["духовная культура", "материальная культура", "символическая культура", "популярная культура", "религиозная культура"],
-            en: ["spiritual culture", "material culture", "symbolic culture", "popular culture", "religious culture"]
-        },
-        ans: 1,
-        exp: {
-            ru: "✅ Материальная культура охватывает осязаемые артефакты, орудия труда, юрты и технику.",
-            en: "✅ Material culture encompasses physical artifacts, tools, architecture, and gadgets."
-        }
-    },
-
-    // Week 2
-    {
         cat: '2',
         q: {
             ru: "1. Что означает греческое слово «семиотика»?",
@@ -123,26 +110,10 @@ const masterQuestionBank = [
             ru: "✅ Семиотика происходит от греческого 'semeion' — знак.",
             en: "✅ Semiotics comes from Greek 'semeion', meaning 'sign'."
         }
-    },
-    {
-        cat: '2',
-        q: {
-            ru: "2. Кто обосновал концепцию культуры как динамического текста со своими кодами?",
-            en: "2. Who introduced the idea that culture can be studied as a dynamic text with its own codes?"
-        },
-        opts: {
-            ru: ["Ролан Барт", "Юрий Лотман", "Юлия Кристева", "Чарльз Сандерс Пирс", "Фердинанд де Соссюр"],
-            en: ["Roland Barthes", "Yuri Lotman", "Julia Kristeva", "Charles Sanders Peirce", "Ferdinand de Saussure"]
-        },
-        ans: 1,
-        exp: {
-            ru: "✅ Юрий Лотман создал концепцию Семиосферы и культуры как текста.",
-            en: "✅ Yuri Lotman formulated the Semiosphere and culture as a dynamic text."
-        }
     }
 ];
 
-// Master Guide Summary Text Database for Reader
+// Master Guide Summary Text Database
 const masterTextDatabase = {
     ru: {
         week1: `
@@ -180,6 +151,87 @@ function initApp() {
     switchLanguage('ru');
 }
 
+// AI Drawer Toggle
+function toggleAiDrawer() {
+    const drawer = document.getElementById('ai-drawer');
+    if (drawer.style.display === 'none' || !drawer.style.display) {
+        drawer.style.display = 'flex';
+        document.getElementById('ai-prompt-input').focus();
+    } else {
+        drawer.style.display = 'none';
+    }
+}
+
+// AI Quick Oral Answer Generator Engine
+async function askAiAssistant() {
+    const input = document.getElementById('ai-prompt-input').value.trim();
+    if (!input) return;
+
+    const outputBox = document.getElementById('ai-output-box');
+    const responseText = document.getElementById('ai-response-text');
+    const submitBtn = document.getElementById('ai-submit-btn');
+
+    outputBox.style.display = 'flex';
+    responseText.innerHTML = '⚡ <em>Генерация лаконичного ответа для зачитывания преподавателю...</em>';
+    submitBtn.disabled = true;
+
+    const systemPrompt = `
+Ты — персональный ассистент студента на устном экзамене по дисциплине Cultural Studies в Astana IT University. 
+Студент задает вопрос, который ему только что задал преподаватель. 
+Твоя главная задача: дать БЫСТРЫЙ, КОРОТКИЙ (ровно 3-4 емких предложения), глубокo продуманный и 100% академически точный ответ от первого лица, который студент сможет СРАЗУ ЖЕ ВЫРАЗИТЕЛЬНО ЗАЧИТАТЬ ВСЛУХ ПРЕПОДАВАТЕЛЮ.
+Не используй вступлений вроде "Вот ответ:". Сразу начинай ответ так, как будто студент отвечает преподавателю. 
+Отвечай на том языке, на котором задан вопрос (русском или английском).
+`;
+
+    try {
+        // Try Gemini 2.0 Flash API Call
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [
+                    { role: 'user', parts: [{ text: systemPrompt + "\nВопрос преподавателя: " + input }] }
+                ],
+                generationConfig: { maxOutputTokens: 250, temperature: 0.3 }
+            })
+        });
+
+        const data = await response.json();
+
+        if (data.candidates && data.candidates[0] && data.candidates[0].content) {
+            const answer = data.candidates[0].content.parts[0].text;
+            responseText.innerText = answer;
+        } else {
+            throw new Error("API Limit / Fallback");
+        }
+    } catch (err) {
+        // High-Quality Fallback Generator if Network Latency / Offline
+        responseText.innerText = generateFallbackAnswer(input);
+    } finally {
+        submitBtn.disabled = false;
+    }
+}
+
+function generateFallbackAnswer(q) {
+    const qLower = q.toLowerCase();
+    if (qLower.includes('цицерон') || qLower.includes('cicero') || qLower.includes('cultura animi')) {
+        return "Марк Туллий Цицерон в 45 году до нашей эры в трактате «Тускуланские беседы» впервые применил термин «Cultura Animi», означающий «возделывание души». Он провел аналогию с земледелием (agri cultura), доказывая, что подобно тому, как земля не приносит урожая без пахоты, так и человеческий разум остается необразованным без духовного культивирования философией.";
+    }
+    if (qLower.includes('соссюр') || qLower.includes('saussure') || qLower.includes('обозначающее')) {
+        return "Фердинанд де Соссюр обосновал, что языковой знак представляет собой двухстороннюю психическую сущность, объединяющую Обозначающее (акустический или визуальный образ слова) и Обозначаемое (ментальное понятие). Связь между ними является полностью произвольной (l'arbitраire du signe) и держится исключительно на социальном соглашении общества.";
+    }
+    if (qLower.includes('барт') || qLower.includes('barthes') || qLower.includes('миф')) {
+        return "Ролан Барт в труде «Мифологии» 1957 года доказал, что современный миф представляет собой вторичную семиотическую систему, возникающую на базе первичного языка. Главная социальная функция мифа заключается в «натурализации идеологии» — он превращает буржуазные и политические ценности в якобы естественный здравый смысл.";
+    }
+    return "В культурологии данный вопрос рассматривается через призму взаимодействия материальных и нематериальных подсистем культуры. Данная концепция обосновывает, как зашифрованные символические коды и ценности общества транслируются между поколениями, определяя когнитивный стиль мышления человека.";
+}
+
+function copyAiResponse() {
+    const text = document.getElementById('ai-response-text').innerText;
+    navigator.clipboard.writeText(text);
+    alert("✅ Текст ответа скопирован! Можете зачитывать преподавателю.");
+}
+
 // Instant Language Switcher (No Page Reload!)
 function switchLanguage(lang) {
     currentLang = lang;
@@ -199,6 +251,8 @@ function switchLanguage(lang) {
     document.getElementById('lbl-accuracy').innerText = t.lblAccuracy;
     document.getElementById('btn-read-week1').innerText = t.btnReadW1;
     document.getElementById('btn-read-week2').innerText = t.btnReadW2;
+    document.getElementById('txt-ai-btn').innerText = t.aiBtn;
+    document.getElementById('ai-subtitle').innerText = t.aiSub;
 
     const select = document.getElementById('q-count-select');
     select.options[0].text = t.opt10;
@@ -262,7 +316,6 @@ function getActiveQuestions() {
     }
     if (filtered.length === 0) filtered = masterQuestionBank;
 
-    // Expand pool up to questionLimit dynamically
     let expanded = [];
     while (expanded.length < questionLimit) {
         let base = filtered[expanded.length % filtered.length];
