@@ -224,8 +224,8 @@ The theoretical framework explaining cultural transmission through **memes (*mem
 
 | Concept | Definition | Computing Analogy |
 | :--- | :--- | :--- |
-| **Society (*Society*)** | An organized group of people living in a defined territory interacting through social relationships. | **Hardware (Hardware)** |
-| **Culture (*Culture*)** | The shared blueprint, values, norms, and language that guide their collective way of life. | **Software (Software)** |
+| **Society (*Общество*)** | An organized group of people living in a defined territory interacting through social relationships. | **Hardware** |
+| **Culture (*Культура*)** | The shared blueprint, values, norms, and language that guide their collective way of life. | **Software** |
 
 ---
 

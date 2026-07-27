@@ -451,7 +451,7 @@ const fullBookDatabase = {
                     5. <strong>Language:</strong> The primary symbolic system enabling cumulative cultural transmission across generations.</p>
 
                     <h2>4.2 Sociological Distinction: Society vs. Culture</h2>
-                    <p>In sociology, <strong>Society (Society)</strong> designates the organized group of interacting people living in a defined territory (analogous to <strong>Hardware / Hardware</strong>), whereas <strong>Culture (Culture)</strong> represents the shared system of rules, ideas, values, and blueprints organizing their collective way of life (analogous to <strong>Software / Software</strong>).</p>
+                    <p>In sociology, <strong>Society (Общество)</strong> designates the organized group of interacting people living in a defined territory (analogous to <strong>Hardware</strong>), whereas <strong>Culture (Культура)</strong> represents the shared system of rules, ideas, values, and blueprints organizing their collective way of life (analogous to <strong>Software</strong>).</p>
                 `
             },
             {

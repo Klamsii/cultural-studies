@@ -47,3 +47,9 @@ This document establishes the binding operational rules for the Cultural Studies
 - **ALL INFORMATION IN THE ENTIRE REPOSITORY AND WEB PORTAL MUST BE 100% SYNCHRONIZED BETWEEN RUSSIAN AND ENGLISH.**
 - Whatever concept, scholar, case study, lecture note, or test question exists in Russian MUST exist in English in equal depth, and vice versa.
 - The two languages must fully complement each other with zero gaps, omissions, or asymmetric information.
+
+## 10. MANDATORY NOTE-WRITING STANDARD (`Ai_Brain/note_standard.md`)
+- **Every study note created or edited in this repository MUST comply with `Ai_Brain/note_standard.md`.**
+- That document is binding and defines: the mandatory 3-layer depth model (60-second summary → full explanation → deep details), the fixed block structure of every note file, prose and terminology rules, self-check blocks, the forbidden anti-patterns (§12), and the mandatory RU↔EN parity verification procedure (§13).
+- The AI MUST run the §13 parity check and the §14 checklist **before** reporting any note as finished, and must state the result of that check explicitly.
+- Rule #10 applies to `Week-N/ru/*.md`, `Week-N/en/*.md`, `Main_RU.md`, `Main_EN.md`, and to the textbook chapters embedded in `js/app.js` and `website/js/app.js`.
