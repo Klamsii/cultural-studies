@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CULTURAL STUDIES PREMIUM PORTAL ENGINE - FULL BILINGUAL (RU/EN) & AI
+   CULTURAL STUDIES PREMIUM PORTAL ENGINE - ALWAYS ENGLISH DIRECT AI ANSWERS
    ========================================================================== */
 
 const GEMINI_API_KEY = "AIzaSyCSc4Kp0tIIXsSYiF0DtbfOQJOebpT2N0s";
@@ -15,24 +15,24 @@ let activeChapterIdx = 0; // 0 = Chapter 1, ..., 9 = Chapter 10, -1 = Show All
 
 // Full Academic Course Knowledge Vault
 const COURSE_KNOWLEDGE_VAULT = `
-ОФИЦИАЛЬНЫЙ АКАДЕМИЧЕСКИЙ ФОНД ЗНАНИЙ КУРСА CULTURAL STUDIES (AITU):
-- ETYMOLOGY: colere (cultivate soil). agri cultura — agriculture / cultivation.
-- CICERO (45 BCE): Cultura Animi — cultivation of the soul through philosophy.
-- E.B. TYLOR (1871): Primitive Culture — complex whole including knowledge, belief, art, morals, law, custom.
-- KROEBER & KLUCKHOHN (1952): behavioral definition — shared, learned human behavior, a way of life.
-- LESLIE WHITE (1949): Culturology, symboling capacity.
-- TOOLS & TECHNOLOGIES: belong STRICTLY to Material Culture!
-- CULTURAL LAG: W. Ogburn (1922) — gap between material technology and non-material morals/laws.
-- SAPIR-WHORF & BORODITSKY: language shapes perception (Kuuk Thaayorre, Russian blue/light blue EEG, bridge gender).
-- 4 CULTURAL CODES: Preliterate, Written, Screen, Digital.
-- 6 BELIEF FORMS: Animism, Fetishism (Tumar), Totemism (Steppe Wolf Böri), Pantheism (Tengriism), Deism, Monotheism.
-- TROLLEY PROBLEM: Utilitarianism (5 lives > 1) vs Kantian Deontology (active killing prohibition).
-- SAUSSURE SEMIOTICS: Signifier + Signified. Arbitrariness of the sign.
-- PEIRCE TRIAD: Icon (similarity), Index (causal link, smoke-fire), Symbol (convention, STOP).
-- CHARLES MORRIS: Syntactics, Semantics, Pragmatics.
-- ROLAND BARTHES (1957): Mythologies — secondary semiotic system, naturalizing ideology.
-- YURI LOTMAN: Semiosphere — culture as a dynamic text.
-- OLZHAS SULEIMENOV (1975): "AZ i IA" — semiotic analysis of "The Song of Igor's Campaign".
+OFFICIAL AITU CULTURAL STUDIES COURSE KNOWLEDGE VAULT:
+- ETYMOLOGY: Latin colere (cultivate soil). Agri cultura — agriculture / cultivation of land.
+- CICERO (45 BCE): Cultura Animi — cultivation of the soul through philosophy (Tusculan Disputations).
+- SIR EDWARD BURNETT TYLOR (1871): Primitive Culture — "that complex whole which includes knowledge, belief, art, morals, law, custom, and any other capabilities acquired by man as a member of society."
+- ALFRED KROEBER & CLYDE KLUCKHOHN (1952): Behavioral definition — "shared, learned human behavior, a way of life."
+- LESLIE ALVIN WHITE (1949): Founded Culturology based on human symboling capacity.
+- TOOLS & TECHNOLOGIES: Belong STRICTLY to Material Culture! Never spiritual.
+- CULTURAL LAG: William F. Ogburn (1922) — gap when material technology evolves rapidly while non-material laws/morals lag behind.
+- SAPIR-WHORF & LERA BORODITSKY: Language shapes perception (Kuuk Thaayorre spatial orientation, Russian blue/light blue EEG, German vs Spanish bridge gender).
+- 4 CULTURAL CODES: Preliterate (oral/ritual), Written (alphabet/print/linear logic), Screen (cinema/TV/visual), Digital (internet/hypertext/prosumers).
+- 6 BELIEF FORMS (Tylor): Animism (nature spirits), Fetishism (protective objects / Tumar), Totemism (kinship with animals / Steppe Wolf Böri), Pantheism (God identified with nature / Tengriism), Deism (Clockmaker God), Monotheism (One God).
+- TROLLEY PROBLEM: Utilitarianism (Bentham/Mill — save 5 lives over 1) vs Kantian Deontology (prohibits active killing).
+- SAUSSURE SEMIOTICS: Signifier (sound image) + Signified (concept). Arbitrariness of the sign.
+- PEIRCE TRIAD: Icon (similarity), Index (causal link / smoke-fire), Symbol (social convention / STOP sign).
+- CHARLES MORRIS: Syntactics (sign-sign), Semantics (sign-object), Pragmatics (sign-user).
+- ROLAND BARTHES (1957): Mythologies — secondary semiotic system, naturalizing bourgeois ideology.
+- YURI LOTMAN: Semiosphere — culture as a dynamic unified text and collective intellect.
+- OLZHAS SULEIMENOV (1975): "AZ i IA" — semiotic analysis of "The Song of Igor's Campaign" uncovering Turkic-Slavic codes.
 - TAMGALY: Sun-Headed Deity (Kunhan) petroglyph — solar cult of Heaven (Tengri).
 `;
 
@@ -561,7 +561,7 @@ function toggleAiDrawer() {
     }
 }
 
-// Strictly Grounded AI Oral Answer Generator Engine
+// ALWAYS 100% ENGLISH DIRECT AI ORAL ANSWER GENERATOR
 async function askAiAssistant() {
     const input = document.getElementById('ai-prompt-input').value.trim();
     if (!input) return;
@@ -571,22 +571,20 @@ async function askAiAssistant() {
     const submitBtn = document.getElementById('ai-submit-btn');
 
     outputBox.style.display = 'flex';
-    responseText.innerHTML = '⚡ <em>Поиск в материалах нашего курса и составление устного ответа...</em>';
+    responseText.innerHTML = '⚡ <em>Formulating direct English answer from AITU course materials...</em>';
     submitBtn.disabled = true;
 
+    // Strict system prompt: NEVER preamble, ALWAYS direct 3-4 sentence ENGLISH response!
     const systemPrompt = `
-СТРОГОЕ ПРАВИЛО ИСТОЧНИКОВ:
-Ты — ассистент студента на устном экзамене по Cultural Studies в Astana IT University. 
-Ты должен строить ответ ИСКЛЮЧИТЕЛЬНО на основе нижеприведенной Базы Знаний нашего курса (лекций AITU, учебников Week 1 и Week 2)! Запрещено придумывать сторонние факты от себя.
+CRITICAL INSTRUCTIONS FOR AI ASSISTANT:
+1. YOU MUST ALWAYS RESPOND 100% IN CLEAR, ELEGANT, HIGHLY ARTICULATE ACADEMIC ENGLISH, regardless of what language the question was asked in!
+2. NEVER INCLUDE ANY PREAMBLES, INTRODUCTORY FILLER, OR META-REFERENCES (DO NOT say "According to...", "Based on our course...", "As stated in...").
+3. START IMMEDIATELY WITH THE DIRECT, DEFINITIVE ANSWER TO THE PROFESSOR'S QUESTION.
+4. Keep the answer to EXACTLY 3-4 concise, powerful sentences suitable for the student to read aloud directly to the teacher.
+5. Base the answer STRICTLY on the official course knowledge vault provided below:
 
-БАЗА ЗНАНИЙ НАШЕГО КУРСА:
+OFFICIAL COURSE KNOWLEDGE VAULT:
 ${COURSE_KNOWLEDGE_VAULT}
-
-ИНСТРУКЦИЯ К ОТВЕТУ:
-- Дай БЫСТРЫЙ, КОРОТКИЙ (ровно 3-4 емких предложения), глубокий, продуманный и 100% академически точный ответ от первого лица.
-- Ответ должен быть написан так, чтобы студент смог СРАЗУ ЖЕ ВЫРАЗИТЕЛЬНО ЗАЧИТАТЬ ЕГО ВСЛУХ ПРЕПОДАВАТЕЛЮ.
-- Не используй вводных фраз ("Вот ответ:"). Сразу начинай ответ так, словно отвечаешь учителю.
-- Язык ответа должен совпадать с языком вопроса (русский или английский).
 `;
 
     try {
@@ -595,7 +593,7 @@ ${COURSE_KNOWLEDGE_VAULT}
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 contents: [
-                    { role: 'user', parts: [{ text: systemPrompt + "\nВопрос преподавателя: " + input }] }
+                    { role: 'user', parts: [{ text: systemPrompt + "\nProfessor's Question: " + input }] }
                 ],
                 generationConfig: { maxOutputTokens: 300, temperature: 0.2 }
             })
@@ -604,42 +602,54 @@ ${COURSE_KNOWLEDGE_VAULT}
         const data = await response.json();
 
         if (data.candidates && data.candidates[0] && data.candidates[0].content) {
-            const answer = data.candidates[0].content.parts[0].text;
+            let answer = data.candidates[0].content.parts[0].text.trim();
+            // Strip any accidental preambles
+            answer = answer.replace(/^According to [^,.]*[,.]\s*/i, '');
+            answer = answer.replace(/^Based on [^,.]*[,.]\s*/i, '');
             responseText.innerText = answer;
         } else {
             throw new Error("Fallback");
         }
     } catch (err) {
-        responseText.innerText = searchLocalCourseVault(input);
+        responseText.innerText = searchLocalCourseVaultDirectEnglish(input);
     } finally {
         submitBtn.disabled = false;
     }
 }
 
-// Local Search Engine over Course Knowledge Vault
-function searchLocalCourseVault(q) {
+// Local Fallback Search Engine (Direct English Answers, No Preambles!)
+function searchLocalCourseVaultDirectEnglish(q) {
     const qLower = q.toLowerCase();
     
     if (qLower.includes('цицерон') || qLower.includes('cicero') || qLower.includes('cultura animi')) {
-        return currentLang === 'ru' 
-            ? "Марк Туллий Цицерон в 45 году до нашей эры в трактате «Тускуланские беседы» впервые применил термин «Cultura Animi», означающий «возделывание души» с помощью философии. Он провел аналогию с земледелием (agri cultura), доказывая, что подобно тому, как земля не приносит урожая без пахоты, так и человеческий разум остается необразованным без духовного культивирования."
-            : "In 45 BCE, Marcus Tullius Cicero coined the phrase 'Cultura Animi' in Tusculan Disputations, meaning the cultivation of the soul through philosophy. He drew an analogy with agriculture (agri cultura), arguing that just as fertile soil yields no crops without tilling, the human soul remains uneducated without spiritual cultivation.";
+        return "In 45 BCE, Marcus Tullius Cicero introduced the metaphor 'Cultura Animi' in his Tusculan Disputations, defining philosophy as the cultivation of the human soul. He drew a direct parallel with agriculture (agri cultura), arguing that just as fertile land remains unproductive without tilling, the human mind remains wild without intellectual and moral cultivation.";
     }
     if (qLower.includes('тайлор') || qLower.includes('tylor') || qLower.includes('анимизм')) {
-        return currentLang === 'ru'
-            ? "Сэр Эдвард Бернетт Тайлор в 1871 году в труде «Первобытная культура» сформулировал классическое этнографическое определение культуры как сложного комплекса знаний, верований, искусства, морали, законов и обычаев, усвоенных человеком в обществе. Тайлор также выделил анимизм как первичную форму религии."
-            : "Sir Edward Burnett Tylor in 1871 (Primitive Culture) defined culture as that complex whole including knowledge, belief, art, morals, law, and custom acquired by man as a member of society. He also established Animism as the primary form of religion.";
+        return "Sir Edward Burnett Tylor in 1871 formulated the foundational anthropological definition of culture as that complex whole comprising knowledge, beliefs, art, morals, laws, and customs acquired by humans as members of society. He also established Animism—the belief in spirits animating all natural phenomena—as the primary origin of human religion.";
+    }
+    if (qLower.includes('соссюр') || qLower.includes('saussure') || qLower.includes('обозначающее')) {
+        return "Ferdinand de Saussure established structural linguistics by demonstrating that a sign is a two-sided psychological entity uniting a Signifier (acoustic or visual sound image) and a Signified (mental concept). He proved the principle of sign arbitrariness, meaning the link between sound and concept is grounded entirely in social convention.";
+    }
+    if (qLower.includes('пирс') || qLower.includes('peirce') || qLower.includes('индекс')) {
+        return "Charles Sanders Peirce categorized sign systems into Icons, Indexes, and Symbols based on their relation to reality. Icons possess visual resemblance, Indexes establish a direct physical or causal connection such as smoke signaling fire, and Symbols rely strictly on arbitrary societal agreement.";
+    }
+    if (qLower.includes('барт') || qLower.includes('barthes') || qLower.includes('миф')) {
+        return "Roland Barthes demonstrated in Mythologies (1957) that modern myth operates as a secondary semiotic system where a primary sign becomes the signifier for secondary ideological connotation. The central social function of myth is the naturalization of ideology, presenting bourgeois political interests as self-evident laws of nature.";
+    }
+    if (qLower.includes('лотман') || qLower.includes('lotman') || qLower.includes('семиосфера')) {
+        return "Yuri Lotman defined the Semiosphere as the unified, continuous semiotic space outside of which no individual sign or language can function or generate meaning. In his theory, culture operates as a collective intellect and a dynamic, self-organizing text embedded with structural codes.";
+    }
+    if (qLower.includes('сулейменов') || qLower.includes('suleimenov') || qLower.includes('аз и я')) {
+        return "Olzhas Suleimenov conducted a ground-breaking semiotic and linguistic analysis of The Song of Igor's Campaign in his 1975 masterpiece AZ i IA. He uncovered bilingual Turkic-Slavic cultural codes, proving the deep historical synthesis of nomadic and settled Eurasian civilizations.";
     }
     
-    return currentLang === 'ru'
-        ? "Согласно академическим материалам нашего курса Cultural Studies, данный вопрос рассматривается через систему зашифрованных культурных кодов и морфологических подсистем. Концепция объясняет, как нематериальные ценности и традиции транслируются в обществе."
-        : "According to our AITU Cultural Studies materials, this topic is analyzed through cultural codes and morphological subsystems, explaining how non-material values and traditions are transmitted in society.";
+    return "Culture is defined as a complex morphological system of shared values, non-material beliefs, and symbolic codes transmitted across generations. It structures human cognition, governs social behavior through normative rules, and provides the software through which society interprets reality.";
 }
 
 function copyAiResponse() {
     const text = document.getElementById('ai-response-text').innerText;
     navigator.clipboard.writeText(text);
-    alert(currentLang === 'ru' ? "✅ Текст ответа скопирован!" : "✅ Answer copied!");
+    alert("✅ English oral answer copied! Read it aloud to the teacher.");
 }
 
 // Instant Language Switcher (No Page Reload!)
