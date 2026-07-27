@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultural Studies — Exam, Quiz & Master Textbook Portal</title>
+    <title>Cultural Studies — 10-Week Exam, Quiz & Master Textbook Portal</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,18 +26,30 @@
                 <button class="lang-btn" id="lang-en" onclick="switchLanguage('en')">🇬🇧 EN</button>
             </div>
 
-            <!-- Navigation Tabs -->
+            <!-- Scalable 10-Week Navigation Hub -->
+            <div class="week-nav-hub">
+                <label for="week-select-dropdown" class="hub-label" id="lbl-select-week">Select Week:</label>
+                <select id="week-select-dropdown" class="hub-select" onchange="switchWeek(this.value)">
+                    <option value="1" selected>⚡ Week 1: Morphology & Language</option>
+                    <option value="2">🎯 Week 2: Semiotics & Anatomy</option>
+                    <option value="3" disabled>🔒 Week 3 (Upcoming)</option>
+                    <option value="4" disabled>🔒 Week 4 (Upcoming)</option>
+                    <option value="5" disabled>🔒 Week 5 (Upcoming)</option>
+                    <option value="6" disabled>🔒 Week 6 (Upcoming)</option>
+                    <option value="7" disabled>🔒 Week 7 (Upcoming)</option>
+                    <option value="8" disabled>🔒 Week 8 (Upcoming)</option>
+                    <option value="9" disabled>🔒 Week 9 (Upcoming)</option>
+                    <option value="10" disabled>🔒 Week 10 (Upcoming)</option>
+                    <option value="all">🔥 Full Course Mega-Test (All Weeks)</option>
+                </select>
+            </div>
+
+            <!-- Main Mode Navigation Tabs -->
             <nav class="nav-tabs">
-                <button class="tab-btn active" id="tab-week1" onclick="switchWeek(1)">
-                    <span class="tab-icon">⚡</span> <span id="txt-tab-week1">Week 1 (Morphology)</span>
+                <button class="tab-btn active" id="tab-quiz" onclick="switchMainView('quiz')">
+                    <span class="tab-icon">⚡</span> <span id="txt-tab-quiz">Quiz Trainer</span>
                 </button>
-                <button class="tab-btn" id="tab-week2" onclick="switchWeek(2)">
-                    <span class="tab-icon">🎯</span> <span id="txt-tab-week2">Week 2 (Semiotics)</span>
-                </button>
-                <button class="tab-btn" id="tab-all" onclick="switchWeek('all')">
-                    <span class="tab-icon">🔥</span> <span id="txt-tab-all">Full Mega-Test</span>
-                </button>
-                <button class="tab-btn highlight-tab" id="tab-main" onclick="switchWeek('main')">
+                <button class="tab-btn highlight-tab" id="tab-main" onclick="switchMainView('main')">
                     <span class="tab-icon">📖</span> <span id="txt-tab-main">Master Textbook (MAIN)</span>
                 </button>
             </nav>
@@ -103,7 +115,7 @@
     </main>
 
     <footer class="app-footer">
-        <p>Astana IT University • Cultural Studies Test & Master Guide Portal • Summer Trimester 2026</p>
+        <p>Astana IT University • Cultural Studies 10-Week Scalable Portal • Summer Trimester 2026</p>
     </footer>
 
     <script src="js/app.js"></script>

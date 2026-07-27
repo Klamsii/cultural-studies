@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CULTURAL STUDIES QUIZ TRAINER & MASTER TEXTBOOK PORTAL - CSS SYSTEM
+   CULTURAL STUDIES PORTAL - 10-WEEK SCALABLE DESIGN SYSTEM
    ========================================================================== */
 
 :root {
@@ -38,7 +38,7 @@ body {
 
 /* Header */
 .app-header {
-    background: rgba(15, 23, 42, 0.88);
+    background: rgba(15, 23, 42, 0.9);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-color);
     position: sticky;
@@ -113,6 +113,36 @@ body {
     background: var(--accent-blue);
     color: #fff;
     box-shadow: 0 2px 10px rgba(59, 130, 246, 0.4);
+}
+
+/* Scalable 10-Week Hub Selector */
+.week-nav-hub {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    padding: 0.35rem 0.75rem;
+    border-radius: 12px;
+}
+
+.hub-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.hub-select {
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid var(--accent-cyan);
+    color: #fff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.88rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
 }
 
 /* Navigation Tabs */
