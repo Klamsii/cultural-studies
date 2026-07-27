@@ -13,7 +13,7 @@ This document establishes the binding operational rules for the Cultural Studies
 - Avoid dry, ungrounded bullet keyword lists (e.g. `• Медиум: ...`, `• Механизм: ...`). Explain *what* concepts mean, *why* they function as they do, and *how* they apply.
 
 ## 3. STRICT WEBSITE MANDATE: QUIZ & TEST PLATFORM ONLY
-- **The web application in `website/` must contain ONLY interactive test questions, quiz options, instant answer verification, score counters, and oral exam defense practice questions.**
+- **The web application in `website/` must contain ONLY interactive test questions, quiz options, instant answer verification, score counters, master textbook reader, and oral exam defense practice questions.**
 - DO NOT place long text presentations, filler slides, or extraneous notes on the website.
 
 ## 4. STRICT RULE FOR USER TEST QUIZZES
@@ -28,3 +28,17 @@ This document establishes the binding operational rules for the Cultural Studies
   - `README.md` (Index dashboard)
   - `ru/` (Individual topic notes in Russian)
   - `en/` (Individual topic notes in English)
+
+## 6. MANDATORY RULE: RE-AUDIT ENTIRE PROJECT ON NEW RULE ADDITION
+- **WHENEVER A NEW RULE OR DIRECTIVE IS ADDED OR MODIFIED:**
+  - The AI assistant MUST IMMEDIATELY RE-CHECK AND RE-AUDIT THE ENTIRE PROJECT FROM SCRATCH against all rules.
+  - Verify 100% compliance across all repository files (`Week-1/`, `Week-2/`, `website/`, `js/app.js`, `css/styles.css`, `index.html`, `Ai_Brain/`).
+  - Record the comprehensive audit findings in `Ai_Brain/audit.md`.
+
+## 7. AI ASSISTANT RESPONSE RULES: ALWAYS DIRECT ENGLISH & NO PREAMBLES
+- The AI Exam Assistant MUST ALWAYS respond 100% in clear, articulate academic ENGLISH regardless of the language of the prompt.
+- NEVER include preambles, meta-references, or filler intro clauses (e.g. "According to our materials...").
+- START IMMEDIATELY with the direct 3-4 sentence oral exam answer.
+
+## 8. MOBILE-FIRST RESPONSIVE UI REQUIREMENT
+- All web interfaces must feature mobile-first responsive styling, full-width touch-friendly controls, and iOS/Android bottom-sheet AI drawers on smartphones.
