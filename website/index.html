@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultural Studies — Exam & Test Trainer</title>
+    <title>Cultural Studies — Exam, Quiz & Master Textbook Portal</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +17,28 @@
         <div class="header-container">
             <div class="logo">
                 <span class="badge">AITU</span>
-                <h1>Cultural Studies <span>Test Trainer</span></h1>
+                <h1 id="app-logo-title">Cultural Studies <span>Portal</span></h1>
             </div>
+
+            <!-- Instant Language Toggle (No Reload) -->
+            <div class="lang-toggle-container">
+                <button class="lang-btn active" id="lang-ru" onclick="switchLanguage('ru')">🇷🇺 RU</button>
+                <button class="lang-btn" id="lang-en" onclick="switchLanguage('en')">🇬🇧 EN</button>
+            </div>
+
+            <!-- Navigation Tabs -->
             <nav class="nav-tabs">
                 <button class="tab-btn active" id="tab-week1" onclick="switchWeek(1)">
-                    <span class="tab-icon">⚡</span> Week 1 (Morphology)
+                    <span class="tab-icon">⚡</span> <span id="txt-tab-week1">Week 1 (Morphology)</span>
                 </button>
                 <button class="tab-btn" id="tab-week2" onclick="switchWeek(2)">
-                    <span class="tab-icon">🎯</span> Week 2 (Semiotics)
+                    <span class="tab-icon">🎯</span> <span id="txt-tab-week2">Week 2 (Semiotics)</span>
                 </button>
                 <button class="tab-btn" id="tab-all" onclick="switchWeek('all')">
-                    <span class="tab-icon">🔥</span> Full Course Mega-Test
+                    <span class="tab-icon">🔥</span> <span id="txt-tab-all">Full Mega-Test</span>
+                </button>
+                <button class="tab-btn highlight-tab" id="tab-main" onclick="switchWeek('main')">
+                    <span class="tab-icon">📖</span> <span id="txt-tab-main">Master Textbook (MAIN)</span>
                 </button>
             </nav>
         </div>
@@ -37,10 +48,10 @@
     <main class="main-content">
         <div class="content-wrapper">
 
-            <!-- Controls & Selector Bar -->
-            <div class="control-panel">
+            <!-- Controls & Selector Bar (For Quiz Mode) -->
+            <div class="control-panel" id="quiz-control-panel">
                 <div class="mode-selector">
-                    <label for="q-count-select">Questions Mode:</label>
+                    <label for="q-count-select" id="lbl-q-mode">Questions Mode:</label>
                     <select id="q-count-select" onchange="changeQuestionCount(this.value)">
                         <option value="10" selected>10 Questions</option>
                         <option value="30">30 Questions</option>
@@ -48,40 +59,51 @@
                         <option value="100">100 Questions (Mega Mode)</option>
                     </select>
                 </div>
-                <button class="reset-btn" onclick="resetCurrentQuiz()">🔄 Restart Test</button>
+                <button class="reset-btn" id="btn-restart" onclick="resetCurrentQuiz()">🔄 Restart Test</button>
             </div>
 
-            <!-- Stats Bar -->
-            <div class="stats-bar">
+            <!-- Stats Bar (For Quiz Mode) -->
+            <div class="stats-bar" id="quiz-stats-bar">
                 <div class="stat-card">
-                    <span class="stat-label">Active Test</span>
+                    <span class="stat-label" id="lbl-active-test">Active Test</span>
                     <span class="stat-value" id="quiz-title">Week 1: Morphology & Language</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-label">Score</span>
+                    <span class="stat-label" id="lbl-score">Score</span>
                     <span class="stat-value highlight" id="score-counter">0 / 10</span>
                 </div>
                 <div class="stat-card">
-                    <span class="stat-label">Accuracy</span>
+                    <span class="stat-label" id="lbl-accuracy">Accuracy</span>
                     <span class="stat-value" id="accuracy-counter">100%</span>
                 </div>
             </div>
 
-            <!-- Progress Bar -->
-            <div class="progress-container">
+            <!-- Progress Bar (For Quiz Mode) -->
+            <div class="progress-container" id="quiz-progress-container">
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
 
-            <!-- Questions Container -->
+            <!-- Quiz Questions Container -->
             <div class="quiz-container" id="quiz-container">
                 <!-- Dynamically populated by JS -->
+            </div>
+
+            <!-- Master Study Guide Reader Container (For Main Mode) -->
+            <div class="reader-container" id="reader-container" style="display: none;">
+                <div class="reader-controls">
+                    <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">📘 Week 1 Master Guide</button>
+                    <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">📙 Week 2 Master Guide</button>
+                </div>
+                <div class="reader-content card-glass" id="reader-text-area">
+                    <!-- Master Guide Markdown / HTML dynamically rendered -->
+                </div>
             </div>
 
         </div>
     </main>
 
     <footer class="app-footer">
-        <p>Astana IT University • Cultural Studies Exam & Test Trainer • Summer Trimester 2026</p>
+        <p>Astana IT University • Cultural Studies Test & Master Guide Portal • Summer Trimester 2026</p>
     </footer>
 
     <script src="js/app.js"></script>
