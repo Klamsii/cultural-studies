@@ -24,23 +24,8 @@
                 </div>
             </div>
 
-            <div class="header-actions">
-                <!-- Instant Segmented Language Switcher -->
-                <div class="lang-segmented-control">
-                    <button class="lang-segment active" id="lang-ru" onclick="switchLanguage('ru')">
-                        <span class="flag-icon">RU</span>
-                    </button>
-                    <button class="lang-segment" id="lang-en" onclick="switchLanguage('en')">
-                        <span class="flag-icon">EN</span>
-                    </button>
-                </div>
-
-                <!-- AI Quick Answer Trigger Button -->
-                <button class="ai-trigger-btn" onclick="toggleAiDrawer()">
-                    <span class="ai-sparkle">🤖</span>
-                    <span id="txt-ai-btn">AI Exam Assistant</span>
-                </button>
-
+            <!-- Header Middle: Week Selector & View Mode -->
+            <div class="header-center">
                 <!-- Scalable 10-Week Selector Dropdown -->
                 <div class="custom-select-wrapper">
                     <span class="select-icon">📅</span>
@@ -69,6 +54,21 @@
                     </button>
                 </div>
             </div>
+
+            <!-- Header Right: AI Assistant & Language Switcher -->
+            <div class="header-right">
+                <!-- AI Quick Answer Trigger Button -->
+                <button class="ai-trigger-btn" onclick="toggleAiDrawer()">
+                    <span class="ai-sparkle">🤖</span>
+                    <span id="txt-ai-btn">AI Exam Assistant</span>
+                </button>
+
+                <!-- Instant Segmented Language Switcher -->
+                <div class="lang-segmented-control">
+                    <button class="lang-segment active" id="lang-ru" onclick="switchLanguage('ru')">RU</button>
+                    <button class="lang-segment" id="lang-en" onclick="switchLanguage('en')">EN</button>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -79,7 +79,7 @@
                 <span class="ai-icon">🤖</span>
                 <div>
                     <h3>AI Oral Exam Helper</h3>
-                    <p id="ai-subtitle">Мгновенный готовый ответ для зачитывания преподавателю</p>
+                    <p id="ai-subtitle">Ответ строго по материалам лекций AITU</p>
                 </div>
             </div>
             <button class="ai-close-btn" onclick="toggleAiDrawer()">✕</button>
@@ -87,15 +87,15 @@
         
         <div class="ai-drawer-body">
             <div class="ai-input-group">
-                <textarea id="ai-prompt-input" rows="2" placeholder="Задайте вопрос учителя (напр. 'В чем отличие Folkways и Mores?')..."></textarea>
+                <textarea id="ai-prompt-input" rows="2" placeholder="Задайте вопрос учителя (напр. 'В чем суть Cultura Animi Цицерона?')..."></textarea>
                 <button class="ai-submit-btn" id="ai-submit-btn" onclick="askAiAssistant()">
-                    <span>⚡ Получить ответ</span>
+                    <span>⚡ Получить ответ из лекций</span>
                 </button>
             </div>
 
             <!-- Output Box -->
             <div class="ai-output-box" id="ai-output-box" style="display: none;">
-                <div class="ai-status" id="ai-status-indicator">✨ Готовый ответ для устной речи:</div>
+                <div class="ai-status" id="ai-status-indicator">✨ Готовый устный ответ по нашим материалам:</div>
                 <div class="ai-response-text" id="ai-response-text"></div>
                 <button class="ai-copy-btn" onclick="copyAiResponse()">📋 Скопировать текст</button>
             </div>
