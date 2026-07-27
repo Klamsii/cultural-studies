@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CULTURAL STUDIES PORTAL - 10-WEEK SCALABLE ENGINE (RU / EN)
+   CULTURAL STUDIES PREMIUM PORTAL ENGINE (10-WEEK SCALABLE & BILINGUAL)
    ========================================================================== */
 
 let currentLang = 'ru'; // 'ru' or 'en'
@@ -14,14 +14,14 @@ const uiTranslations = {
     ru: {
         logoSub: "10-Недельный Портал",
         lblSelectWeek: "Неделя курса:",
-        tabQuiz: "⚡ Текстовый Тренажер",
-        tabMain: "📖 Мастер-Учебник (MAIN)",
+        tabQuiz: "Quiz Trainer",
+        tabMain: "Master Textbook",
         modeLbl: "Режим вопросов:",
         opt10: "10 Вопросов",
         opt30: "30 Вопросов",
         opt50: "50 Вопросов",
         opt100: "100 Вопросов (Мега Режим)",
-        btnRestart: "🔄 Сбросить Тест",
+        btnRestart: "Сбросить Тест",
         lblActiveTest: "Активный Тест",
         lblScore: "Счет",
         lblAccuracy: "Точность",
@@ -35,14 +35,14 @@ const uiTranslations = {
     en: {
         logoSub: "10-Week Portal",
         lblSelectWeek: "Course Week:",
-        tabQuiz: "⚡ Quiz Trainer",
-        tabMain: "📖 Master Textbook (MAIN)",
+        tabQuiz: "Quiz Trainer",
+        tabMain: "Master Textbook",
         modeLbl: "Questions Mode:",
         opt10: "10 Questions",
         opt30: "30 Questions",
         opt50: "50 Questions",
         opt100: "100 Questions (Mega Mode)",
-        btnRestart: "🔄 Restart Test",
+        btnRestart: "Restart Test",
         lblActiveTest: "Active Test",
         lblScore: "Score",
         lblAccuracy: "Accuracy",
@@ -190,11 +190,10 @@ function switchLanguage(lang) {
 
     // Update UI text strings instantly
     const t = uiTranslations[lang];
-    document.getElementById('lbl-select-week').innerText = t.lblSelectWeek;
     document.getElementById('txt-tab-quiz').innerText = t.tabQuiz;
     document.getElementById('txt-tab-main').innerText = t.tabMain;
     document.getElementById('lbl-q-mode').innerText = t.modeLbl;
-    document.getElementById('btn-restart').innerText = t.btnRestart;
+    document.getElementById('btn-restart').innerHTML = `<span class="btn-icon">🔄</span> ${t.btnRestart}`;
     document.getElementById('lbl-active-test').innerText = t.lblActiveTest;
     document.getElementById('lbl-score').innerText = t.lblScore;
     document.getElementById('lbl-accuracy').innerText = t.lblAccuracy;

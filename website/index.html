@@ -3,56 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cultural Studies — 10-Week Exam, Quiz & Master Textbook Portal</title>
+    <title>Cultural Studies — Premium 10-Week Exam & Quiz Portal</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Premium Glass Header Navigation -->
     <header class="app-header">
         <div class="header-container">
-            <div class="logo">
-                <span class="badge">AITU</span>
-                <h1 id="app-logo-title">Cultural Studies <span>Portal</span></h1>
+            <!-- Brand Logo -->
+            <div class="logo-group">
+                <div class="logo-badge">AITU</div>
+                <div class="logo-text">
+                    <span class="brand-title">Cultural Studies</span>
+                    <span class="brand-sub" id="app-logo-title">10-Week Portal</span>
+                </div>
             </div>
 
-            <!-- Instant Language Toggle (No Reload) -->
-            <div class="lang-toggle-container">
-                <button class="lang-btn active" id="lang-ru" onclick="switchLanguage('ru')">🇷🇺 RU</button>
-                <button class="lang-btn" id="lang-en" onclick="switchLanguage('en')">🇬🇧 EN</button>
-            </div>
+            <div class="header-actions">
+                <!-- Instant Segmented Language Switcher -->
+                <div class="lang-segmented-control">
+                    <button class="lang-segment active" id="lang-ru" onclick="switchLanguage('ru')">
+                        <span class="flag-icon">RU</span>
+                    </button>
+                    <button class="lang-segment" id="lang-en" onclick="switchLanguage('en')">
+                        <span class="flag-icon">EN</span>
+                    </button>
+                </div>
 
-            <!-- Scalable 10-Week Navigation Hub -->
-            <div class="week-nav-hub">
-                <label for="week-select-dropdown" class="hub-label" id="lbl-select-week">Select Week:</label>
-                <select id="week-select-dropdown" class="hub-select" onchange="switchWeek(this.value)">
-                    <option value="1" selected>⚡ Week 1: Morphology & Language</option>
-                    <option value="2">🎯 Week 2: Semiotics & Anatomy</option>
-                    <option value="3" disabled>🔒 Week 3 (Upcoming)</option>
-                    <option value="4" disabled>🔒 Week 4 (Upcoming)</option>
-                    <option value="5" disabled>🔒 Week 5 (Upcoming)</option>
-                    <option value="6" disabled>🔒 Week 6 (Upcoming)</option>
-                    <option value="7" disabled>🔒 Week 7 (Upcoming)</option>
-                    <option value="8" disabled>🔒 Week 8 (Upcoming)</option>
-                    <option value="9" disabled>🔒 Week 9 (Upcoming)</option>
-                    <option value="10" disabled>🔒 Week 10 (Upcoming)</option>
-                    <option value="all">🔥 Full Course Mega-Test (All Weeks)</option>
-                </select>
-            </div>
+                <!-- Scalable 10-Week Selector Dropdown -->
+                <div class="custom-select-wrapper">
+                    <span class="select-icon">📅</span>
+                    <select id="week-select-dropdown" class="custom-select" onchange="switchWeek(this.value)">
+                        <option value="1" selected>Week 1: Morphology & Language</option>
+                        <option value="2">Week 2: Semiotics & Anatomy</option>
+                        <option value="3" disabled>🔒 Week 3 (Upcoming)</option>
+                        <option value="4" disabled>🔒 Week 4 (Upcoming)</option>
+                        <option value="5" disabled>🔒 Week 5 (Upcoming)</option>
+                        <option value="6" disabled>🔒 Week 6 (Upcoming)</option>
+                        <option value="7" disabled>🔒 Week 7 (Upcoming)</option>
+                        <option value="8" disabled>🔒 Week 8 (Upcoming)</option>
+                        <option value="9" disabled>🔒 Week 9 (Upcoming)</option>
+                        <option value="10" disabled>🔒 Week 10 (Upcoming)</option>
+                        <option value="all">🔥 Full Course Mega-Test</option>
+                    </select>
+                </div>
 
-            <!-- Main Mode Navigation Tabs -->
-            <nav class="nav-tabs">
-                <button class="tab-btn active" id="tab-quiz" onclick="switchMainView('quiz')">
-                    <span class="tab-icon">⚡</span> <span id="txt-tab-quiz">Quiz Trainer</span>
-                </button>
-                <button class="tab-btn highlight-tab" id="tab-main" onclick="switchMainView('main')">
-                    <span class="tab-icon">📖</span> <span id="txt-tab-main">Master Textbook (MAIN)</span>
-                </button>
-            </nav>
+                <!-- Main View Toggle -->
+                <div class="view-toggle-group">
+                    <button class="view-btn active" id="tab-quiz" onclick="switchMainView('quiz')">
+                        <span class="btn-icon">⚡</span> <span id="txt-tab-quiz">Quiz Trainer</span>
+                    </button>
+                    <button class="view-btn highlight-btn" id="tab-main" onclick="switchMainView('main')">
+                        <span class="btn-icon">📖</span> <span id="txt-tab-main">Master Textbook</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -63,15 +73,20 @@
             <!-- Controls & Selector Bar (For Quiz Mode) -->
             <div class="control-panel" id="quiz-control-panel">
                 <div class="mode-selector">
+                    <span class="panel-icon">🎯</span>
                     <label for="q-count-select" id="lbl-q-mode">Questions Mode:</label>
-                    <select id="q-count-select" onchange="changeQuestionCount(this.value)">
-                        <option value="10" selected>10 Questions</option>
-                        <option value="30">30 Questions</option>
-                        <option value="50">50 Questions</option>
-                        <option value="100">100 Questions (Mega Mode)</option>
-                    </select>
+                    <div class="custom-select-wrapper small-select">
+                        <select id="q-count-select" class="custom-select" onchange="changeQuestionCount(this.value)">
+                            <option value="10" selected>10 Questions</option>
+                            <option value="30">30 Questions</option>
+                            <option value="50">50 Questions</option>
+                            <option value="100">100 Questions (Mega Mode)</option>
+                        </select>
+                    </div>
                 </div>
-                <button class="reset-btn" id="btn-restart" onclick="resetCurrentQuiz()">🔄 Restart Test</button>
+                <button class="reset-btn" id="btn-restart" onclick="resetCurrentQuiz()">
+                    <span class="btn-icon">🔄</span> Restart Test
+                </button>
             </div>
 
             <!-- Stats Bar (For Quiz Mode) -->
@@ -82,11 +97,11 @@
                 </div>
                 <div class="stat-card">
                     <span class="stat-label" id="lbl-score">Score</span>
-                    <span class="stat-value highlight" id="score-counter">0 / 10</span>
+                    <span class="stat-value highlight-cyan" id="score-counter">0 / 10</span>
                 </div>
                 <div class="stat-card">
                     <span class="stat-label" id="lbl-accuracy">Accuracy</span>
-                    <span class="stat-value" id="accuracy-counter">100%</span>
+                    <span class="stat-value highlight-purple" id="accuracy-counter">100%</span>
                 </div>
             </div>
 
@@ -103,11 +118,15 @@
             <!-- Master Study Guide Reader Container (For Main Mode) -->
             <div class="reader-container" id="reader-container" style="display: none;">
                 <div class="reader-controls">
-                    <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">📘 Week 1 Master Guide</button>
-                    <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">📙 Week 2 Master Guide</button>
+                    <button class="reader-btn active" id="btn-read-week1" onclick="loadReaderWeek(1)">
+                        <span>📘 Week 1 Master Guide</span>
+                    </button>
+                    <button class="reader-btn" id="btn-read-week2" onclick="loadReaderWeek(2)">
+                        <span>📙 Week 2 Master Guide</span>
+                    </button>
                 </div>
                 <div class="reader-content card-glass" id="reader-text-area">
-                    <!-- Master Guide Markdown / HTML dynamically rendered -->
+                    <!-- Master Guide Content dynamically rendered -->
                 </div>
             </div>
 
@@ -115,7 +134,7 @@
     </main>
 
     <footer class="app-footer">
-        <p>Astana IT University • Cultural Studies 10-Week Scalable Portal • Summer Trimester 2026</p>
+        <p>Astana IT University • Cultural Studies Premium Portal • Summer Trimester 2026</p>
     </footer>
 
     <script src="js/app.js"></script>
