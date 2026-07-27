@@ -23,12 +23,12 @@
    - 1.6 Comparative Matrix of Four Codes by Medium, Transmission & Cognitive Style
 2. [Seminar 2.2: Anatomy of Spiritual Culture: 6 Forms of Religious Beliefs](#2-seminar-22-anatomy-of-spiritual-culture-6-forms-of-religious-beliefs)
    - 2.1 Sir Edward Burnett Tylor's Evolutionary Theory (*Primitive Culture*, 1871)
-   - 2.2 Animism (*Animism*)
-   - 2.3 Fetishism (*Fetishism*)
-   - 2.4 Totemism (*Totemism*): Sacred Wolf *Böri* in Kazakh Tradition
-   - 2.5 Pantheism (*Pantheism*): Tengriism Roots (*Tengri* & *Jer-Su*)
-   - 2.6 Deism (*Deism*): Enlightenment Clockmaker God Concept
-   - 2.7 Monotheism (*Monotheism*): Abrahamic Religions
+   - 2.2 Animism
+   - 2.3 Fetishism
+   - 2.4 Totemism: Sacred Wolf *Böri* in Kazakh Tradition
+   - 2.5 Pantheism: Tengriism Roots (*Tengri* & *Jer-Su*)
+   - 2.6 Deism: Enlightenment Clockmaker God Concept
+   - 2.7 Monotheism: Abrahamic Religions
 3. [Seminar 2.3: Formation of Morality & Moral Paradoxes](#3-seminar-23-formation-of-morality--moral-paradoxes)
    - 3.1 The Golden Rule of Morality (*Өзіңе тілемейтінді өзгеге тілеме*)
    - 3.2 Paradox 1: Absoluteness vs. Contextual Relativism
@@ -40,7 +40,7 @@
    - 4.3 Charles Sanders Peirce: Sign Triad (Representamen, Object, Interpretant). Logical Connection of the Index (*index* — smoke/fire)
    - 4.4 Charles Morris: Three Fundamental Dimensions of Semiotics (Syntactics, Semantics, Pragmatics)
    - 4.5 Lev Vygotsky: Cultural-Historical Psychology & Sign Mediation
-   - 4.6 Julia Kristeva's Semanalysis (*Semanalysis*): Critique of Meaning and Sign Practices (Alternative to Saussure)
+   - 4.6 Julia Kristeva's Semanalysis: Critique of Meaning and Sign Practices (Alternative to Saussure)
 5. [Lecture 2.5: Roland Barthes: Mythologies & Second-Order Systems (AITU 2.2)](#5-lecture-25-roland-barthes-mythologies--second-order-systems)
    - 5.1 Analysis of Roland Barthes's *Mythologies* (1957)
    - 5.2 Denotation (First-Order System) vs. Connotation (Second-Order System / Myth)
@@ -113,7 +113,7 @@ The digital cultural code defines contemporary civilization, triggered by the In
 **In-Depth Prose Analysis:**
 The mediums of digital culture are online platforms, hypertext, software code, mobile applications, social networks, and virtual spaces.
 
-The transmission mechanism differs fundamentally from television broadcasting: the boundary between creator and audience collapses. Every individual becomes a **prosumer (*prosumer*)** — simultaneously consuming and producing content. Information spreads non-linearly through hyperlinks, retweets, recommendation algorithms, and viral networking.
+The transmission mechanism differs fundamentally from television broadcasting: the boundary between creator and audience collapses. Every individual becomes a **prosumer** — simultaneously consuming and producing content. Information spreads non-linearly through hyperlinks, retweets, recommendation algorithms, and viral networking.
 
 The cognitive style of the digital code is clip-based, non-linear, mosaic-like, and multitasking. Users switch rapidly between browser tabs, consume short visual-textual blocks (memes), query search algorithms, and interact continuously with interfaces.
 
@@ -126,22 +126,22 @@ The cognitive style of the digital code is clip-based, non-linear, mosaic-like, 
 ### 2.1 Sir Edward Burnett Tylor's Evolutionary Theory
 Tylor established the evolutionary framework in religious studies, demonstrating that human belief systems evolved from early attempts to explain nature into complex philosophical doctrines. He identified animism as the primordial form of religion.
 
-### 2.2 Animism (*Animism*)
+### 2.2 Animism
 Animism is the ancient belief that all nature is living and indwelt by spirits. Early humans believed mountains, rivers, trees, winds, and animals possessed souls. Tylor explained animism as an attempt to comprehend dreams, hallucinations, and death.
 
-### 2.3 Fetishism (*Fetishism*)
+### 2.3 Fetishism
 Fetishism involves religious worship of inanimate physical objects (*fetishes*) believed to hold supernatural, magical, or protective powers. Unlike animism which worships a spirit, fetishism venerates the physical item itself — a sacred stone, charm, or Kazakh **Tumar** amulet.
 
-### 2.4 Totemism (*Totemism*)
+### 2.4 Totemism
 Totemism is a belief system based on sacred blood kinship between a clan and an animal or plant species (*totem*). In Kazakh nomadic tradition, venerating the Sacred Steppe Wolf (**Böri**) exemplifies totemism as a symbol of ancestral warrior spirit.
 
-### 2.5 Pantheism (*Pantheism*)
+### 2.5 Pantheism
 Pantheism identifies God directly with nature. God is not separate from the world, but immanent within it. Ancient Tengriism reflects pantheism, viewing the Great Blue Sky (**Tengri**) and Earth-Water (**Jer-Su**) as a living divine cosmos.
 
-### 2.6 Deism (*Deism*)
+### 2.6 Deism
 Deism emerged during the Enlightenment (Voltaire, Newton). Deists compared God to a Supreme Clockmaker who created the physical laws of the universe but does not intervene through miracles.
 
-### 2.7 Monotheism (*Monotheism*)
+### 2.7 Monotheism
 Monotheism represents faith in One Transcendent God (Islam, Christianity, Judaism).
 
 ---
@@ -179,7 +179,7 @@ Peirce formulated the sign triad: **Icon** (visual resemblance), **Index** (caus
 3. **Pragmatics:** Relations of signs to human interpreters.
 
 ### 4.4 Lev Vygotsky & Julia Kristeva
-Vygotsky demonstrated sign mediation in psychological development. Julia Kristeva introduced **semanalysis (*semanalysis*)** as a critique of meaning production alternative to Saussurean semiology.
+Vygotsky demonstrated sign mediation in psychological development. Julia Kristeva introduced **semanalysis** as a critique of meaning production alternative to Saussurean semiology.
 
 ---
 
@@ -194,7 +194,7 @@ In *Mythologies* (1957), Roland Barthes demonstrated that myth is a second-order
 
 ## 6. Lecture 2.6: Conventional Signs, Symbols, Lotman's Semiosphere & Suleimenov
 
-Conventional signs (STOP traffic signs) depend purely on social agreement. Yuri Lotman formulated the **Semiosphere (*Semiosphere*)** — the unified semiotic continuum of culture. Olzhas Suleimenov published *AZ i IA* (1975), providing a Turkic semiotic analysis of "The Song of Igor's Campaign".
+Conventional signs (STOP traffic signs) depend purely on social agreement. Yuri Lotman formulated the **Semiosphere** — the unified semiotic continuum of culture. Olzhas Suleimenov published *AZ i IA* (1975), providing a Turkic semiotic analysis of "The Song of Igor's Campaign".
 
 ---
 

@@ -36,7 +36,7 @@
    - 4.3 Normative Systems: Detailed Breakdown of Folkways vs. Mores
    - 4.4 Cultural Symbols
    - 4.5 Language as the Carrier of Cumulative Transmission
-   - 4.6 Sociological Distinction: Society (*Society*) vs. Culture (*Culture*)
+   - 4.6 Sociological Distinction: Society vs. Culture
 5. [Seminar 1.4: Material vs. Non-Material Culture & Cultural Lag Theory](#5-seminar-14-material-vs-non-material-culture--cultural-lag-theory)
    - 5.1 Material Culture
    - 5.2 Non-Material Culture
@@ -143,7 +143,7 @@ The World Conference on Cultural Policies held by UNESCO (Mexico City, 1982) ado
 > "Culture should be regarded as the set of distinctive spiritual, material, intellectual and emotional features of society or a social group... it encompasses, in addition to art and literature, lifestyles, ways of living together, value systems, traditions and beliefs."
 
 ### 2.7 Culturology as an Independent Science: Leslie Alvin White (1949)
-Prominent American anthropologist **Leslie Alvin White (1900–1975)** in *The Science of Culture* (1949) coined and established the discipline of **Culturology (*Culturology*)** as an independent science:
+Prominent American anthropologist **Leslie Alvin White (1900–1975)** in *The Science of Culture* (1949) coined and established the discipline of **Culturology** as an independent science:
 - White demonstrated that culture constitutes a distinct, extra-somatic (non-biological) realm of phenomena operating according to its own structural laws.
 - According to White, the fundamental driver of culture is humanity's unique **symboling capacity (*symboling*)** — the ability to assign arbitrary, abstract meanings to physical objects, sounds, and signs.
 
@@ -187,7 +187,7 @@ Prominent American anthropologist **Leslie Alvin White (1900–1975)** in *The S
 Culturology utilizes diverse analytical tools. The specialized scientific method that studies the **origin (genesis), historical roots, and evolutionary development of cultural forms** is known as the **Genetic Method (*Genetic Method*)**.
 
 ### 3.4 Sociobiological Meme Theory: Richard Dawkins (1976)
-The theoretical framework explaining cultural transmission through **memes (*memes*)** — replicating units of cultural information passed between minds — introduced by evolutionary biologist Richard Dawkins in *The Selfish Gene* (1976), is categorized as a **Sociobiological Theory of Culture (*Sociobiological Theory*)**.
+The theoretical framework explaining cultural transmission through **memes** — replicating units of cultural information passed between minds — introduced by evolutionary biologist Richard Dawkins in *The Selfish Gene* (1976), is categorized as a **Sociobiological Theory of Culture (*Sociobiological Theory*)**.
 
 ---
 
@@ -212,13 +212,13 @@ The theoretical framework explaining cultural transmission through **memes (*mem
 └─────────┘      └─────────┘       └─────────┘      └─────────┘      └─────────┘
 ```
 
-1. **Values (*Values*):** Abstract, socially approved standards of what is desirable, good, right, and beautiful in a society.
-2. **Beliefs (*Beliefs*):** Specific statements or convictions that people hold to be true (religious doctrines, scientific consensus).
-3. **Norms (*Norms*):** Established rules of conduct. Categorized into:
-   - **Folkways (*Folkways*):** Informal customs and social etiquette. Violations lead to mild social awkwardness (e.g., wearing shoes inside a home).
-   - **Mores (*Mores*):** Strict moral rules and taboos essential to group survival. Violations incur severe legal punishment or social ostracism (e.g., theft, treason, murder).
-4. **Symbols (*Symbols*):** Objects, marks, gestures, or words carrying recognized shared meanings (national flags, coats of arms).
-5. **Language (*Language*):** The primary symbolic system enabling **cumulative cultural transmission** (storing and passing accumulated knowledge across generations).
+1. **Values:** Abstract, socially approved standards of what is desirable, good, right, and beautiful in a society.
+2. **Beliefs:** Specific statements or convictions that people hold to be true (religious doctrines, scientific consensus).
+3. **Norms:** Established rules of conduct. Categorized into:
+   - **Folkways:** Informal customs and social etiquette. Violations lead to mild social awkwardness (e.g., wearing shoes inside a home).
+   - **Mores:** Strict moral rules and taboos essential to group survival. Violations incur severe legal punishment or social ostracism (e.g., theft, treason, murder).
+4. **Symbols:** Objects, marks, gestures, or words carrying recognized shared meanings (national flags, coats of arms).
+5. **Language:** The primary symbolic system enabling **cumulative cultural transmission** (storing and passing accumulated knowledge across generations).
 
 ### 4.2 Sociological Distinction: Society vs. Culture
 
@@ -247,7 +247,7 @@ The traditional Kazakh yurt provides a prime illustration of how a physical mate
 
 - **Material Structure:** Wooden expandable walls (*Kerege*), roof poles (*Uyk*), central crown ring (*Shanyraq*), pressed felt coverings (*Syrmak*, *Tekemet*).
 - **Non-Material Symbolic Meanings:**
-  - **Shanyraq (*Shanyraq*):** Serves as a sacred symbol of family lineage, cosmic order, home hearth, and peaceful unity in the State Emblem of Kazakhstan.
+  - **Shanyraq:** Serves as a sacred symbol of family lineage, cosmic order, home hearth, and peaceful unity in the State Emblem of Kazakhstan.
   - **Spatial Orientation:** The yurt door traditionally faces East to greet the rising sun, reflecting ancient Eurasian solar beliefs.
 
 ```
@@ -294,7 +294,7 @@ The traditional Kazakh yurt provides a prime illustration of how a physical mate
 1. **Dominant Culture (*Dominant Culture*):** The mainstream cultural patterns supported by the societal majority and dominant state institutions.
 2. **High Culture (*High Culture*) vs. Popular Culture (*Popular Culture*):** Elite artistic forms requiring specialized training (opera, classical ballet) vs. mass commercial entertainment (pop music, blockbusters, memes).
 3. **Subculture (*Subculture*, Chris Barker 2012):** A cultural group within mainstream society maintaining distinct jargon, fashion, and values without rejecting dominant society (gamers, K-pop fandoms).
-4. **Counterculture (*Counterculture*):** A group actively opposing and seeking to undermine dominant cultural foundations (1960s Hippies, Punk movement).
+4. **Counterculture:** A group actively opposing and seeking to undermine dominant cultural foundations (1960s Hippies, Punk movement).
 5. **Evaluative Attitudes:** Ethnocentrism (judging other cultures by one's own standards) vs. Cultural Relativism (evaluating a culture objectively within its own historical context).
 
 ---

@@ -9,7 +9,7 @@
 
 ## 🎯 Essence in 60 Seconds
 - **Participatory Culture:** Nina Uzelac (2008) characterized the digital environment as a participatory culture, where the boundary between author and passive audience collapses.
-- **Prosumers:** Digital network users act simultaneously as producers (*producers*) and consumers (*consumers*) of media content.
+- **Prosumers:** Digital network users act simultaneously as producers and consumers of media content.
 - **Digital Subcultures (Chris Barker, 2012):** Barker demonstrated (p. 582) that modern youth subcultures cannot exist purely offline; social networks and digital platforms serve as their core operating infrastructure.
 
 ---
@@ -19,7 +19,7 @@
 | Term (EN) | Term (RU) | Definition | Author / Date |
 |---|---|---|---|
 | **Participatory Culture** | Культура участия | Digital environment where users actively produce and edit media. | Nina Uzelac, 2008 |
-| **Prosumer** | Просьюмер | User acting as both producer (*producer*) and consumer (*consumer*). | Alvin Toffler / Nina Uzelac |
+| **Prosumer** | Просьюмер | User acting as both producer and consumer. | Alvin Toffler / Nina Uzelac |
 | **Digital Subculture** | Цифровая субкультура | Youth group utilizing digital networks as their primary platform. | Chris Barker, 2012 |
 
 ---

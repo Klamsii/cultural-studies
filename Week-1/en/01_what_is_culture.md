@@ -49,7 +49,7 @@ Voltaire, Montesquieu, and Rousseau viewed culture as social progress overcoming
 
 ### 4. Tylor's Anthropological Definition (1871)
 **Sir Edward Burnett Tylor formulated the first academic definition of culture as an extra-somatic complex whole.**
-In *Primitive Culture* (1871), Tylor wrote: *"Culture, or Civilization, is that complex whole which includes knowledge, belief, art, law, morals, custom, and any other capabilities and habits acquired by man as a member of society."* Culture is non-biological and learned through enculturation (*enculturation*).
+In *Primitive Culture* (1871), Tylor wrote: *"Culture, or Civilization, is that complex whole which includes knowledge, belief, art, law, morals, custom, and any other capabilities and habits acquired by man as a member of society."* Culture is non-biological and learned through enculturation.
 **Example:** A child acquires language and etiquette from parents and society, rather than inheriting them genetically.
 
 ### 5. Kroeber & Kluckhohn (1952) and White's Culturology (1949)
