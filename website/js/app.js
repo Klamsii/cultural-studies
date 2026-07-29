@@ -1312,7 +1312,7 @@ function switchLanguage(lang) {
 function switchWeek(weekVal) {
     selectedWeek = weekVal;
     if (mainViewMode === 'main') {
-        if (weekVal === '1' || weekVal === '2') {
+        if (weekVal === '1' || weekVal === '2' || weekVal === '3') {
             loadReaderWeek(parseInt(weekVal, 10));
         }
     } else {
@@ -1487,9 +1487,12 @@ function resetCurrentQuiz() {
 function loadReaderWeek(w) {
     activeReaderWeek = w;
     activeChapterIdx = 0;
-    document.getElementById('btn-read-week1').classList.remove('active');
-    document.getElementById('btn-read-week2').classList.remove('active');
-    document.getElementById(`btn-read-week${w}`).classList.add('active');
+    ['btn-read-week1', 'btn-read-week2', 'btn-read-week3'].forEach(id => {
+        const btn = document.getElementById(id);
+        if (btn) btn.classList.remove('active');
+    });
+    const target = document.getElementById(`btn-read-week${w}`);
+    if (target) target.classList.add('active');
     
     populateChapterDropdown();
     renderReader();
@@ -1500,7 +1503,7 @@ function populateChapterDropdown() {
     if (!dropdown) return;
     dropdown.innerHTML = '';
 
-    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const weekKey = 'week' + activeReaderWeek;
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
     const t = uiTranslations[currentLang];
 
@@ -1525,7 +1528,7 @@ function jumpToChapter(idx) {
 }
 
 function prevChapter() {
-    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const weekKey = 'week' + activeReaderWeek;
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
     
     if (activeChapterIdx === -1 || activeChapterIdx <= 0) {
@@ -1540,7 +1543,7 @@ function prevChapter() {
 }
 
 function nextChapter() {
-    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const weekKey = 'week' + activeReaderWeek;
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
     
     if (activeChapterIdx === -1) {
@@ -1565,7 +1568,7 @@ function renderReader() {
     const textArea = document.getElementById('reader-text-area');
     if (!textArea) return;
 
-    const weekKey = activeReaderWeek === 1 ? 'week1' : 'week2';
+    const weekKey = 'week' + activeReaderWeek;
     const chapters = fullBookDatabase[currentLang][weekKey] || fullBookDatabase['ru'][weekKey];
 
     if (activeChapterIdx === -1) {
