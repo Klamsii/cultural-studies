@@ -1074,6 +1074,277 @@ const uiTranslations = {
 
 // Bilingual Question Master Bank
 const masterQuestionBank = [
+{
+        "id": 21,
+        "cat": "3",
+        "q": {
+            "ru": "Кто является авторами книги «Digital Nomad» (1997)?",
+            "en": "Who authored the landmark 1997 book «Digital Nomad»?"
+        },
+        "opts": {
+            "ru": [
+                "Цугио Макимото и Дэвид Маннерс",
+                "Маршалл Маклюэн и Крис Баркер",
+                "Эдвард Тайлор и Франц Боас",
+                "Ролан Барт и Юрий Лотман"
+            ],
+            "en": [
+                "Tsugio Makimoto and David Manners",
+                "Marshall McLuhan and Chris Barker",
+                "Edward B. Tylor and Franz Boas",
+                "Roland Barthes and Yuri Lotman"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Книгу «Digital Nomad» в 1997 году написали японский ученый Цугио Макимото (Tsugio Makimoto) и британский журналист Дэвид Маннерс (David Manners).",
+            "en": "Tsugio Makimoto and David Manners published 'Digital Nomad' in 1997, predicting remote work severed from fixed offices."
+        }
+    },
+    {
+        "id": 22,
+        "cat": "3",
+        "q": {
+            "ru": "Какой орнамент в казахской культуре является главным символом жизненной силы и процветания?",
+            "en": "Which Kazakh ornament motif serves as the primary symbol of vitality, prosperity, and pastoral life?"
+        },
+        "opts": {
+            "ru": [
+                "Қошқар мүйіз (Бараньи рога)",
+                "Құс тұмсық (Птичий клюв)",
+                "Айшық гүл (Лунная кувшинка)",
+                "Тумар"
+            ],
+            "en": [
+                "Koshkar muyiz (Ram's horns)",
+                "Qus tumsyq (Bird's beak)",
+                "Aishyq gul (Moonflower)",
+                "Tumar"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Қошқар мүйіз («Бараньи рога») — фундаментальный элемент казахского орнамента, символизирующий жизненную силу, изобилие скота и благополучие.",
+            "en": "Koshkar muyiz ('Ram's horns') is the foundational motif symbolizing pastoral wealth, vitality, and prosperity."
+        }
+    },
+    {
+        "id": 23,
+        "cat": "3",
+        "q": {
+            "ru": "Кто и в каком году впервые расшифровал древнетюркскую руническую письменность?",
+            "en": "Who deciphered the Old Turkic Orkhon-Yenisei runic script in 1893?"
+        },
+        "opts": {
+            "ru": [
+                "Вильгельм Томсен в 1893 году",
+                "Василий Радлов в 1895 году",
+                "Лев Гумилев в 1960 году",
+                "Олжас Сулейменов в 1975 году"
+            ],
+            "en": [
+                "Vilhelm Thomsen in 1893",
+                "Vasily Radlov in 1895",
+                "Lev Gumilyov in 1960",
+                "Olzhas Suleimenov in 1975"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Датский лингвист Вильгельм Томсен в 1893 году расшифровал тюркский рунический алфавит, прочитав первым слово «Тенгри» (Небо).",
+            "en": "Danish linguist Vilhelm Thomsen deciphered the Turkic runic script in 1893, reading the word Tengri first."
+        }
+    },
+    {
+        "id": 24,
+        "cat": "3",
+        "q": {
+            "ru": "Что оседлые земледельцы покупали у номадов для удобрения своих полей (Уйзбаева и др., стр. 10)?",
+            "en": "What commodity did sedentary farmers buy from nomads to fertilize their fields (Uyzbayeva et al., p. 10)?"
+        },
+        "opts": {
+            "ru": [
+                "Скотный навоз (Cattle dung)",
+                "Шелковые ткани",
+                "Железную руду",
+                "Золотые монеты"
+            ],
+            "en": [
+                "Cattle dung",
+                "Silk fabric",
+                "Iron ore",
+                "Golden coins"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "В учебнике Уйзбаевой А.А., Байсариной Ж.С. и Альжановой Г.М. (стр. 10) указано, что земледельцы покупали у номадов скотный навоз для удобрения полей в рамках прямого безналичного бартера.",
+            "en": "According to Uyzbayeva, Baisarina, and Alzhanova (p. 10), farmers bought cattle dung from nomads for field fertilizer."
+        }
+    },
+    {
+        "id": 25,
+        "cat": "3",
+        "q": {
+            "ru": "Какую невербальную весть передавало родителям кольцо с узором Құс тұмсық («Птичий клюв»)?",
+            "en": "What non-verbal message did a bride's Qus tumsyq ('Bird's beak') ring convey to her parents?"
+        },
+        "opts": {
+            "ru": [
+                "Девушка свободна, счастлива и уважаема в новой семье",
+                "Девушка просит помощи и денег",
+                "В новой семье родился первенец",
+                "Девушка хочет вернуться домой"
+            ],
+            "en": [
+                "She was free, respected, and happy in her new family",
+                "She requested financial assistance",
+                "She announced the birth of a child",
+                "She wished to return home"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Кольцо с узором Құс тұмсық («Птичий клюв»), присланное невестой родителям, означало, что к ней относятся с уважением и она свободна и счастлива в семье мужа.",
+            "en": "A Qus tumsyq ring sent home by a bride non-verbally communicated that she was happy and respected in her new home."
+        }
+    },
+    {
+        "id": 26,
+        "cat": "3",
+        "q": {
+            "ru": "Какая древнейшая культура на территории Казахстана впервые в истории одомашнила лошадь?",
+            "en": "Which ancient culture in Kazakhstan domesticated the horse first around the 4th millennium BCE?"
+        },
+        "opts": {
+            "ru": [
+                "Ботайская культура (IV тыс. до н.э.)",
+                "Андроновская культура",
+                "Сакская культура",
+                "Карлукская культура"
+            ],
+            "en": [
+                "Botai Culture (4th mill. BCE)",
+                "Andronovo Culture",
+                "Saka Culture",
+                "Karluk Culture"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Ботайская культура на севере Казахстана (3700–3100 гг. до н.э.) впервые в истории одомашнила лошадь.",
+            "en": "The Botai Culture in Northern Kazakhstan domesticated the horse around 3700–3100 BCE."
+        }
+    },
+    {
+        "id": 27,
+        "cat": "3",
+        "q": {
+            "ru": "Какое главное экологическое преимущество цифрового номадизма приводится в статистике 2026 года?",
+            "en": "What environmental benefit of digital nomadism is highlighted in 2026 statistics?"
+        },
+        "opts": {
+            "ru": [
+                "Снижение личных выбросов CO2 на 72%",
+                "Полная отмена использования пластика",
+                "Уменьшение потребления воды на 50%",
+                "Отказ от использования электричества"
+            ],
+            "en": [
+                "72% reduction in CO2 emissions",
+                "100% elimination of plastic waste",
+                "50% decrease in water usage",
+                "Zero electricity consumption"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "По данным Nomad Statistics (2026), удаленная работа и мобильность цифровых кочевников снижают их личный углеродный след (CO2) на 72%.",
+            "en": "Nomad statistics indicate digital nomadism reduces individual carbon footprints by 72%."
+        }
+    },
+    {
+        "id": 28,
+        "cat": "3",
+        "q": {
+            "ru": "Какой деревянный элемент юрты является сакральным купольным кругом, изображенным на Государственном Гербе РК?",
+            "en": "Which wooden component of the yurt represents the sacred crown ring depicted on the State Emblem of Kazakhstan?"
+        },
+        "opts": {
+            "ru": [
+                "Шаңырақ",
+                "Кереге",
+                "Уық",
+                "Сырмақ"
+            ],
+            "en": [
+                "Shanyraq",
+                "Kerege",
+                "Uyk",
+                "Syrmak"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Шаңырақ — вершинный круг юрты, символизирующий семейный очаг, единство рода и модель космоса; изображен на Государственном Гербе РК.",
+            "en": "The Shanyraq is the central wooden crown ring serving as light well, chimney, and sacred family emblem depicted on the State Emblem."
+        }
+    },
+    {
+        "id": 29,
+        "cat": "3",
+        "q": {
+            "ru": "Как называется 12-летний традиционный животный календарный цикл в кочевой культуре казахов?",
+            "en": "What is the name of the traditional 12-year animal calendar cycle in Kazakh nomadic culture?"
+        },
+        "opts": {
+            "ru": [
+                "Мүшел жас",
+                "Жеті ата",
+                "Тұсау кесу",
+                "Беташар"
+            ],
+            "en": [
+                "Mushel zhas",
+                "Zheti ata",
+                "Tusau kesu",
+                "Betashar"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Мүшел жас — 12-летний животный календарный цикл, измеряющий возраст и жизненные этапы человека в кочевой традиции.",
+            "en": "Mushel zhas is the 12-year animal calendar cycle measuring human age and natural time."
+        }
+    },
+    {
+        "id": 30,
+        "cat": "3",
+        "q": {
+            "ru": "Какие языковые семьи сформировались в результате Великого переселения народов номадов (Уйзбаева и др., стр. 10)?",
+            "en": "What major language groups were formed as a result of nomadic migrations (Uyzbayeva et al., p. 10)?"
+        },
+        "opts": {
+            "ru": [
+                "Индоевропейская, Семитская, Тюркская и Монгольская",
+                "Сино-тибетская, Дравидийская и Банту",
+                "Уральская, Картвельская и Баскская",
+                "Австронезийская, Майя и Афразиатская"
+            ],
+            "en": [
+                "Indo-European, Semitic, Turkic, and Mongolian",
+                "Sino-Tibetan, Dravidian, and Bantu",
+                "Uralic, Kartvelian, and Basque",
+                "Austronesian, Mayan, and Afroasiatic"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "На стр. 10 учебника Уйзбаевой и др. указано: в результате Великого переселения народов сформировались Индоевропейская, Семитская, Тюркская и Монгольская языковые группы.",
+            "en": "Page 10 states nomadic migrations formed the Indo-European, Semitic, Turkic, and Mongolian language groups."
+        }
+    },
+
     {
         cat: '1',
         q: {
