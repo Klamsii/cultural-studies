@@ -742,6 +742,182 @@ const fullBookDatabase = {
                     Ответ: В 1893 году датский лингвист Вильгельм Томсен нашёл ключ к древнетюркскому письму, молчавшему более тысячи лет, и первыми прочитал слова <em>Тенгри</em> и <em>Тюрк</em>. Василий Радлов затем перевёл весь массив орхоно-енисейских текстов. Значение в том, что стелы Кюль-тегина и Бильге-кагана превратились из загадочных камней в первые письменные исторические источники, созданные самими тюрками.</p>
                 `
             }
+        ],
+        week4: [
+            {
+                title: "Глава 1: Медресе и система образования (Семинар 4)",
+                content: `
+                    <h1>📚 Неделя 4. Глава 1: Медресе и система образования</h1>
+                    <p><strong>Главная идея темы:</strong> мусульманское образование было для казахской степи не внешним импортом, а собственным институтом, встроенным в широкую региональную сеть от Петропавловска до Бухары.</p>
+
+                    <h2>1.1 Мактаб как фундамент системы</h2>
+                    <p><strong>Медресе не могли бы существовать без сети начальных школ, поэтому рост числа мактабов в степи — ключевое условие всей системы.</strong> Мактабы росли числом на казахской степи и стали фундаментом, из которого студенты переходили в медресе (Frank 2003, 284). Содержание обучения было прикладным: мактабы давали «базовую грамотность через чтение Корана» (Pickett 2020, 110), а также «исламский катехизис, некоторые арабские молитвы и, возможно, определённую степень грамотности на тюрки́» (Frank 2003, 283). Обратите внимание на логику: чтению учили по сакральному тексту, то есть грамотность и религиозное воспитание были одним процессом, а не двумя предметами.</p>
+                    <p><strong>Пример:</strong> ребёнок учился читать не по светскому букварю, а по Корану — навык чтения и религиозная социализация приобретались одновременно.</p>
+
+                    <h2>1.2 Медресе Казахстана и образовательная миграция</h2>
+                    <p><strong>Степь входила в единое образовательное пространство, где студент свободно перемещался между городами ради лучшего преподавателя.</strong> Казахские студенты получали мусульманское образование в казахстанских медресе <strong>Семипалатинска</strong> и <strong>Петропавловска</strong>. Многие продолжали учёбу в медресе «Троицка, Астрахани и оренбургского Сеитовского Посада, а также в меньших общинах вдоль степного пограничья» (Frank 2003, 284).</p>
+                    <p><strong>Пример:</strong> маршрут «Петропавловск → Троицк → Бухара» был для степного шакирда обычной академической траекторией, сопоставимой с сегодняшним обменом между университетами.</p>
+
+                    <h2>1.3 Бухара как интеллектуальная столица</h2>
+                    <p><strong>Бухара выполняла для мусульманской Евразии ту же роль, что сегодня выполняют мировые университетские центры.</strong> Учёба в Бухаре была «самым престижным и главным направлением для обучения в Центральной Азии... привлекавшим студентов со всего региона, включая не только Россию, но также Индию, казахскую степь и Афганистан» (Frank 2012, 96). Престиж Бухары был капиталом сам по себе: возвращение оттуда повышало статус выпускника независимо от конкретных полученных знаний.</p>
+
+                    <h2>1.4 Влияние на развитие региона</h2>
+                    <p><strong>Система мактаб–медресе создала слой образованных людей, связывавший степь с общемусульманским миром.</strong> Во-первых, сложился общий язык учёности — арабский для религиозных наук и тюрки́ для местной книжности, что обеспечило обмен текстами на огромной территории. Во-вторых, выпускники становились не только имамами, но и учителями, судьями, писцами и переписчиками книг, то есть несли грамотность в повседневность. В-третьих, образовательная миграция работала как канал культурного обмена: студент привозил домой книги, практики и связи.</p>
+
+                    <h2>1.5 Что нужно помнить для экзамена</h2>
+                    <p>Начальная школа — <strong>мактаб</strong>, высшая — <strong>медресе</strong>. Мактаб давал <strong>базовую грамотность через чтение Корана</strong> (Pickett 2020, 110). Казахстанские медресе — <strong>Семипалатинск и Петропавловск</strong>. Самый престижный центр — <strong>Бухара</strong> (Frank 2012, 96), куда ехали из <strong>России, Индии, казахской степи и Афганистана</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 2: Наука и Исламский Ренессанс (Семинар 4)",
+                content: `
+                    <h1>🔬 Неделя 4. Глава 2: Развитие науки в средневековой Центральной Азии</h1>
+                    <h2>2.1 Почему период называют Исламским Ренессансом</h2>
+                    <p><strong>Название подчёркивает, что «возрождение» античного знания произошло в мусульманском мире раньше, чем в Европе, и не было простым копированием.</strong> С VIII по XIII век в городах от Багдада до Самарканда систематически переводили, комментировали и развивали греческие, персидские и индийские тексты. Слово «ренессанс» оправдано двумя признаками: возвращением к античному наследию (прежде всего Аристотелю и Платону) и резким расширением круга наук. Принципиально важно, что это не был пересказ: учёные ставили собственные наблюдения и опыты, исправляли античных авторов и создавали новые дисциплины.</p>
+                    <p><strong>Пример:</strong> алгебра как самостоятельная наука не существовала у греков — она сформировалась именно в этот период и дала само слово «алгебра».</p>
+
+                    <h2>2.2 Главные области научного развития</h2>
+                    <p><strong>Наука эпохи была энциклопедичной: один учёный обычно работал сразу в нескольких областях.</strong> Медицина — систематизация болезней, диагностика, фармакология, устройство больниц. Философия — согласование античной логики с догматикой, теория познания, политическая философия. Математика — алгебра, тригонометрия, десятичная позиционная система. Астрономия — обсерватории, звёздные каталоги, точное измерение времени и координат. Смежно: география, оптика, химия, теория музыки.</p>
+                    <p><strong>Пример:</strong> такой охват объясняется практикой — точное время намаза и направление на Мекку требовали астрономии и тригонометрии, то есть религиозная практика прямо стимулировала точные науки.</p>
+
+                    <h2>2.3 Аль-Фараби (ок. 872–950) — Второй Учитель</h2>
+                    <p><strong>Аль-Фараби — прямая связь Казахстана с мировой философской традицией.</strong> Он родился в городе <strong>Фараб (Отрар)</strong> на территории современного Казахстана, работал в Багдаде и Дамаске. За глубину комментариев к Аристотелю его назвали <strong>Вторым Учителем</strong> — вторым после самого Аристотеля. Он писал о логике, теории познания, музыке и политике; в трактате о добродетельном городе описал идеальное общество, управляемое разумом и знанием.</p>
+
+                    <h2>2.4 Ибн Сина — Авиценна (980–1037)</h2>
+                    <p><strong>Ибн Сина превратил медицину из набора рецептов в упорядоченную науку.</strong> Он родился близ <strong>Бухары</strong> и работал как врач и философ. Его <strong>«Канон врачебной науки»</strong> свёл воедино греческую, персидскую, индийскую и арабскую медицину и столетиями служил основным учебником, в том числе в европейских университетах.</p>
+                    <p><strong>Пример:</strong> «Канон» описывал заразность некоторых болезней и роль карантина задолго до появления представлений о микробах.</p>
+
+                    <h2>2.5 Ибн Рушд — Аверроэс (1126–1198)</h2>
+                    <p><strong>Ибн Рушд — тот, через кого Европа заново прочитала Аристотеля.</strong> Важная оговорка: он работал в Кордове в мусульманской Испании, то есть на западной окраине исламского мира, а не в Центральной Азии. Его прозвали <strong>Комментатором</strong>: разборы Аристотеля переводились на латынь и легли в основу европейской схоластики. Он отстаивал совместимость философии и религии.</p>
+
+                    <h2>2.6 Что нужно помнить для экзамена</h2>
+                    <p>Исламский Ренессанс — <strong>VIII–XIII вв.</strong> <strong>Аль-Фараби</strong> — Второй Учитель, родился в <strong>Фарабе (Отраре)</strong>. <strong>Ибн Сина</strong> — «Канон врачебной науки», родился близ <strong>Бухары</strong>. <strong>Ибн Рушд</strong> — Комментатор, работал в <strong>Кордове</strong>. Области: <strong>медицина, философия, математика, астрономия</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 3: Архитектурное наследие тюрков (Семинар 4)",
+                content: `
+                    <h1>🕌 Неделя 4. Глава 3: Архитектурное наследие тюркской культуры</h1>
+                    <h2>3.1 Характерные черты</h2>
+                    <p><strong>Тюркское зодчество узнаётся по сочетанию купола, портала и орнамента, заменяющего изображение.</strong> Ключевые признаки: полусферический купол на восьмигранном барабане; монументальный входной портал (<strong>пештак</strong>), который выше самого здания; <strong>мукарнас</strong> — сотовый свод, решающий переход от квадратного основания к круглому куполу; облицовка глазурованной плиткой синего и бирюзового цвета; орнамент — геометрический (гирих), растительный (ислими) и каллиграфический. Изображений людей и животных в культовой архитектуре нет.</p>
+                    <p><strong>Пример:</strong> синяя и бирюзовая плитка — не просто украшение, это цвет Неба, преемственность с тенгрианской цветовой семиотикой Недели 3.</p>
+
+                    <h2>3.2 Связь кочевой культуры и архитектуры</h2>
+                    <p><strong>Монументальная архитектура тюрков выросла из формы юрты, а не вопреки ей.</strong> Купол повторяет форму купольного свода юрты, а круглый или центрический план — её круглое основание. Принцип единого зала под куполом воспроизводит организацию юрты, где вся жизнь идёт в одном помещении вокруг очага. Вертикаль, направленная в небо, сохраняет тенгрианскую ось «земля — Небо».</p>
+                    <p><strong>Пример:</strong> мавзолей-кумбез в степи читается как «юрта, построенная навсегда»: та же форма, но в камне, потому что умерший больше не кочует.</p>
+
+                    <h2>3.3 Влияние ислама</h2>
+                    <p><strong>Ислам не отменил тюркскую форму, а дал ей новую функцию и новый декоративный язык.</strong> Появляются мечеть, медресе, минарет, караван-сарай, мавзолей святого. Появляется обязательная ориентация: <strong>михраб</strong> указывает киблу, направление на Мекку, поэтому здание получает жёсткую пространственную привязку, которой у юрты не было. Запрет на изображение живых существ направил всё художественное усилие в орнамент и каллиграфию.</p>
+
+                    <h2>3.4 Мавзолей Ходжи Ахмеда Ясави и другие памятники</h2>
+                    <p><strong>Мавзолей Ясави — центральный памятник, соединяющий все темы недели.</strong> Он построен в <strong>Туркестане</strong> по приказу <strong>Тимура</strong> в конце <strong>XIV века</strong> над могилой суфийского шейха и входит в список Всемирного наследия <strong>ЮНЕСКО</strong>. Здание объединяет крупнейший в Центральной Азии кирпичный купол, монументальный портал, более тридцати помещений и центральный зал <strong>казандык</strong> с бронзовым котлом <strong>Тайказан</strong>. Памятник остался недостроенным: работы прекратились со смертью Тимура, и открытая кладка портала видна до сих пор. Другие объекты: мавзолей <strong>Айша-Биби</strong> (XI–XII вв., близ Тараза) с резным терракотовым декором, мавзолей <strong>Карахана</strong> в Таразе, городище <strong>Отрар</strong>.</p>
+
+                    <h2>3.5 Сохранение и переосмысление сегодня</h2>
+                    <p><strong>Наследие работает в двух режимах: как охраняемый памятник и как живой язык новой архитектуры.</strong> Охрана — статус ЮНЕСКО, научная реставрация, музеефикация, археологические заповедники. Переосмысление — <strong>Хан Шатыр</strong> повторяет силуэт шатра, мечеть <strong>Хазрет Султан</strong> воспроизводит схему «купол плюс портал плюс минареты», <strong>Байтерек</strong> опирается на образ Мирового древа. Практические меры: реставрация вместо новодела, цифровое 3D-документирование, туристические маршруты, обучение традиционным ремёслам.</p>
+
+                    <h2>3.6 Что нужно помнить для экзамена</h2>
+                    <p>Мавзолей <strong>Ходжи Ахмеда Ясави</strong> — Туркестан, <strong>Тимур</strong>, конец <strong>XIV в.</strong>, <strong>ЮНЕСКО</strong>. <strong>Тайказан</strong> стоит в зале <strong>казандык</strong>. <strong>Айша-Биби</strong> — XI–XII вв. близ Тараза. <strong>Михраб</strong> указывает <strong>киблу</strong>. Купол и круглый план восходят к форме <strong>юрты</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 4: Суфизм — Анатолия и Центральная Азия (Семинар 4)",
+                content: `
+                    <h1>🕊️ Неделя 4. Глава 4: Суфизм — прошлое и настоящее</h1>
+                    <h2>4.1 Что такое суфизм</h2>
+                    <p><strong>Суфизм отвечает не на вопрос «как правильно исполнять предписания», а на вопрос «как лично пережить близость к Богу».</strong> По определению семинара, суфизм — это мистическое исламское учение и практика, в которых мусульмане стремятся обрести истину божественной любви и знания через <strong>прямой личный опыт Бога</strong>. Он не противостоит нормативному исламу, а надстраивается над ним как внутреннее, опытное измерение: богослов изучает закон, суфий стремится к переживанию.</p>
+                    <p><strong>Пример:</strong> одну и ту же молитву богослов рассматривает как обязанность, а суфий — как средство приблизиться к возлюбленному Богу; действие одно, смысл разный.</p>
+
+                    <h2>4.2 Тарика и три ордена</h2>
+                    <p><strong>Тарика — это одновременно «путь» как метод и «орден» как сообщество, идущее этим путём.</strong> <strong>Ясавия</strong> — тюркский орден, восходящий к <strong>Ходже Ахмеду Ясави</strong> (ок. 1093–1166) из Туркестана; его сборник <strong>«Диван-и Хикмет»</strong> написан на понятном тюркам языке, а не по-арабски, — именно это сделало ислам доступным степи. <strong>Накшбандийя</strong> — орден <strong>Бахауддина Накшбанда</strong> (1318–1389) из <strong>Бухары</strong>, известный тихим внутренним зикром и принципом «сердце с Богом, руки в труде». <strong>Кадирийя</strong> — один из старейших орденов, восходящий к <strong>Абдул-Кадиру Гилани</strong> (1077–1166) из Багдада.</p>
+
+                    <h2>4.3 Основные практики</h2>
+                    <p><strong>Суфийская практика построена на повторении, наставничестве и поэтапном продвижении.</strong> <strong>Зикр</strong> — многократное поминание имён Бога, вслух или про себя. <strong>Сама</strong> — «слушание»: духовная музыка и поэзия как средство сосредоточения; в Анатолии эта практика приняла форму кружения дервишей. <strong>Мюршид и мюрид</strong> — обучение возможно только у живого наставника, знание передаётся личной цепью преемственности (<em>силсила</em>). Плюс аскеза, последовательные стоянки пути и жизнь общины в <strong>ханаке</strong>.</p>
+
+                    <h2>4.4 «Беседа птиц» Фарида ад-Дина Аттара</h2>
+                    <p><strong>Поэма Аттара (XII век) — самая наглядная модель суфийского пути.</strong> Птицы решают найти своего царя, легендарную птицу <strong>Симург</strong>, и отправляются в путь под водительством удода. Дорога проходит через <strong>семь долин</strong> — испытаний, среди которых поиск, любовь, познание, отрешённость. Большинство птиц гибнет или отступает, и до цели добираются лишь <strong>тридцать</strong>. Там они обнаруживают, что «си мург» по-персидски и означает «тридцать птиц»: искомый Симург — это они сами.</p>
+                    <p><strong>Темы и символика:</strong> духовное странствие как труд, любовь как движущая сила, растворение «я» как условие встречи с Богом, единство искателя и искомого. Птицы — души, путь — тарика, удод — наставник, долины — стоянки пути, Симург — Божественное, обнаруживаемое внутри, а не снаружи.</p>
+
+                    <h2>4.5 Анатолия: вторая ветвь тюркского суфизма</h2>
+                    <p><strong>Из Центральной Азии суфизм пришёл в Анатолию и дал там собственную великую традицию.</strong> С <strong>Джалаладдином Руми</strong> (1207–1273), жившим в <strong>Конье</strong>, связан орден <strong>Мевлеви</strong> — «кружащиеся дервиши», у которых сама превратилась в целостный ритуал вращения. Его «Маснави» стала одним из главных текстов мировой мистической литературы. Здесь же действовали <strong>Хаджи Бекташ Вели</strong> и поэт <strong>Юнус Эмре</strong>, писавший на простом тюркском. Логика та же, что у Ясави: обращение к народу на его собственном языке.</p>
+
+                    <h2>4.6 Влияние на духовную культуру Казахстана</h2>
+                    <p><strong>Суфизм стал каналом, по которому ислам вошёл в степь, не разрушив её прежнюю картину мира, а срастаясь с ней.</strong> Во-первых, язык и форма: Ясави проповедовал стихами на тюркском, что было близко устной традиции жырау. Во-вторых, совместимость с культом предков: почитание <strong>аруахов</strong> естественно соединилось с почитанием святых-<strong>аулие</strong>, а могилы шейхов стали местами паломничества. В-третьих, преемственность сакральной географии: святые места, источники и горы сохранили статус священных, сменив только объяснение.</p>
+                    <p><strong>Пример:</strong> паломничество к мавзолею Ходжи Ахмеда Ясави — точка, где сходятся суфийская святость, культ предков и монументальная архитектура главы 3.</p>
+
+                    <h2>4.7 Что нужно помнить для экзамена</h2>
+                    <p>Суфизм — <strong>прямой личный опыт Бога</strong>. <strong>Тарика</strong> — путь и орден; три ордена: <strong>Накшбандийя, Ясавия, Кадирийя</strong>. «Беседа птиц» — <strong>Фарид ад-Дин Аттар</strong>, тридцать птиц и есть <strong>Симург</strong>. <strong>Ходжа Ахмед Ясави</strong> — «Диван-и Хикмет», Туркестан. <strong>Руми</strong> — Конья, орден <strong>Мевлеви</strong>. Главная практика — <strong>зикр</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 5: Официальный Тестовый Блок Недели 4 (10 Вопросов с ответами)",
+                content: `
+                    <h1>🔥 Неделя 4. Глава 5: Ключ и разбор 10 тестовых вопросов</h1>
+                    <p><strong>1. Как называется начальная школа в мусульманской системе образования?</strong><br>
+                    Ответ: <strong>мактаб</strong>. Она давала базовую грамотность через чтение Корана и была фундаментом, из которого студенты переходили в медресе.</p>
+
+                    <p><strong>2. Что именно давал мактаб ученику?</strong><br>
+                    Ответ: <strong>базовую грамотность через чтение Корана</strong> (Pickett 2020, 110), исламский катехизис, некоторые арабские молитвы и, возможно, грамотность на тюрки́ (Frank 2003, 283).</p>
+
+                    <p><strong>3. В каких городах Казахстана были медресе, где учились казахские студенты?</strong><br>
+                    Ответ: <strong>Семипалатинск и Петропавловск</strong>. Далее многие ехали в Троицк, Астрахань и оренбургский Сеитовский Посад.</p>
+
+                    <p><strong>4. Какой город был самым престижным центром учёбы в Центральной Азии?</strong><br>
+                    Ответ: <strong>Бухара</strong> (Frank 2012, 96). Она притягивала студентов из России, Индии, казахской степи и Афганистана.</p>
+
+                    <p><strong>5. Кого называют Вторым Учителем и почему?</strong><br>
+                    Ответ: <strong>Аль-Фараби</strong> — за глубину комментариев к Аристотелю, то есть «второй после Аристотеля». Он родился в Фарабе (Отраре) на территории современного Казахстана.</p>
+
+                    <p><strong>6. Кто автор «Канона врачебной науки»?</strong><br>
+                    Ответ: <strong>Ибн Сина (Авиценна)</strong>, родившийся близ Бухары. Его труд столетиями служил основным учебником врачей, в том числе в Европе.</p>
+
+                    <p><strong>7. Где и по чьему приказу построен мавзолей Ходжи Ахмеда Ясави?</strong><br>
+                    Ответ: в <strong>Туркестане</strong> по приказу <strong>Тимура</strong> в конце XIV века. Объект Всемирного наследия ЮНЕСКО; строительство осталось незавершённым после смерти Тимура.</p>
+
+                    <p><strong>8. Что такое михраб?</strong><br>
+                    Ответ: ниша в стене мечети, указывающая <strong>киблу</strong> — направление на Мекку. Не путайте с порталом-пештаком: портал снаружи, михраб внутри.</p>
+
+                    <p><strong>9. Что означает термин «тарика» и какие три ордена названы в программе?</strong><br>
+                    Ответ: <strong>«путь»</strong>, то есть суфийский орден и метод восхождения одновременно. Названы <strong>Накшбандийя, Ясавия и Кадирийя</strong>.</p>
+
+                    <p><strong>10. Кто написал «Беседу птиц» и в чём развязка поэмы?</strong><br>
+                    Ответ: <strong>Фарид ад-Дин Аттар</strong>. Тридцать долетевших птиц обнаруживают, что «си мург» означает «тридцать птиц»: искомый Симург — это они сами.</p>
+                `
+            },
+            {
+                title: "Глава 6: Устная Защита Перед Преподавателем (10 Экзаменационных Билетов)",
+                content: `
+                    <h1>💬 Неделя 4. Глава 6: 10 Развернутых Устных Билетов с ответами</h1>
+                    <p><strong>Билет 1: Опишите систему образования в средневековой Центральной Азии.</strong><br>
+                    Ответ: Система была двухступенчатой: начальная школа мактаб и высшая школа медресе. Мактабы росли числом на степи и стали фундаментом для поступления в медресе (Frank 2003, 284). Они давали базовую грамотность через чтение Корана, исламский катехизис, арабские молитвы и грамотность на тюрки́.</p>
+
+                    <p><strong>Билет 2: Какую роль играла Бухара?</strong><br>
+                    Ответ: Бухара была самым престижным и главным направлением для учёбы в Центральной Азии (Frank 2012, 96). Она притягивала студентов из России, Индии, казахской степи и Афганистана. Престиж Бухары был капиталом сам по себе: возвращение оттуда повышало статус выпускника в родной общине.</p>
+
+                    <p><strong>Билет 3: Почему период называют Исламским Ренессансом?</strong><br>
+                    Ответ: С VIII по XIII век мусульманский мир вернулся к античному наследию и резко расширил круг наук — на несколько столетий раньше европейского Возрождения. При этом это не было копированием: учёные ставили собственные опыты, исправляли античных авторов и создавали новые дисциплины, например алгебру.</p>
+
+                    <p><strong>Билет 4: В чём значение Аль-Фараби?</strong><br>
+                    Ответ: Аль-Фараби (ок. 872–950) родился в Фарабе (Отраре) на территории современного Казахстана и работал в Багдаде и Дамаске. За глубину комментариев к Аристотелю его назвали Вторым Учителем. Он писал о логике, познании, музыке и политике, а в трактате о добродетельном городе описал общество, управляемое разумом и знанием.</p>
+
+                    <p><strong>Билет 5: Каков вклад Ибн Сины?</strong><br>
+                    Ответ: Ибн Сина (980–1037), родившийся близ Бухары, превратил медицину в упорядоченную науку. Его «Канон врачебной науки» свёл воедино греческую, персидскую, индийскую и арабскую традиции и столетиями служил основным учебником, в том числе в европейских университетах. В «Книге исцеления» он изложил философскую систему.</p>
+
+                    <p><strong>Билет 6: Назовите характерные черты тюркской архитектуры.</strong><br>
+                    Ответ: Купол на восьмигранном барабане, монументальный входной портал пештак, сотовые своды мукарнас, облицовка синей и бирюзовой глазурованной плиткой. Вместо изображений живых существ — геометрический, растительный и каллиграфический орнамент. Формула проста: купол от юрты, портал от ислама, орнамент вместо изображения.</p>
+
+                    <p><strong>Билет 7: Как кочевая традиция связана с монументальной архитектурой?</strong><br>
+                    Ответ: Купол повторяет свод юрты, центрический план — её круглое основание, а единый зал под куполом воспроизводит организацию юрты вокруг очага. Мавзолей-кумбез в степи читается как «юрта, построенная навсегда»: та же форма в камне, потому что умерший больше не кочует.</p>
+
+                    <p><strong>Билет 8: Расскажите о мавзолее Ходжи Ахмеда Ясави.</strong><br>
+                    Ответ: Он построен в Туркестане по приказу Тимура в конце XIV века над могилой суфийского шейха и входит в наследие ЮНЕСКО. Здание имеет крупнейший в Центральной Азии кирпичный купол, монументальный портал и центральный зал казандык с бронзовым Тайказаном. Строительство прекратилось со смертью Тимура, поэтому открытая кладка портала видна до сих пор.</p>
+
+                    <p><strong>Билет 9: Дайте определение суфизма и назовите его практики.</strong><br>
+                    Ответ: Суфизм — мистическое исламское учение и практика, в которых мусульмане ищут истину божественной любви и знания через прямой личный опыт Бога. Главные практики: зикр — поминание имён Бога вслух или про себя; сама — духовная музыка и поэзия; обучение только у живого наставника в паре мюршид — мюрид через цепь силсила; аскеза и прохождение стоянок пути.</p>
+
+                    <p><strong>Билет 10: Как суфизм повлиял на духовную культуру Казахстана?</strong><br>
+                    Ответ: Он позволил исламу войти в степь без разрыва с прежней картиной мира. Ясави проповедовал стихами на тюркском языке, что было близко устной традиции жырау. Почитание предков-аруахов срослось с почитанием святых-аулие, а могилы шейхов стали местами паломничества. Прежние сакральные места сохранили статус священных, сменив лишь объяснение.</p>
+                `
+            }
         ]
     },
     en: {
@@ -1446,6 +1622,182 @@ const fullBookDatabase = {
 
                     <p><strong>Ticket 10: What is the significance of Thomsen's decipherment?</strong><br>
                     Answer: In 1893 the Danish linguist Vilhelm Thomsen found the key to the Old Turkic script, silent for more than a thousand years, and was the first to read the words <em>Tengri</em> and <em>Turk</em>. Vasily Radlov then translated the entire body of Orkhon-Yenisei texts. The significance is that the Kultegin and Bilge Khagan stelae turned from enigmatic stones into the first written historical sources created by the Turks themselves.</p>
+                `
+            }
+        ],
+        week4: [
+            {
+                title: "Chapter 1: Madrasah and the Education System (Seminar 4)",
+                content: `
+                    <h1>📚 Week 4. Chapter 1: Madrasah and the Education System</h1>
+                    <p><strong>Core idea of the topic:</strong> Muslim education was not an external import for the Kazakh steppe but its own institution, embedded in a wide regional network running from Petropavlovsk to Bukhara.</p>
+
+                    <h2>1.1 The Maktab as the Foundation of the System</h2>
+                    <p><strong>Madrasas could not have existed without a network of primary schools, so the growth of maktabs on the steppe is the key precondition of the whole system.</strong> The primary schools, maktabs, grew in number on the steppe and became the foundation for students attending higher education in madrasas (Frank 2003, 284). The content of instruction was practical: maktabs provided "basic literacy through Qur'anic recitation" (Pickett 2020, 110), as well as "Islamic catechism, some Arabic prayers, and possibly a degree of literacy in Turki" (Frank 2003, 283). Note the logic: reading was taught through a sacred text, so literacy and religious formation were one process, not two subjects.</p>
+                    <p><strong>Example:</strong> a child learned to read not from a secular primer but from the Qur'an — the skill of reading and religious socialisation were acquired simultaneously.</p>
+
+                    <h2>1.2 Madrasas of Kazakhstan and Educational Migration</h2>
+                    <p><strong>The steppe belonged to a single educational space in which a student moved freely between towns in search of a better teacher.</strong> Kazakh students received Muslim education in the Kazakhstani madrasas of <strong>Semipalatinsk</strong> and <strong>Petropavlovsk</strong>. Many continued in the madrasas of "Troitsk, Astrakhan, and Orenburg's Seitovskii Posad, as well as in smaller communities along the steppe frontier" (Frank 2003, 284).</p>
+                    <p><strong>Example:</strong> the route "Petropavlovsk → Troitsk → Bukhara" was an ordinary academic trajectory for a steppe student, comparable to today's exchange between universities.</p>
+
+                    <h2>1.3 Bukhara as the Intellectual Capital</h2>
+                    <p><strong>Bukhara played for Muslim Eurasia the role that global university centres play today.</strong> Studying in Bukhara was "the most prestigious and foremost destination for study in Central Asia ... attracted students from throughout the region, not only including Russia, but also India, the Qazaq steppe, and Afghanistan" (Frank 2012, 96). The prestige of Bukhara was itself a form of capital: returning from there raised a graduate's standing regardless of the specific knowledge acquired.</p>
+
+                    <h2>1.4 Impact on the Development of the Region</h2>
+                    <p><strong>The maktab–madrasah system created an educated stratum linking the steppe to the wider Muslim world.</strong> First, a shared language of learning took shape — Arabic for the religious sciences and Turki for local book culture — enabling the exchange of texts across an enormous territory. Second, graduates became not only imams but teachers, judges, scribes, and copyists, carrying literacy into everyday life. Third, educational migration worked as a channel of cultural exchange: a student brought home books, practices, and connections.</p>
+
+                    <h2>1.5 Guaranteed Exam Items</h2>
+                    <p>Primary school — <strong>maktab</strong>; higher school — <strong>madrasah</strong>. The maktab provided <strong>basic literacy through Qur'anic recitation</strong> (Pickett 2020, 110). Kazakhstani madrasas — <strong>Semipalatinsk and Petropavlovsk</strong>. The most prestigious centre — <strong>Bukhara</strong> (Frank 2012, 96), drawing students from <strong>Russia, India, the Qazaq steppe, and Afghanistan</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 2: Science and the Islamic Renaissance (Seminar 4)",
+                content: `
+                    <h1>🔬 Week 4. Chapter 2: Development of Science in Medieval Central Asia</h1>
+                    <h2>2.1 Why the Period Is Called the Islamic Renaissance</h2>
+                    <p><strong>The name stresses that the "rebirth" of classical knowledge happened in the Muslim world earlier than in Europe, and was not simple copying.</strong> From the 8th to the 13th century, cities from Baghdad to Samarkand systematically translated, annotated, and developed Greek, Persian, and Indian texts. The word "renaissance" is warranted by two features: a return to the classical heritage (above all Aristotle and Plato) and a sharp expansion of the range of sciences. Crucially, this was no retelling: scholars conducted their own observations and experiments, corrected the ancient authors, and created new disciplines.</p>
+                    <p><strong>Example:</strong> algebra did not exist as an independent science among the Greeks — it took shape precisely in this period and gave us the very word "algebra."</p>
+
+                    <h2>2.2 Major Fields of Scientific Development</h2>
+                    <p><strong>The science of the era was encyclopaedic: a single scholar normally worked across several fields at once.</strong> Medicine — systematisation of diseases, diagnostics, pharmacology, hospital organisation. Philosophy — reconciling classical logic with doctrine, epistemology, political philosophy. Mathematics — algebra, trigonometry, the decimal positional system. Astronomy — observatories, star catalogues, precise measurement of time and coordinates. Adjacent: geography, optics, chemistry, music theory.</p>
+                    <p><strong>Example:</strong> this breadth is explained by practice — the exact time of prayer and the direction of Mecca required astronomy and trigonometry, so religious practice directly stimulated the exact sciences.</p>
+
+                    <h2>2.3 Al-Farabi (c. 872–950) — The Second Teacher</h2>
+                    <p><strong>Al-Farabi is Kazakhstan's direct link to the world philosophical tradition.</strong> He was born in the city of <strong>Farab (Otrar)</strong> on the territory of present-day Kazakhstan and worked in Baghdad and Damascus. For the depth of his commentaries on Aristotle he was called <strong>the Second Teacher</strong> — second only to Aristotle himself. He wrote on logic, epistemology, music, and politics; in his treatise on the Virtuous City he described an ideal society governed by reason and knowledge.</p>
+
+                    <h2>2.4 Ibn Sina — Avicenna (980–1037)</h2>
+                    <p><strong>Ibn Sina turned medicine from a collection of recipes into an ordered science.</strong> Born near <strong>Bukhara</strong>, he worked as both physician and philosopher. His <strong>Canon of Medicine</strong> consolidated Greek, Persian, Indian, and Arabic medicine and served for centuries as the principal textbook, including in European universities.</p>
+                    <p><strong>Example:</strong> the <em>Canon</em> described the contagiousness of certain diseases and the role of quarantine long before any conception of microbes existed.</p>
+
+                    <h2>2.5 Ibn Rushd — Averroes (1126–1198)</h2>
+                    <p><strong>Ibn Rushd is the figure through whom Europe re-read Aristotle.</strong> An important qualification: he worked in Cordoba in Muslim Spain, at the western edge of the Islamic world rather than in Central Asia. He was nicknamed <strong>the Commentator</strong>: his analyses of Aristotle were translated into Latin and became the foundation of European scholasticism. He argued for the compatibility of philosophy and religion.</p>
+
+                    <h2>2.6 Guaranteed Exam Items</h2>
+                    <p>The Islamic Renaissance spans the <strong>8th–13th centuries</strong>. <strong>Al-Farabi</strong> — the Second Teacher, born in <strong>Farab (Otrar)</strong>. <strong>Ibn Sina</strong> — <em>The Canon of Medicine</em>, born near <strong>Bukhara</strong>. <strong>Ibn Rushd</strong> — the Commentator, worked in <strong>Cordoba</strong>. Fields: <strong>medicine, philosophy, mathematics, astronomy</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 3: Turkic Architectural Heritage (Seminar 4)",
+                content: `
+                    <h1>🕌 Week 4. Chapter 3: The Architectural Heritage of Turkic Culture</h1>
+                    <h2>3.1 Characteristic Features</h2>
+                    <p><strong>Turkic building is recognisable by the combination of dome, portal, and ornament standing in for imagery.</strong> Its key markers: a hemispherical dome on an octagonal drum; a monumental entrance portal (<strong>peshtaq</strong>) rising above the building itself; <strong>muqarnas</strong>, honeycomb vaulting that resolves the transition from square base to round dome; facing in blue and turquoise glazed tile; and ornament — geometric (girih), vegetal (islimi), and calligraphic. Images of people and animals are absent from religious architecture.</p>
+                    <p><strong>Example:</strong> blue and turquoise tile is not mere decoration — it is the colour of the Sky, a continuity with the Tengriist colour semiotics of Week 3.</p>
+
+                    <h2>3.2 The Link Between Nomadic Culture and Architecture</h2>
+                    <p><strong>Turkic monumental architecture grew out of the form of the yurt rather than against it.</strong> The dome repeats the form of the yurt's domed roof, and the circular or centralised plan repeats its round base. The principle of a single hall beneath a dome reproduces the organisation of the yurt, where all life proceeds in one room around the hearth. The vertical directed skyward preserves the Tengriist "earth to Sky" axis.</p>
+                    <p><strong>Example:</strong> a kumbez mausoleum on the steppe reads as "a yurt built to last forever": the same form in stone, because the deceased no longer migrates.</p>
+
+                    <h2>3.3 The Influence of Islam</h2>
+                    <p><strong>Islam did not abolish Turkic form; it gave that form a new function and a new decorative language.</strong> The mosque, madrasah, minaret, caravanserai, and saint's mausoleum appear. A compulsory orientation appears too: the <strong>mihrab</strong> indicates the qibla, the direction of Mecca, so the building acquires a rigid spatial anchoring the yurt never had. The prohibition on depicting living beings channelled all artistic effort into ornament and calligraphy.</p>
+
+                    <h2>3.4 The Mausoleum of Khoja Ahmed Yasawi and Other Monuments</h2>
+                    <p><strong>The Yasawi mausoleum is the central monument tying together every theme of the week.</strong> It was built in <strong>Turkestan</strong> by order of <strong>Timur</strong> in the late <strong>14th century</strong> over the grave of a Sufi sheikh and is inscribed on the <strong>UNESCO</strong> World Heritage List. The building combines the largest brick dome in Central Asia, a monumental portal, more than thirty rooms, and the central hall, the <strong>kazandyk</strong>, with its bronze cauldron, the <strong>Tai Kazan</strong>. The monument remained unfinished: work stopped with Timur's death, and the open brickwork of the portal is visible to this day. Other sites: the <strong>Aisha Bibi</strong> mausoleum (11th–12th c., near Taraz) with its carved terracotta decoration, the <strong>Karakhan</strong> mausoleum in Taraz, and the settlement of <strong>Otrar</strong>.</p>
+
+                    <h2>3.5 Preservation and Reinterpretation Today</h2>
+                    <p><strong>The heritage operates in two modes: as a protected monument and as a living language of new architecture.</strong> Protection means UNESCO status, scientific restoration, museumification, and archaeological reserves. Reinterpretation means <strong>Khan Shatyr</strong> repeating the silhouette of a tent, the <strong>Hazrat Sultan</strong> mosque reproducing the scheme of dome plus portal plus minarets, and <strong>Baiterek</strong> drawing on the image of the World Tree. Practical measures: restoration rather than replica-building, digital 3D documentation, tourist routes, and training in traditional crafts.</p>
+
+                    <h2>3.6 Guaranteed Exam Items</h2>
+                    <p>The Mausoleum of <strong>Khoja Ahmed Yasawi</strong> — Turkestan, <strong>Timur</strong>, late <strong>14th century</strong>, <strong>UNESCO</strong>. The <strong>Tai Kazan</strong> stands in the hall called the <strong>kazandyk</strong>. <strong>Aisha Bibi</strong> — 11th–12th century, near Taraz. The <strong>mihrab</strong> indicates the <strong>qibla</strong>. The dome and circular plan derive from the form of the <strong>yurt</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 4: Sufism — Anatolia and Central Asia (Seminar 4)",
+                content: `
+                    <h1>🕊️ Week 4. Chapter 4: Sufism — Past and Present</h1>
+                    <h2>4.1 What Sufism Is</h2>
+                    <p><strong>Sufism answers not the question "how should the prescriptions be performed correctly" but "how can closeness to God be personally experienced."</strong> By the seminar's definition, Sufism is mystical Islamic belief and practice in which Muslims seek to find the truth of divine love and knowledge through <strong>direct personal experience of God</strong>. It does not oppose normative Islam but is built upon it as an inner, experiential dimension: the theologian studies the law, the Sufi strives for experience.</p>
+                    <p><strong>Example:</strong> the theologian regards a given prayer as an obligation, the Sufi as a means of drawing nearer to a beloved God; the act is the same, the meaning differs.</p>
+
+                    <h2>4.2 Tariqa and the Three Orders</h2>
+                    <p><strong>A tariqa is at once "the path" as a method and "the order" as the community walking it.</strong> The <strong>Yasawi order</strong> traces to <strong>Khoja Ahmed Yasawi</strong> (c. 1093–1166) of Turkestan; his collection <strong>Divan-i Hikmet</strong> was written in a language the Turks understood rather than in Arabic — and it was precisely this that made Islam accessible to the steppe. The <strong>Naqshbandi order</strong> traces to <strong>Baha-ud-Din Naqshband</strong> (1318–1389) of <strong>Bukhara</strong> and is known for silent inward dhikr and the principle "heart with God, hands at work." The <strong>Qadiriyya order</strong>, one of the oldest, traces to <strong>Abdul Qadir Gilani</strong> (1077–1166) of Baghdad.</p>
+
+                    <h2>4.3 Main Practices</h2>
+                    <p><strong>Sufi practice is built on repetition, mentorship, and staged progression.</strong> <strong>Dhikr</strong> is the repeated invocation of God's names, aloud or inwardly. <strong>Sama</strong> is "listening": spiritual music and poetry as a means of concentration; in Anatolia this practice took the form of the whirling of dervishes. <strong>Murshid and murid</strong>: instruction is possible only under a living master, and knowledge passes through a personal chain of transmission (<em>silsila</em>). Add asceticism, the successive stations of the path, and communal life in the <strong>khanaqa</strong>.</p>
+
+                    <h2>4.4 Attar's The Conference of the Birds</h2>
+                    <p><strong>Attar's twelfth-century poem is the clearest available model of the Sufi path.</strong> The birds resolve to find their king, the legendary <strong>Simurgh</strong>, and set out led by the hoopoe. The road passes through <strong>seven valleys</strong> — trials including quest, love, knowledge, and detachment. Most birds perish or turn back, and only <strong>thirty</strong> reach the goal. There they discover that "si murgh" in Persian means precisely "thirty birds": the Simurgh they sought is themselves.</p>
+                    <p><strong>Themes and symbolism:</strong> the spiritual journey as labour, love as the driving force, dissolution of the ego as the condition for meeting God, the unity of seeker and sought. The birds are souls, the road is the tariqa, the hoopoe is the master, the valleys are the stations of the path, and the Simurgh is the Divine, discovered within rather than outside.</p>
+
+                    <h2>4.5 Anatolia: the Second Branch of Turkic Sufism</h2>
+                    <p><strong>From Central Asia Sufism reached Anatolia and produced a great tradition of its own there.</strong> <strong>Jalal ad-Din Rumi</strong> (1207–1273) of <strong>Konya</strong> is associated with the <strong>Mevlevi</strong> order — the "whirling dervishes," among whom sama became a complete ritual of rotation. His <em>Masnavi</em> became one of the principal texts of world mystical literature. The same region saw <strong>Haji Bektash Veli</strong> and the poet <strong>Yunus Emre</strong>, who wrote in plain Turkish. The logic is the same as Yasawi's: address the people in their own language.</p>
+
+                    <h2>4.6 Influence on the Spiritual Culture of Kazakhstan</h2>
+                    <p><strong>Sufism became the channel through which Islam entered the steppe without destroying its earlier picture of the world, fusing with it instead.</strong> First, language and form: Yasawi preached in Turkic verse, close to the oral tradition of the zhyrau. Second, compatibility with the cult of ancestors: veneration of <strong>aruaqs</strong> merged naturally with veneration of the saints, <strong>auliye</strong>, and the graves of sheikhs became places of pilgrimage. Third, continuity of sacred geography: holy places, springs, and mountains kept their sacred status, changing only the explanation attached to them.</p>
+                    <p><strong>Example:</strong> pilgrimage to the Mausoleum of Khoja Ahmed Yasawi is the point where Sufi sanctity, the cult of ancestors, and the monumental architecture of Chapter 3 converge.</p>
+
+                    <h2>4.7 Guaranteed Exam Items</h2>
+                    <p>Sufism is <strong>direct personal experience of God</strong>. <strong>Tariqa</strong> means path and order; the three orders are <strong>Naqshbandi, Yasawi, Qadiriyya</strong>. <em>The Conference of the Birds</em> is by <strong>Farid ud-Din Attar</strong>; the thirty birds are themselves the <strong>Simurgh</strong>. <strong>Khoja Ahmed Yasawi</strong> — <em>Divan-i Hikmet</em>, Turkestan. <strong>Rumi</strong> — Konya, the <strong>Mevlevi</strong> order. The principal practice is <strong>dhikr</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 5: Official Week 4 Test Answer Key (10 Questions)",
+                content: `
+                    <h1>🔥 Week 4. Chapter 5: Official Test Answer Key (10 Questions)</h1>
+                    <p><strong>1. What is the primary school in the Muslim education system called?</strong><br>
+                    Answer: the <strong>maktab</strong>. It provided basic literacy through Qur'anic recitation and was the foundation from which students moved on to madrasas.</p>
+
+                    <p><strong>2. What exactly did the maktab give its pupils?</strong><br>
+                    Answer: <strong>basic literacy through Qur'anic recitation</strong> (Pickett 2020, 110), Islamic catechism, some Arabic prayers, and possibly a degree of literacy in Turki (Frank 2003, 283).</p>
+
+                    <p><strong>3. In which Kazakhstani towns were the madrasas where Kazakh students studied?</strong><br>
+                    Answer: <strong>Semipalatinsk and Petropavlovsk</strong>. Many then travelled to Troitsk, Astrakhan, and Orenburg's Seitovskii Posad.</p>
+
+                    <p><strong>4. Which city was the most prestigious centre of study in Central Asia?</strong><br>
+                    Answer: <strong>Bukhara</strong> (Frank 2012, 96). It drew students from Russia, India, the Qazaq steppe, and Afghanistan.</p>
+
+                    <p><strong>5. Who is called the Second Teacher, and why?</strong><br>
+                    Answer: <strong>Al-Farabi</strong>, for the depth of his commentaries on Aristotle — "second after Aristotle." He was born in Farab (Otrar) on the territory of present-day Kazakhstan.</p>
+
+                    <p><strong>6. Who wrote The Canon of Medicine?</strong><br>
+                    Answer: <strong>Ibn Sina (Avicenna)</strong>, born near Bukhara. His work served for centuries as the principal textbook for physicians, including in Europe.</p>
+
+                    <p><strong>7. Where and by whose order was the Mausoleum of Khoja Ahmed Yasawi built?</strong><br>
+                    Answer: in <strong>Turkestan</strong> by order of <strong>Timur</strong> in the late 14th century. It is a UNESCO World Heritage Site; construction was left unfinished after Timur's death.</p>
+
+                    <p><strong>8. What is a mihrab?</strong><br>
+                    Answer: a niche in a mosque wall indicating the <strong>qibla</strong>, the direction of Mecca. Do not confuse it with the peshtaq portal: the portal is outside, the mihrab inside.</p>
+
+                    <p><strong>9. What does the term "tariqa" mean, and which three orders are named on the syllabus?</strong><br>
+                    Answer: <strong>"the path"</strong> — simultaneously a Sufi order and a method of ascent. The three named are the <strong>Naqshbandi, the Yasawi, and the Qadiriyya</strong>.</p>
+
+                    <p><strong>10. Who wrote The Conference of the Birds, and what is the poem's resolution?</strong><br>
+                    Answer: <strong>Farid ud-Din Attar</strong>. The thirty birds that arrive discover that "si murgh" means "thirty birds": the Simurgh they sought is themselves.</p>
+                `
+            },
+            {
+                title: "Chapter 6: Strict Oral Defense Master Block (10 Exam Tickets)",
+                content: `
+                    <h1>💬 Week 4. Chapter 6: 10 Detailed Exam Tickets & Model Answers</h1>
+                    <p><strong>Ticket 1: Describe the education system of medieval Central Asia.</strong><br>
+                    Answer: The system had two tiers: the primary maktab and the higher madrasah. Maktabs grew in number on the steppe and became the foundation for entry into madrasas (Frank 2003, 284). They provided basic literacy through Qur'anic recitation, Islamic catechism, Arabic prayers, and literacy in Turki.</p>
+
+                    <p><strong>Ticket 2: What role did Bukhara play?</strong><br>
+                    Answer: Bukhara was the most prestigious and foremost destination for study in Central Asia (Frank 2012, 96). It attracted students from Russia, India, the Qazaq steppe, and Afghanistan. Its prestige was itself a form of capital: returning from Bukhara raised a graduate's standing in the home community.</p>
+
+                    <p><strong>Ticket 3: Why is the period called the Islamic Renaissance?</strong><br>
+                    Answer: From the 8th to the 13th century the Muslim world returned to the classical heritage and sharply expanded the range of sciences — several centuries before the European Renaissance. This was not copying: scholars ran their own experiments, corrected the ancient authors, and created new disciplines such as algebra.</p>
+
+                    <p><strong>Ticket 4: What is the significance of Al-Farabi?</strong><br>
+                    Answer: Al-Farabi (c. 872–950) was born in Farab (Otrar) on the territory of present-day Kazakhstan and worked in Baghdad and Damascus. For the depth of his commentaries on Aristotle he was called the Second Teacher. He wrote on logic, epistemology, music, and politics, and in his treatise on the Virtuous City described a society governed by reason and knowledge.</p>
+
+                    <p><strong>Ticket 5: What was Ibn Sina's contribution?</strong><br>
+                    Answer: Ibn Sina (980–1037), born near Bukhara, turned medicine into an ordered science. His Canon of Medicine united the Greek, Persian, Indian, and Arabic traditions and served for centuries as the principal textbook, including in European universities. In The Book of Healing he set out a full philosophical system.</p>
+
+                    <p><strong>Ticket 6: Name the characteristic features of Turkic architecture.</strong><br>
+                    Answer: A dome on an octagonal drum, a monumental peshtaq entrance portal, muqarnas honeycomb vaulting, and facing in blue and turquoise glazed tile. In place of images of living beings there is geometric, vegetal, and calligraphic ornament. The formula is simple: dome from the yurt, portal from Islam, ornament instead of imagery.</p>
+
+                    <p><strong>Ticket 7: How is the nomadic tradition linked to monumental architecture?</strong><br>
+                    Answer: The dome repeats the yurt's roof, the centralised plan its round base, and the single hall beneath the dome reproduces the organisation of the yurt around the hearth. A kumbez mausoleum on the steppe reads as "a yurt built to last forever": the same form in stone, because the deceased no longer migrates.</p>
+
+                    <p><strong>Ticket 8: Tell us about the Mausoleum of Khoja Ahmed Yasawi.</strong><br>
+                    Answer: It was built in Turkestan by order of Timur in the late 14th century over the grave of a Sufi sheikh and is a UNESCO World Heritage Site. The building has the largest brick dome in Central Asia, a monumental portal, and the central kazandyk hall with the bronze Tai Kazan. Construction stopped with Timur's death, so the open brickwork of the portal remains visible today.</p>
+
+                    <p><strong>Ticket 9: Define Sufism and name its practices.</strong><br>
+                    Answer: Sufism is mystical Islamic belief and practice in which Muslims seek the truth of divine love and knowledge through direct personal experience of God. Its main practices are dhikr, the invocation of God's names aloud or silently; sama, spiritual music and poetry; instruction only under a living master in the murshid–murid pair through the silsila chain; and asceticism with progression through the stations of the path.</p>
+
+                    <p><strong>Ticket 10: How did Sufism influence the spiritual culture of Kazakhstan?</strong><br>
+                    Answer: It let Islam enter the steppe without a rupture from the earlier worldview. Yasawi preached in Turkic verse, close to the oral tradition of the zhyrau. The veneration of ancestral aruaqs merged with the veneration of auliye saints, and the graves of sheikhs became places of pilgrimage. The former sacred places kept their status, changing only the explanation attached to them.</p>
                 `
             }
         ]
@@ -2202,7 +2554,7 @@ function resetCurrentQuiz() {
 function loadReaderWeek(w) {
     activeReaderWeek = w;
     activeChapterIdx = 0;
-    ['btn-read-week1', 'btn-read-week2', 'btn-read-week3'].forEach(id => {
+    ['btn-read-week1', 'btn-read-week2', 'btn-read-week3', 'btn-read-week4'].forEach(id => {
         const btn = document.getElementById(id);
         if (btn) btn.classList.remove('active');
     });
