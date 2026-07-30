@@ -918,6 +918,170 @@ const fullBookDatabase = {
                     Ответ: Он позволил исламу войти в степь без разрыва с прежней картиной мира. Ясави проповедовал стихами на тюркском языке, что было близко устной традиции жырау. Почитание предков-аруахов срослось с почитанием святых-аулие, а могилы шейхов стали местами паломничества. Прежние сакральные места сохранили статус священных, сменив лишь объяснение.</p>
                 `
             }
+        ],
+        week5: [
+            {
+                title: "Глава 1: Обряды жизненного цикла (Семинар 5)",
+                content: `
+                    <h1>👶 Неделя 5. Глава 1: Обряды жизненного цикла</h1>
+                    <p><strong>Главная идея темы:</strong> обряд превращает частное событие в жизни человека в событие всей общины. Рождение, взросление и смерть — биологические факты, но культура делает из них переходы <strong>статуса</strong>, и признаёт этот переход не природа, а община. Отсюда обязательное присутствие свидетелей: обряд, совершённый в одиночку, теряет смысл.</p>
+
+                    <h2>1.1 Обряды рождения</h2>
+                    <p><strong>Цикл рождения растянут во времени и состоит из нескольких ступеней, а не одного праздника.</strong> <strong>Шілдехана</strong> — праздник в первые ночи после родов: родные не спали и пели, считалось, что шум и присутствие людей охраняют новорождённого. <strong>Кіндік шеше</strong> — «пупочная мать», перерезавшая пуповину, получала статус ритуальной матери на всю жизнь; это показывает, что родство строилось не только по крови, но и по обряду. <strong>Ат қою</strong> — наречение имени уважаемым старшим. <strong>Қалжа</strong> — мясное блюдо для роженицы. <strong>Бесікке салу</strong> — первое укладывание в колыбель на 3–7 день. <strong>Тұсаукесер</strong> — разрезание пут с ног перед первыми шагами, около года; верёвку резал человек с хорошей репутацией, чтобы ребёнок «пошёл по жизни» уверенно.</p>
+                    <p><strong>Пример:</strong> тұсаукесер прямо иллюстрирует материальное и нематериальное из Недели 1: перерезать верёвку материально, но весь смысл действия нематериален и держится на договоре общины.</p>
+
+                    <h2>1.2 Обряды взросления</h2>
+                    <p><strong>Взросление отмечалось не одной датой, а серией порогов.</strong> <strong>Сүндет той</strong> — обряд обрезания в 5–7 лет, исламский по происхождению, ставший семейным праздником и знаком принадлежности к мусульманской общине. <strong>Атқа отырғызу</strong> — первая посадка мальчика на коня с вручением плети и повода: для кочевой культуры это был реальный порог вхождения в мир взрослых занятий. <strong>Мүшел жас</strong> — рубежные годы, кратные 12 (13, 25, 37, 49), связанные с животным циклом из Недели 3; человек считался в эти годы уязвимым, поэтому его окружали заботой и защитными обрядами.</p>
+
+                    <h2>1.3 Обряды смерти</h2>
+                    <p><strong>Смерть не выводила человека из рода, а переводила его в статус предка.</strong> <strong>Естірту</strong> — искусство сообщить о смерти: известие подводили постепенно, иносказанием или песней, чтобы не убить горем близкого. <strong>Қоштасу</strong> — прощание умирающего с роднёй. <strong>Жоқтау</strong> — плач-причитание женщин, перечисляющий достоинства покойного и закрепляющий память о нём. <strong>Жаназа</strong> — исламская заупокойная молитва. Поминальный цикл: <strong>жетісі</strong> (7-й день), <strong>қырқы</strong> (40-й), <strong>жылы</strong> (год); крупные поминки назывались <strong>ас</strong> и сопровождались скачками.</p>
+                    <p><strong>Пример:</strong> состязания на поминках кажутся противоречием, но логика обратная — чем крупнее ас, тем выше честь покойного, поэтому празднество здесь форма уважения.</p>
+
+                    <h2>1.4 Три функции обрядов</h2>
+                    <p><strong>Социальная:</strong> обряд публично фиксирует новый статус и укрепляет связи — свадьба соединяет два рода, поминки собирают родню и подтверждают её единство. <strong>Религиозная:</strong> обряды связывают человека с Тенгри, с духами предков аруахами и, позднее, с исламской традицией, причём слои не вытеснили друг друга, а наложились. <strong>Культурная:</strong> обряд передаёт ценности через пережитый опыт, а не через правила.</p>
+
+                    <h2>1.5 Как обряды передают ценности поколениям</h2>
+                    <p><strong>Обряд обучает не словами, а участием.</strong> Ребёнок не слушает лекцию о том, что род важнее отдельного человека, — он видит, как ради него собирается вся община, как на поминки приезжает дальняя родня, как на свадьбе перечисляют предков. Повторяемость делает это знание автоматическим, поэтому в культуре с преобладанием устной традиции именно ритуал, а не текст, работал главным учебником.</p>
+
+                    <h2>1.6 Что нужно помнить для экзамена</h2>
+                    <p><strong>Тұсаукесер</strong> — разрезание пут перед первыми шагами. <strong>Бесікке салу</strong> — укладывание в колыбель. <strong>Кіндік шеше</strong> — ритуальная мать. <strong>Мүшел жас</strong> — возраст, кратный <strong>12</strong>. <strong>Естірту</strong> — извещение о смерти иносказанием, <strong>жоқтау</strong> — плач. Поминки: <strong>жетісі (7), қырқы (40), жылы (год)</strong>. Три функции: <strong>социальная, религиозная, культурная</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 2: Свадебные и погребальные обряды (Семинар 5)",
+                content: `
+                    <h1>💍 Неделя 5. Глава 2: Свадебные и погребально-поминальные обряды</h1>
+                    <h2>2.1 Свадебный цикл</h2>
+                    <p><strong>Казахская свадьба была не одним праздником, а длинной процедурой, где каждый шаг закреплял договор между родами.</strong> <strong>Құда түсу</strong> — сватовство: стороны становились свояками навсегда. <strong>Сырға салу</strong> — «надевание серёг», публичный знак помолвки. <strong>Қалың мал</strong> — брачный дар скотом от рода жениха; это не «покупка невесты», а компенсация роду, теряющему работницу, и гарантия серьёзности намерений, при этом сторона невесты давала приданое <strong>жасау</strong>. <strong>Ұрын бару</strong> — первый визит жениха с игровыми испытаниями и выкупами. <strong>Қыз ұзату</strong> — проводы невесты, где звучит <strong>жар-жар</strong>. <strong>Келін түсіру</strong> — встреча невестки с обсыпанием сладостями (<strong>шашу</strong>). <strong>Отқа май құю</strong> — первое приближение невестки к очагу нового дома. <strong>Беташар</strong> — открытие лица: певец перечисляет родню мужа, невеста кланяется на каждое имя.</p>
+                    <p><strong>Пример:</strong> беташар — образцовый семиотический текст: поклон работает как знак признания старшинства, а порядок имён кодирует структуру рода.</p>
+
+                    <h2>2.2 Что свадьба говорит о ценностях и социальном устройстве</h2>
+                    <p><strong>Свадьба показывает приоритет рода, распределение ролей и правила родства.</strong> Решение о браке принимали старшие, потому что брак затрагивал интересы всего рода. Обряды прямо распределяли роли: невестка входила в род мужа и принимала его очаг, что закреплялось отқа май құю и беташаром. Действовал запрет на брак между родственниками до седьмого колена — правило <strong>жеті ата</strong>, из-за которого требовалось точно знать генеалогию.</p>
+                    <p><strong>Пример:</strong> жеті ата — не абстрактная традиция, а работающий механизм: знание семи предков было практическим условием заключения брака.</p>
+
+                    <h2>2.3 Погребальные обряды</h2>
+                    <p><strong>Погребение строилось так, чтобы горе было разделено общиной, а не оставлено семье.</strong> Порядок: естірту, қоштасу, жоқтау, жаназа, затем погребение. Тело обмывали, заворачивали в саван (<strong>кебін</strong>) и хоронили в земле лицом к Мекке. Над могилами знатных возводили <strong>кумбез</strong> или мазар — купольное сооружение из Недели 4.</p>
+
+                    <h2>2.4 Поминальный цикл</h2>
+                    <p><strong>Поминки растянуты во времени, потому что переход умершего в статус предка считался постепенным.</strong> Отмечали <strong>үшісі</strong> (3-й день), <strong>жетісі</strong> (7-й), <strong>қырқы</strong> (40-й) и <strong>жылы</strong> (годовщину). Крупные поминки — <strong>ас</strong> — собирали роды со всей округи, включали <strong>бәйге</strong>, борьбу и <strong>айтыс</strong> акынов.</p>
+                    <p><strong>Пример:</strong> ас выполнял и политическую функцию: съезд родов был поводом решать споры, договариваться и подтверждать союзы.</p>
+
+                    <h2>2.5 Что обряды говорят о вере</h2>
+                    <p><strong>Погребальные обряды прямо выражают представление о том, что род продолжается за границей смерти.</strong> Умерший становится <strong>аруахом</strong> — духом-покровителем, и клятва именем предков считалась сильнейшей. Отсюда обязанность ухаживать за могилами, помнить семь поколений и не позорить имя рода. Существенно, что боялись не самого умершего, а того, что род забудет его: забвение обрывало связь.</p>
+
+                    <h2>2.6 Влияние ислама</h2>
+                    <p><strong>Ислам изменил форму погребальных обрядов, но не вытеснил культ предков — он с ним соединился.</strong> Исламскими стали жаназа, обмывание и саван, погребение лицом к Мекке, чтение Корана и участие муллы. Доисламскими остались жоқтау, поминальный цикл и почитание предков, которое срослось с почитанием мусульманских святых <strong>аулие</strong> (см. Неделю 4 про суфизм). Поэтому паломничество к могиле святого и посещение могил предков в народной практике оказались рядом.</p>
+
+                    <h2>2.7 Что нужно помнить для экзамена</h2>
+                    <p><strong>Құда түсу</strong> — сватовство, <strong>сырға салу</strong> — помолвка, <strong>қалың мал</strong> — брачный дар. <strong>Жар-жар</strong> поётся на <strong>қыз ұзату</strong>, <strong>беташар</strong> — при <strong>келін түсіру</strong>. <strong>Жаназа</strong> — исламская молитва, погребение <strong>лицом к Мекке</strong>. Цикл: <strong>үшісі, жетісі, қырқы, жылы</strong>; крупные поминки — <strong>ас</strong>. <strong>Жеті ата</strong> — запрет брака до седьмого колена.</p>
+                `
+            },
+            {
+                title: "Глава 3: Народные песни, танцы и игры (Семинар 5)",
+                content: `
+                    <h1>🎶 Неделя 5. Глава 3: Народные песни, танцы и игры</h1>
+                    <h2>3.1 Песня как носитель памяти</h2>
+                    <p><strong>В культуре без сплошной письменности песня выполняла работу архива, газеты и школы одновременно.</strong> Это продолжение дописьменного кода из Недели 3: знание хранилось в ритме и мелодии, потому что так его легче удержать и передать точно. <strong>Жыр</strong> — эпическое сказание о батырах в исполнении жырау. <strong>Толғау</strong> — размышление-наставление, часто с политическим содержанием. <strong>Терме</strong> — быстрый назидательный речитатив. <strong>Айтыс</strong> — публичное состязание акынов в импровизации на реальные общественные темы. <strong>Күй</strong> — инструментальная пьеса с сюжетом, который слушатель «читал» в музыке.</p>
+                    <p><strong>Пример:</strong> айтыс — одновременно искусство и общественная площадка: критику, которую нельзя было высказать прямо, произносили в песне при всех.</p>
+
+                    <h2>3.2 Обрядовые песни</h2>
+                    <p><strong>Часть песен существовала не для слушания, а для совершения обряда — без них ритуал был бы неполным.</strong> <strong>Жар-жар</strong> — свадебный диалог на проводах невесты: сторона жениха утешает, сторона невесты причитает, и песня проговаривает вслух то, что чувствуют обе стороны. <strong>Беташар</strong> — песня при открытии лица невесты, одновременно церемония и обучение новой родне. <strong>Жоқтау</strong> — плач по умершему, закрепляющий память о нём.</p>
+
+                    <h2>3.3 Танцы</h2>
+                    <p><strong>Казахский танец вырос из подражания движению животных и труду, а не из бальной традиции.</strong> <strong>Қара жорға</strong> («вороной иноходец») воспроизводит характерный ход коня: корпус ровный, работа плеч и рук передаёт скачку. <strong>Ортеке</strong> — явление на грани танца, музыки и театра: деревянная фигурка горного козлика соединена нитями с пальцами домбриста и пляшет в такт күй, то есть музыкант одновременно исполнитель и кукловод.</p>
+                    <p><strong>Пример:</strong> қара жорға подтверждает общий принцип кочевой культуры — конь настолько централен, что его движение становится эстетическим образцом.</p>
+
+                    <h2>3.4 Игры</h2>
+                    <p><strong>Игра в кочевом обществе была тренажёром: она отрабатывала навыки, от которых зависела жизнь.</strong> <strong>Көкпар</strong> — конная командная борьба за тушу козла, требующая владения конём, силы и взаимодействия. <strong>Бәйге</strong> — скачки на длинную дистанцию, обязательная часть праздников и поминок ас. <strong>Қыз қуу</strong> — парная конная игра с элементом ухаживания. <strong>Асық ату</strong> — детская игра в бабки из бараньего сустава, развивающая меткость. <strong>Тоғызқұмалақ</strong> — настольная логическая игра на двух рядах по девять лунок. <strong>Алтыбақан</strong> — качели, вокруг которых собиралась молодёжь.</p>
+                    <p><strong>Пример:</strong> тоғызқұмалақ опровергает стереотип о «чисто телесной» кочевой культуре: это игра на счёт и стратегию, функционально сопоставимая с шахматами.</p>
+
+                    <h2>3.5 Пять функций песен, танцев и игр</h2>
+                    <p>1. <strong>Обучающая:</strong> игры отрабатывали верховую езду, меткость, счёт и стратегию.<br>
+                    2. <strong>Социализирующая:</strong> алтыбақан, айтыс и праздники создавали пространство вхождения молодёжи в общество.<br>
+                    3. <strong>Мемориальная:</strong> жыр и күй хранили историю рода.<br>
+                    4. <strong>Регулятивная:</strong> айтыс позволял высказать критику публично и в приемлемой форме.<br>
+                    5. <strong>Обрядовая:</strong> жар-жар, беташар и жоқтау были частью ритуала, а не его сопровождением.</p>
+
+                    <h2>3.6 Как это отражало быт и кочевой уклад</h2>
+                    <p><strong>Форма досуга прямо повторяет форму хозяйства.</strong> Конь в центре большинства игр, потому что был центром хозяйства. Асық делали из бараньего сустава, потому что овца была основой стада: игрушка производилась из того, что давало хозяйство. Состязательность отражает общество, где статус подтверждался публично, а привязка игр и айтысов к свадьбам и поминкам показывает, что развлечение было частью обрядовой жизни. В XVIII — конце XIX в. традиция достигает зрелости и начинает фиксироваться письменно: имена <strong>сал-серілер</strong>, авторов күй и акынов сохраняются, то есть устная культура обретает авторство.</p>
+
+                    <h2>3.7 Брейгель и универсальность игры</h2>
+                    <p><strong>Слайд 8 неслучайно ставит рядом казахские игры и картину европейского художника XVI века.</strong> Питер Брейгель Старший в «Детских играх» изобразил десятки забав своего времени, и сегодня полотно используют как исторический источник. Отсюда два вывода: игра — универсальный культурный феномен, свойственный любому обществу, и игра — документ, по которому судят об укладе, хозяйстве и ценностях народа. Поэтому казахские игры изучают не как фольклорную экзотику, а как источник знаний о кочевом обществе.</p>
+
+                    <h2>3.8 Что нужно помнить для экзамена</h2>
+                    <p><strong>Көкпар</strong> — туша козла, <strong>бәйге</strong> — скачки, <strong>қыз қуу</strong> — «догони девушку». <strong>Асық ату</strong> — бабки, <strong>тоғызқұмалақ</strong> — <strong>девять</strong> лунок в ряду. <strong>Жар-жар</strong> — проводы невесты, <strong>беташар</strong> — открытие лица, <strong>жоқтау</strong> — плач. <strong>Қара жорға</strong> — иноходец, <strong>Ортеке</strong> — кукла-козлик. <strong>Айтыс</strong> — состязание акынов, <strong>күй</strong> — инструментальная пьеса. <strong>Питер Брейгель Старший</strong>, «Детские игры».</p>
+                `
+            },
+            {
+                title: "Глава 4: Официальный Тестовый Блок Недели 5 (10 Вопросов с ответами)",
+                content: `
+                    <h1>🔥 Неделя 5. Глава 4: Ключ и разбор 10 тестовых вопросов</h1>
+                    <p><strong>1. Как называется обряд разрезания пут перед первыми шагами ребёнка?</strong><br>
+                    Ответ: <strong>тұсаукесер</strong>. Верёвку резал человек с хорошей репутацией, чтобы ребёнок уверенно «пошёл по жизни».</p>
+
+                    <p><strong>2. Кто такая кіндік шеше?</strong><br>
+                    Ответ: «пупочная мать» — женщина, перерезавшая пуповину. Она получала статус ритуальной матери на всю жизнь, что показывает: родство строилось не только по крови, но и по обряду.</p>
+
+                    <p><strong>3. Что такое мүшел жас?</strong><br>
+                    Ответ: рубежный возраст, кратный <strong>12</strong> (13, 25, 37, 49), связанный с 12-летним животным циклом. В эти годы человек считался уязвимым и его окружали защитными обрядами.</p>
+
+                    <p><strong>4. Какова последовательность поминального цикла?</strong><br>
+                    Ответ: <strong>үшісі (3-й день) → жетісі (7-й) → қырқы (40-й) → жылы (год)</strong>. Крупные поминки по знатному человеку назывались <strong>ас</strong> и включали скачки и айтыс.</p>
+
+                    <p><strong>5. На каком этапе свадьбы исполняется жар-жар, а на каком беташар?</strong><br>
+                    Ответ: <strong>жар-жар</strong> — на проводах невесты (<strong>қыз ұзату</strong>), <strong>беташар</strong> — при встрече невестки в доме жениха (<strong>келін түсіру</strong>). Это классическая ловушка теста.</p>
+
+                    <p><strong>6. Что такое қалың мал и в чём его смысл?</strong><br>
+                    Ответ: брачный дар скотом от рода жениха роду невесты. Это не «покупка невесты», а компенсация роду, теряющему работницу, и гарантия серьёзности намерений; сторона невесты давала приданое <strong>жасау</strong>.</p>
+
+                    <p><strong>7. Что такое жеті ата и зачем оно нужно?</strong><br>
+                    Ответ: знание семи поколений предков. Оно требовалось потому, что действовал запрет на брак между родственниками до седьмого колена, — то есть это работающий механизм, а не абстрактная традиция.</p>
+
+                    <p><strong>8. Чем көкпар отличается от бәйге?</strong><br>
+                    Ответ: <strong>көкпар</strong> — командная конная борьба за тушу козла; <strong>бәйге</strong> — скачки на длинную дистанцию на выносливость коня и мастерство наездника.</p>
+
+                    <p><strong>9. Что такое тоғызқұмалақ?</strong><br>
+                    Ответ: настольная логическая игра на двух рядах по <strong>девять</strong> лунок, где игроки перераспределяют шарики. Игра на счёт и стратегию, функционально сопоставимая с шахматами.</p>
+
+                    <p><strong>10. Зачем в семинаре приводится картина Брейгеля «Детские игры»?</strong><br>
+                    Ответ: чтобы показать, что игра — универсальный культурный феномен и одновременно исторический источник, по которому восстанавливают уклад и ценности народа.</p>
+                `
+            },
+            {
+                title: "Глава 5: Устная Защита Перед Преподавателем (10 Экзаменационных Билетов)",
+                content: `
+                    <h1>💬 Неделя 5. Глава 5: 10 Развернутых Устных Билетов с ответами</h1>
+                    <p><strong>Билет 1: Что такое обряд жизненного цикла и зачем он нужен?</strong><br>
+                    Ответ: Это ритуал, отмечающий переход человека из одного социального состояния в другое: меняется не биология, а статус в общине. Младенец становится членом рода, юноша — взрослым, умерший — предком-аруахом. Обряд необходим потому, что переход признаёт община, а не природа, поэтому он требует свидетелей.</p>
+
+                    <p><strong>Билет 2: Перечислите обряды рождения.</strong><br>
+                    Ответ: Шілдехана — праздник в первые ночи после родов; кіндік шеше — пупочная мать, становящаяся ритуальной роднёй; ат қою — наречение имени; қалжа — блюдо для роженицы; бесікке салу — укладывание в колыбель на 3–7 день; тұсаукесер — разрезание пут перед первыми шагами около года.</p>
+
+                    <p><strong>Билет 3: Раскройте свадебный цикл.</strong><br>
+                    Ответ: Құда түсу (сватовство) → сырға салу (помолвка) → қалың мал (брачный дар) → ұрын бару (первый визит жениха) → қыз ұзату (проводы невесты с песней жар-жар) → келін түсіру (встреча невестки) → беташар (открытие лица). Каждый шаг закреплял договор между родами, потому что брак был делом рода, а не двоих.</p>
+
+                    <p><strong>Билет 4: Что беташар говорит об устройстве рода?</strong><br>
+                    Ответ: Певец перечисляет родню мужа, и на каждое имя невеста кланяется. Это одновременно церемония и практическое обучение: невестка узнаёт, кто есть кто в новом роду. С точки зрения семиотики поклон работает как знак признания старшинства, а порядок имён кодирует структуру рода.</p>
+
+                    <p><strong>Билет 5: Опишите погребальные обряды.</strong><br>
+                    Ответ: Естірту — осторожное извещение о смерти иносказанием или песней; қоштасу — прощание; жоқтау — плач-причитание женщин, перечисляющий достоинства покойного; жаназа — исламская заупокойная молитва. Тело обмывали, заворачивали в саван кебін и хоронили в земле лицом к Мекке.</p>
+
+                    <p><strong>Билет 6: Что погребальные обряды говорят о вере казахов?</strong><br>
+                    Ответ: Что смерть не разрывает связь с родом: умерший становится аруахом — духом-покровителем, а клятва именем предков считалась сильнейшей. Отсюда уход за могилами и память о семи поколениях. Боялись не самого умершего, а забвения: именно оно обрывало связь.</p>
+
+                    <p><strong>Билет 7: Как ислам повлиял на погребальные обряды?</strong><br>
+                    Ответ: Исламскими стали жаназа, обмывание и саван, погребение лицом к Мекке, чтение Корана и участие муллы. При этом доисламские элементы сохранились: жоқтау, поминальный цикл и культ предков, который срастился с почитанием мусульманских святых-аулие. Слои не вытеснили друг друга, а наложились.</p>
+
+                    <p><strong>Билет 8: Какие функции выполняли народные песни?</strong><br>
+                    Ответ: Мемориальную — жыр и күй хранили историю рода в культуре без сплошной письменности. Регулятивную — айтыс позволял высказать публичную критику в приемлемой форме. Обрядовую — жар-жар, беташар и жоқтау были частью ритуала, без них он был бы неполным. Плюс воспитательную через толғау и терме.</p>
+
+                    <p><strong>Билет 9: Расскажите о казахских народных играх.</strong><br>
+                    Ответ: Көкпар — конная командная борьба за тушу козла, отрабатывающая владение конём и взаимодействие. Бәйге — скачки на выносливость. Асық ату — детская игра в бабки на меткость. Тоғызқұмалақ — настольная игра на девять лунок, требующая счёта и стратегии. Игра была тренажёром: она отрабатывала навыки, от которых зависела жизнь.</p>
+
+                    <p><strong>Билет 10: Что такое ортеке и қара жорға?</strong><br>
+                    Ответ: Қара жорға — народный танец, имитирующий ход вороного иноходца: корпус ровный, работа плеч и рук передаёт скачку. Ортеке — представление на грани танца, музыки и театра, где деревянная фигурка горного козлика соединена нитями с пальцами домбриста и пляшет в такт күй. Оба явления показывают, что искусство вырастало из наблюдения за животными.</p>
+                `
+            }
         ]
     },
     en: {
@@ -1800,6 +1964,170 @@ const fullBookDatabase = {
                     Answer: It let Islam enter the steppe without a rupture from the earlier worldview. Yasawi preached in Turkic verse, close to the oral tradition of the zhyrau. The veneration of ancestral aruaqs merged with the veneration of auliye saints, and the graves of sheikhs became places of pilgrimage. The former sacred places kept their status, changing only the explanation attached to them.</p>
                 `
             }
+        ],
+        week5: [
+            {
+                title: "Chapter 1: Life Cycle Rites (Seminar 5)",
+                content: `
+                    <h1>👶 Week 5. Chapter 1: Life Cycle Rites</h1>
+                    <p><strong>Core idea of the topic:</strong> a rite turns a private event in a person's life into an event of the whole community. Birth, maturity, and death are biological facts, but culture converts them into transitions of <strong>status</strong>, and it is the community, not nature, that recognises the transition. Hence the obligatory presence of witnesses: a rite performed alone loses its meaning.</p>
+
+                    <h2>1.1 Rites of Birth</h2>
+                    <p><strong>The birth cycle is spread over time and consists of several stages rather than a single celebration.</strong> <strong>Shildekhana</strong> is the celebration during the first nights after delivery: relatives stayed awake and sang, since noise and human presence were believed to guard the newborn. <strong>Kindik sheshe</strong>, the "navel mother" who cut the umbilical cord, received the status of ritual mother for life, which shows that kinship was built not only by blood but also by rite. <strong>At qoyu</strong> is the naming, performed by a respected elder. <strong>Qalzha</strong> is the meat dish for the new mother. <strong>Besikke salu</strong> is the first laying in the cradle on days three to seven. <strong>Tusau kesu</strong> is the cutting of bonds before the first steps at around one year; the cord was cut by a person of good repute so the child would "walk through life" confidently.</p>
+                    <p><strong>Example:</strong> tusau kesu illustrates the material and non-material distinction from Week 1 directly: cutting the cord is material, but the entire meaning of the act is non-material and rests on the community's agreement.</p>
+
+                    <h2>1.2 Rites of Maturity</h2>
+                    <p><strong>Maturity was marked not by a single date but by a series of thresholds.</strong> <strong>Sundet toi</strong> is the circumcision rite at ages five to seven, Islamic in origin, which became a family celebration and a mark of belonging to the Muslim community. <strong>Atqa otyrgyzu</strong> is a boy's first mounting of a horse with the presentation of whip and reins: for a nomadic culture this was a genuine threshold into the world of adult occupations. <strong>Mushel zhas</strong> denotes the threshold years that are multiples of 12 (13, 25, 37, 49), tied to the animal cycle of Week 3; a person was thought vulnerable in those years and was surrounded with care and protective ritual.</p>
+
+                    <h2>1.3 Rites of Death</h2>
+                    <p><strong>Death did not remove a person from the clan; it moved them into the status of ancestor.</strong> <strong>Estirtu</strong> is the art of announcing a death: the news was approached gradually, through allegory or song, so as not to kill the closest relative with grief. <strong>Qoshtasu</strong> is the dying person's farewell. <strong>Zhoqtau</strong> is the women's lament, enumerating the virtues of the deceased and fixing their memory. <strong>Zhanaza</strong> is the Islamic funeral prayer. The memorial cycle runs <strong>zhetisi</strong> (7th day), <strong>qyrqy</strong> (40th), <strong>zhyly</strong> (one year); the great memorial was called the <strong>as</strong> and included horse races.</p>
+                    <p><strong>Example:</strong> contests at a memorial may look contradictory, but the logic runs the other way — the greater the as, the higher the honour of the deceased, so festivity here is a form of respect.</p>
+
+                    <h2>1.4 The Three Functions of Rites</h2>
+                    <p><strong>Social:</strong> the rite publicly fixes a new status and strengthens ties — a wedding joins two clans, a memorial gathers kin and confirms their unity. <strong>Religious:</strong> rites bind a person to Tengri, to the ancestral aruaqs, and later to the Islamic tradition, and the layers did not displace one another but overlapped. <strong>Cultural:</strong> the rite transmits values through lived experience rather than through rules.</p>
+
+                    <h2>1.5 How Rites Transmit Values Across Generations</h2>
+                    <p><strong>A rite teaches through participation rather than through words.</strong> A child hears no lecture on the clan mattering more than the individual — the child sees the whole community assemble on their behalf, sees distant kin travel to a memorial, hears ancestors enumerated at a wedding. Repetition makes the knowledge automatic, which is why in a culture dominated by oral tradition ritual rather than text served as the principal textbook.</p>
+
+                    <h2>1.6 Guaranteed Exam Items</h2>
+                    <p><strong>Tusau kesu</strong> — cutting the bonds before the first steps. <strong>Besikke salu</strong> — laying in the cradle. <strong>Kindik sheshe</strong> — the ritual mother. <strong>Mushel zhas</strong> — an age that is a multiple of <strong>12</strong>. <strong>Estirtu</strong> — announcing death by allegory; <strong>zhoqtau</strong> — the lament. Memorials: <strong>zhetisi (7), qyrqy (40), zhyly (one year)</strong>. Three functions: <strong>social, religious, cultural</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 2: Wedding and Funeral Rituals (Seminar 5)",
+                content: `
+                    <h1>💍 Week 5. Chapter 2: Wedding, Funeral and Memorial Rituals</h1>
+                    <h2>2.1 The Wedding Cycle</h2>
+                    <p><strong>A Kazakh wedding was not a single celebration but a long procedure in which each step consolidated the contract between clans.</strong> <strong>Quda tusu</strong> is matchmaking: the parties became in-laws permanently. <strong>Syrga salu</strong>, "placing the earrings," was the public mark of engagement. <strong>Qalyng mal</strong> was the marriage gift in livestock from the groom's clan; this was not "buying a bride" but compensation to a clan losing a worker and a guarantee of serious intent, while the bride's side provided the dowry, <strong>zhasau</strong>. <strong>Uryn baru</strong> was the groom's first visit, staged with playful trials and ransoms. <strong>Qyz uzatu</strong> is the bride's send-off, where <strong>zhar-zhar</strong> is sung. <strong>Kelin tusiru</strong> is the reception of the daughter-in-law with a shower of sweets (<strong>shashu</strong>). <strong>Otqa mai quyu</strong> is her first approach to the hearth of the new home. <strong>Betashar</strong> is the unveiling: the singer enumerates the husband's kin and the bride bows at each name.</p>
+                    <p><strong>Example:</strong> the betashar is a model semiotic text: the bow functions as a sign acknowledging seniority, and the order of names encodes the structure of the clan.</p>
+
+                    <h2>2.2 What the Wedding Says About Values and Social Organisation</h2>
+                    <p><strong>The wedding reveals the priority of the clan, the distribution of roles, and the rules of kinship.</strong> Elders made the decision to marry, because marriage touched the interests of the whole clan. The rites distributed roles explicitly: the bride entered her husband's clan and assumed its hearth, which otqa mai quyu and the betashar formalised. Marriage was prohibited between relatives within seven generations — the rule of <strong>jeti ata</strong>, which made precise genealogical knowledge necessary.</p>
+                    <p><strong>Example:</strong> jeti ata is not an abstract tradition but a working mechanism: knowing seven ancestors was a practical precondition for marriage.</p>
+
+                    <h2>2.3 Funeral Rites</h2>
+                    <p><strong>Burial was organised so that grief would be shared by the community rather than left to the family.</strong> The order is estirtu, qoshtasu, zhoqtau, zhanaza, then interment. The body was washed, wrapped in a shroud (<strong>kebin</strong>), and buried in the earth facing Mecca. Over the graves of people of standing a <strong>kumbez</strong> or mazar was raised — the domed structure of Week 4.</p>
+
+                    <h2>2.4 The Memorial Cycle</h2>
+                    <p><strong>Memorials are spread over time because the passage of the deceased into the status of ancestor was considered gradual.</strong> The dates observed were <strong>ushisi</strong> (3rd day), <strong>zhetisi</strong> (7th), <strong>qyrqy</strong> (40th), and <strong>zhyly</strong> (the anniversary). The great memorial, the <strong>as</strong>, gathered clans from across the district and included <strong>baige</strong>, wrestling, and <strong>aitys</strong> between akyns.</p>
+                    <p><strong>Example:</strong> the as also served a political function: the gathering of clans was an occasion to settle disputes, negotiate, and confirm alliances.</p>
+
+                    <h2>2.5 What the Rites Say About Belief</h2>
+                    <p><strong>Funeral rites express directly the conviction that the clan continues beyond the boundary of death.</strong> The deceased becomes an <strong>aruaq</strong>, a protecting spirit, and an oath sworn on the ancestors' name was held the strongest of all. Hence the duty to tend graves, to remember seven generations, and never to disgrace the clan's name. Significantly, what was feared was not the dead person but the clan's forgetting: oblivion severed the bond.</p>
+
+                    <h2>2.6 The Influence of Islam</h2>
+                    <p><strong>Islam changed the form of funeral rites but did not displace the cult of ancestors — it merged with it.</strong> Islamic in origin are the zhanaza, the washing and shroud, burial facing Mecca, Qur'anic recitation, and the mullah's participation. Pre-Islamic elements survived: the zhoqtau, the memorial cycle, and the veneration of ancestors, which fused with the veneration of Muslim <strong>auliye</strong> saints (see Week 4 on Sufism). This is why pilgrimage to a saint's grave and visits to ancestral graves came to stand side by side in popular practice.</p>
+
+                    <h2>2.7 Guaranteed Exam Items</h2>
+                    <p><strong>Quda tusu</strong> — matchmaking, <strong>syrga salu</strong> — engagement, <strong>qalyng mal</strong> — the marriage gift. <strong>Zhar-zhar</strong> belongs to <strong>qyz uzatu</strong>, <strong>betashar</strong> to <strong>kelin tusiru</strong>. <strong>Zhanaza</strong> — the Islamic prayer; burial <strong>facing Mecca</strong>. The cycle: <strong>ushisi, zhetisi, qyrqy, zhyly</strong>; the great memorial is the <strong>as</strong>. <strong>Jeti ata</strong> — the prohibition on marriage within seven generations.</p>
+                `
+            },
+            {
+                title: "Chapter 3: Folk Songs, Dances and Games (Seminar 5)",
+                content: `
+                    <h1>🎶 Week 5. Chapter 3: Folk Songs, Dances and Games</h1>
+                    <h2>3.1 Song as the Carrier of Memory</h2>
+                    <p><strong>In a culture without continuous writing, song did the work of archive, newspaper, and school at once.</strong> This continues the preliterate code of Week 3: knowledge was stored in rhythm and melody because that made it easier to hold and transmit accurately. <strong>Zhyr</strong> is the epic narrative of the batyrs performed by a zhyrau. <strong>Tolgau</strong> is a reflective, admonitory piece, often political. <strong>Terme</strong> is rapid didactic recitative. <strong>Aitys</strong> is a public contest of akyns improvising on real public affairs. <strong>Küy</strong> is an instrumental piece with a plot the listener "read" in the music.</p>
+                    <p><strong>Example:</strong> aitys was at once an art and a public forum: criticism that could not be voiced directly was pronounced in song before everyone.</p>
+
+                    <h2>3.2 Ritual Songs</h2>
+                    <p><strong>Some songs existed not to be listened to but to perform a rite — without them the ritual would be incomplete.</strong> <strong>Zhar-zhar</strong> is the wedding dialogue at the bride's send-off: the groom's side consoles, the bride's side laments, and the song speaks aloud what both sides feel. <strong>Betashar</strong> accompanies the unveiling and is at once ceremony and instruction in the new kin. <strong>Zhoqtau</strong> is the lament that fixes the memory of the deceased.</p>
+
+                    <h2>3.3 Dances</h2>
+                    <p><strong>Kazakh dance grew out of the imitation of animal movement and labour, not out of a ballroom tradition.</strong> <strong>Kara Zhorga</strong> ("black pacer") reproduces the characteristic gait of a horse: the torso stays level while shoulders and arms convey the ride. <strong>Orteke</strong> stands on the border of dance, music, and theatre: a wooden mountain-goat figure is linked by threads to the dombra player's fingers and dances in time with the küy, so the musician is performer and puppeteer at once.</p>
+                    <p><strong>Example:</strong> kara zhorga confirms a general principle of nomadic culture — the horse is so central that its movement becomes an aesthetic model.</p>
+
+                    <h2>3.4 Games</h2>
+                    <p><strong>In nomadic society a game was a training device: it drilled the skills on which life depended.</strong> <strong>Kokpar</strong> is an equestrian team struggle over a goat carcass demanding horsemanship, strength, and coordination. <strong>Baige</strong> is a long-distance race, an obligatory part of festivals and of the as. <strong>Qyz quu</strong> is a paired equestrian contest with an element of courtship. <strong>Asyq atu</strong> is the children's knucklebone game developing aim. <strong>Togyzqumalaq</strong> is a board game of logic on two rows of nine pits. <strong>Altybaqan</strong> is the swing around which young people gathered.</p>
+                    <p><strong>Example:</strong> togyzqumalaq refutes the stereotype of a "purely physical" nomadic culture: it is a game of counting and strategy, functionally comparable to chess.</p>
+
+                    <h2>3.5 Five Functions of Songs, Dances and Games</h2>
+                    <p>1. <strong>Instructional:</strong> games drilled horsemanship, aim, counting, and strategy.<br>
+                    2. <strong>Socialising:</strong> altybaqan, aitys, and festivals created the space in which the young entered society.<br>
+                    3. <strong>Memorial:</strong> zhyr and küy preserved the history of the clan.<br>
+                    4. <strong>Regulative:</strong> aitys allowed criticism to be voiced publicly in an acceptable form.<br>
+                    5. <strong>Ritual:</strong> zhar-zhar, betashar, and zhoqtau were part of rite, not accompaniment to it.</p>
+
+                    <h2>3.6 How This Reflected Daily Life and the Nomadic Way</h2>
+                    <p><strong>The form of leisure repeats the form of the economy directly.</strong> The horse stands at the centre of most games because it stood at the centre of the economy. The asyq was made from a sheep's ankle bone because sheep were the basis of the herd: the toy was produced from what the economy yielded. Competitiveness reflects a society in which status was confirmed publicly, and the attachment of games and aitys to weddings and memorials shows that entertainment was part of ritual life. In the 18th to late 19th centuries the tradition matures and begins to be written down: the names of the <strong>sal-seri</strong>, of küy composers, and of akyns survive, meaning oral culture acquires authorship.</p>
+
+                    <h2>3.7 Bruegel and the Universality of Play</h2>
+                    <p><strong>Slide 8 places Kazakh games beside a sixteenth-century European painting for a reason.</strong> In <em>Children's Games</em> Pieter Bruegel the Elder depicted dozens of the pastimes of his day, and the canvas is used today as a historical source. Two conclusions follow: play is a universal cultural phenomenon present in every society, and play is a document from which a people's way of life, economy, and values can be judged. Hence Kazakh games are studied not as folkloric exotica but as a source of knowledge about nomadic society.</p>
+
+                    <h2>3.8 Guaranteed Exam Items</h2>
+                    <p><strong>Kokpar</strong> — the goat carcass, <strong>baige</strong> — the race, <strong>qyz quu</strong> — "catch the girl." <strong>Asyq atu</strong> — knucklebones, <strong>togyzqumalaq</strong> — <strong>nine</strong> pits per row. <strong>Zhar-zhar</strong> — the bride's send-off, <strong>betashar</strong> — the unveiling, <strong>zhoqtau</strong> — the lament. <strong>Kara Zhorga</strong> — the pacer, <strong>Orteke</strong> — the goat puppet. <strong>Aitys</strong> — contest of akyns, <strong>küy</strong> — instrumental piece. <strong>Pieter Bruegel the Elder</strong>, <em>Children's Games</em>.</p>
+                `
+            },
+            {
+                title: "Chapter 4: Official Week 5 Test Answer Key (10 Questions)",
+                content: `
+                    <h1>🔥 Week 5. Chapter 4: Official Test Answer Key (10 Questions)</h1>
+                    <p><strong>1. What is the rite of cutting the bonds before a child's first steps called?</strong><br>
+                    Answer: <strong>tusau kesu</strong>. The cord was cut by a person of good repute so the child would "walk through life" confidently.</p>
+
+                    <p><strong>2. Who is the kindik sheshe?</strong><br>
+                    Answer: the "navel mother" — the woman who cut the umbilical cord. She received the status of ritual mother for life, which shows that kinship was built not only by blood but also by rite.</p>
+
+                    <p><strong>3. What is mushel zhas?</strong><br>
+                    Answer: a threshold age that is a multiple of <strong>12</strong> (13, 25, 37, 49), tied to the 12-year animal cycle. A person was considered vulnerable in those years and was surrounded with protective ritual.</p>
+
+                    <p><strong>4. What is the sequence of the memorial cycle?</strong><br>
+                    Answer: <strong>ushisi (3rd day) → zhetisi (7th) → qyrqy (40th) → zhyly (one year)</strong>. The great memorial for a person of standing was the <strong>as</strong>, which included horse races and aitys.</p>
+
+                    <p><strong>5. At which stage of the wedding is zhar-zhar sung, and at which betashar?</strong><br>
+                    Answer: <strong>zhar-zhar</strong> at the bride's send-off (<strong>qyz uzatu</strong>), <strong>betashar</strong> at the reception of the daughter-in-law in the groom's home (<strong>kelin tusiru</strong>). This is the classic trap of the test.</p>
+
+                    <p><strong>6. What is qalyng mal and what does it mean?</strong><br>
+                    Answer: the marriage gift in livestock from the groom's clan to the bride's. It was not "buying a bride" but compensation to a clan losing a worker and a guarantee of serious intent; the bride's side provided the dowry, <strong>zhasau</strong>.</p>
+
+                    <p><strong>7. What is jeti ata and why was it needed?</strong><br>
+                    Answer: knowledge of seven generations of ancestors. It was required because marriage was prohibited between relatives within seven generations — so it is a working mechanism, not an abstract tradition.</p>
+
+                    <p><strong>8. How does kokpar differ from baige?</strong><br>
+                    Answer: <strong>kokpar</strong> is an equestrian team struggle over a goat carcass; <strong>baige</strong> is a long-distance race testing the horse's endurance and the rider's skill.</p>
+
+                    <p><strong>9. What is togyzqumalaq?</strong><br>
+                    Answer: a board game of logic on two rows of <strong>nine</strong> pits in which players redistribute pellets. A game of counting and strategy, functionally comparable to chess.</p>
+
+                    <p><strong>10. Why does the seminar include Bruegel's Children's Games?</strong><br>
+                    Answer: to show that play is a universal cultural phenomenon and at the same time a historical source from which a people's way of life and values can be reconstructed.</p>
+                `
+            },
+            {
+                title: "Chapter 5: Strict Oral Defense Master Block (10 Exam Tickets)",
+                content: `
+                    <h1>💬 Week 5. Chapter 5: 10 Detailed Exam Tickets & Model Answers</h1>
+                    <p><strong>Ticket 1: What is a life cycle rite and why is it needed?</strong><br>
+                    Answer: It is a ritual marking a person's passage from one social condition to another: what changes is not biology but status within the community. The infant becomes a member of the clan, the youth an adult, the deceased an ancestral aruaq. The rite is necessary because the community, not nature, recognises the transition, which is why it requires witnesses.</p>
+
+                    <p><strong>Ticket 2: List the rites of birth.</strong><br>
+                    Answer: Shildekhana, the celebration during the first nights after delivery; kindik sheshe, the navel mother who becomes ritual kin; at qoyu, the naming; qalzha, the dish for the new mother; besikke salu, the laying in the cradle on days three to seven; and tusau kesu, the cutting of bonds before the first steps at around one year.</p>
+
+                    <p><strong>Ticket 3: Expound the wedding cycle.</strong><br>
+                    Answer: Quda tusu (matchmaking) → syrga salu (engagement) → qalyng mal (marriage gift) → uryn baru (the groom's first visit) → qyz uzatu (the send-off with the zhar-zhar song) → kelin tusiru (reception of the daughter-in-law) → betashar (the unveiling). Each step consolidated the contract between clans, because marriage was the clan's business rather than the couple's.</p>
+
+                    <p><strong>Ticket 4: What does the betashar reveal about the structure of the clan?</strong><br>
+                    Answer: The singer enumerates the husband's kin and the bride bows at each name. It is at once ceremony and practical instruction: the bride learns who is who in her new clan. Semiotically the bow functions as a sign acknowledging seniority, and the order of names encodes the structure of the clan.</p>
+
+                    <p><strong>Ticket 5: Describe the funeral rites.</strong><br>
+                    Answer: Estirtu, the careful announcement of death by allegory or song; qoshtasu, the farewell; zhoqtau, the women's lament enumerating the virtues of the deceased; zhanaza, the Islamic funeral prayer. The body was washed, wrapped in the kebin shroud, and buried in the earth facing Mecca.</p>
+
+                    <p><strong>Ticket 6: What do funeral rites reveal about Kazakh belief?</strong><br>
+                    Answer: That death does not sever the bond with the clan: the deceased becomes an aruaq, a protecting spirit, and an oath on the ancestors' name was held the strongest. Hence the tending of graves and the memory of seven generations. What was feared was not the dead person but oblivion, since forgetting severed the bond.</p>
+
+                    <p><strong>Ticket 7: How did Islam influence funeral rites?</strong><br>
+                    Answer: Islamic in origin are the zhanaza, the washing and shroud, burial facing Mecca, Qur'anic recitation, and the mullah's participation. Pre-Islamic elements nevertheless survived: the zhoqtau, the memorial cycle, and the cult of ancestors, which fused with the veneration of Muslim auliye saints. The layers did not displace one another but overlapped.</p>
+
+                    <p><strong>Ticket 8: What functions did folk songs serve?</strong><br>
+                    Answer: Memorial — zhyr and küy preserved clan history in a culture without continuous writing. Regulative — aitys allowed public criticism in an acceptable form. Ritual — zhar-zhar, betashar, and zhoqtau were parts of rite, without which it would be incomplete. And educational, through tolgau and terme.</p>
+
+                    <p><strong>Ticket 9: Tell us about Kazakh folk games.</strong><br>
+                    Answer: Kokpar is an equestrian team struggle over a goat carcass drilling horsemanship and coordination. Baige is a race testing endurance. Asyq atu is the children's knucklebone game developing aim. Togyzqumalaq is a board game on nine pits requiring counting and strategy. The game was a training device: it drilled the skills on which life depended.</p>
+
+                    <p><strong>Ticket 10: What are orteke and kara zhorga?</strong><br>
+                    Answer: Kara zhorga is a folk dance imitating the gait of a black pacing horse: the torso stays level while shoulders and arms convey the ride. Orteke is a performance on the border of dance, music, and theatre, in which a wooden mountain-goat figure linked by threads to the dombra player's fingers dances in time with the küy. Both show that art grew out of the observation of animals.</p>
+                `
+            }
         ]
     }
 };
@@ -2554,7 +2882,7 @@ function resetCurrentQuiz() {
 function loadReaderWeek(w) {
     activeReaderWeek = w;
     activeChapterIdx = 0;
-    ['btn-read-week1', 'btn-read-week2', 'btn-read-week3', 'btn-read-week4'].forEach(id => {
+    ['btn-read-week1', 'btn-read-week2', 'btn-read-week3', 'btn-read-week4', 'btn-read-week5'].forEach(id => {
         const btn = document.getElementById(id);
         if (btn) btn.classList.remove('active');
     });
