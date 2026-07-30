@@ -39,7 +39,7 @@ Nomads of Kazakhstan were the first on earth to domesticate the horse (Botai Cul
 - **Stirrup (*Uzengi*):** Emerged around the 1st millennium CE, providing solid leverage for thrusting spears and shooting bows at full gallop.
 - **Riding Trousers:** Replaced long robes, becoming a staple of global fashion.
 
-### 1.3 Saka-Scythian Animal Style (*Animal Style*)
+### 1.3 Saka-Scythian Animal Style
 Animal Style (7th–3rd c. BCE) was a dynamic movement in Saka-Scythian applied art. Gold armor plates, daggers (*Akinakes*), harnesses, and headdresses depicted scenes of predator-prey combat (leopards, tigers, griffins attacking stags and rams). A crowning masterpiece is **The Golden Man from the Issyk Kurgan (*Altyn Adam*)** (5th c. BCE), whose headdress encodes a cosmogonic model of the Universe.
 
 ### 1.4 Old Turkic Runic Script (*Orkhon-Yenisei Runes*)

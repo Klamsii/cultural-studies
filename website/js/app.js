@@ -520,6 +520,228 @@ const fullBookDatabase = {
                     Ответ: Наскальные рисунки урочища Танбалы изображают Солнцеголовое божество (Күнхан) — фигуру с солнечным диском вместо головы. Это памятник древней евразийской космогонической мифологии, отражающий солярный культ и почитание Неба (Тенгри). Петроглиф функционирует именно как знак: это не украшение, а закреплённое в камне сообщение о картине мира.</p>
                 `
             }
+        ],
+        week3: [
+            {
+                title: "Глава 1: Технические достижения кочевников (AITU 3.1)",
+                content: `
+                    <h1>🐎 Неделя 3. Глава 1: Технические достижения кочевников</h1>
+                    <p><strong>Главная идея темы:</strong> кочевая культура не была «отставанием» от оседлой — это самостоятельная высокотехнологичная система адаптации к степи, давшая человечеству ряд изобретений мирового значения.</p>
+
+                    <h2>1.1 Юрта (Киіз үй) как инженерное решение</h2>
+                    <p><strong>Юрта — не примитивное жилище, а разборная конструкция, оптимизированная сразу под климат, транспорт и скорость сборки.</strong> Она состоит из решётчатых стен <em>кереге</em>, купольных жердей <em>уық</em> и вершинного круга <em>шаңырақ</em>, покрытых войлоком (<em>киіз</em>). Юрта собирается за 1–2 часа, полностью разбирается для перевозки на вьючных животных, а круглая форма даёт идеальную аэродинамику против степных ветров: у ветра нет плоской стены, в которую можно ударить.</p>
+                    <p><strong>Пример:</strong> войлок работает в обе стороны — зимой удерживает тепло, летом не пропускает жар, то есть один материал решает две противоположные задачи.</p>
+
+                    <h2>1.2 Одомашнивание лошади и верховая сбруя</h2>
+                    <p><strong>Именно на территории Казахстана человек впервые превратил лошадь из объекта охоты в транспорт.</strong> Это произошло в <strong>Ботайской культуре</strong> (IV тыс. до н.э.). Далее кочевники изобрели жёсткое седло, <strong>стремена</strong> (<em>үзеңгі</em>) и штаны для верховой езды. Значение стремян огромно: без них всадник не может опереться и нанести полноценный удар, поэтому именно стремя сделало возможной тяжёлую конницу и изменило военное дело всей Евразии.</p>
+                    <p><strong>Пример:</strong> штаны — прямое следствие верховой езды; оседлым земледельческим культурам они были не нужны, там носили одежду типа туники.</p>
+
+                    <h2>1.3 Металлургия и вооружение</h2>
+                    <p><strong>Степные племена одними из первых освоили выплавку бронзы и железа.</strong> Результатом стали изогнутая сабля, составной лук и броня для конницы. Составной лук особенно показателен: он склеивался из дерева, рога и жил, что давало большую мощность при короткой длине — единственно возможный вариант для стрельбы с седла.</p>
+
+                    <h2>1.4 Звериный стиль и Золотой человек (Алтын Адам)</h2>
+                    <p><strong>Сако-скифский Звериный стиль выражал философию динамики и борьбы как основы мироздания.</strong> Стиль VII–III вв. до н.э. изображал схватки хищников и копытных — барсов, тигров, грифонов, оленей, архаров — на оружии, конской сбруе и золотых украшениях. Ключевой артефакт — <strong>Золотой человек из кургана Иссык</strong> (V в. до н.э.), в головном уборе которого зашифрована космогоническая модель Вселенной.</p>
+                    <p><strong>Не путать:</strong> Звериный стиль — динамичное изображение живых зверей в борьбе; орнамент — геометризованный статичный знак. Битва барса с оленем — Звериный стиль; <em>Қошқар мүйіз</em> — орнамент.</p>
+
+                    <h2>1.5 Что нужно помнить для экзамена</h2>
+                    <p>Первое одомашнивание лошади — <strong>Ботайская культура, IV тыс. до н.э.</strong> Стремя (<em>үзеңгі</em>) — изобретение кочевников. Сако-скифский стиль искусства — <strong>Звериный стиль</strong>. Золотой человек из Иссыка — <strong>V в. до н.э.</strong></p>
+                `
+            },
+            {
+                title: "Глава 2: Тенгрианство, Аруахи и Мүшел жас",
+                content: `
+                    <h1>☀️ Неделя 3. Глава 2: Духовная система кочевников</h1>
+                    <h2>2.1 Тенгрианство: культ Неба и Земли-Воды</h2>
+                    <p><strong>Духовная культура номадов строилась не на противопоставлении человека и природы, а на идее их единства.</strong> Центральные фигуры — <strong>Тенгри</strong>, Великое Синее Небо, верховное начало и источник порядка, и <strong>Жер-Су</strong>, Земля-Вода, заступница и податель жизни. Такая система по своей логике пантеистична: божество не находится вне мира, оно и есть мир (сравните с классификацией шести форм религиозных верований Тайлора из Недели 2).</p>
+                    <p><strong>Пример:</strong> клятва или благословение произносились с обращением к Небу, потому что Тенгри был не «отдельным богом на небе», а самим порядком мира, свидетелем любого поступка.</p>
+
+                    <h2>2.2 Культ предков (Аруақтар)</h2>
+                    <p><strong>Смерть в кочевой картине мира не разрывает связь человека с родом.</strong> <strong>Аруахи</strong> (<em>аруақтар</em>) — священные духи умерших предков, которые продолжают покровительствовать живым потомкам. Практическое следствие этой веры — высокая ответственность перед родом: поступок оценивается не только современниками, но и предками, а имя рода нельзя опозорить.</p>
+                    <p><strong>Пример:</strong> отсюда же требование знать <em>Жеті ата</em> — семь поколений предков: это не формальность, а способ удерживать связь с аруахами и границы родства.</p>
+
+                    <h2>2.3 Календарь Мүшел жас (12-летний цикл)</h2>
+                    <p><strong>Кочевое время циклично, а не линейно: оно измеряется не отсчётом от одной даты, а повторяющимися кругами.</strong> <strong>Мүшел жас</strong> — 12-летний животный цикл: Тышқан (мышь), Сиыр (корова), Барыс (барс), Қоян (заяц), Ұлу, Жылан (змея), Жылқы (лошадь), Қой (овца), Мешін (обезьяна), Тауық (курица), Ит (собака), Доңыз (кабан). Возраст, кратный 12 (12, 24, 36, 48), считался рубежным и требовал особой осторожности и обрядов.</p>
+
+                    <h2>2.4 Что нужно помнить для экзамена</h2>
+                    <p>Небо — <strong>Тенгри</strong>, Земля-Вода — <strong>Жер-Су</strong>. Духи предков — <strong>Аруақтар</strong>. 12-летний животный цикл — <strong>Мүшел жас</strong>. Семь поколений предков — <strong>Жеті ата</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 3: Древнетюркская руническая письменность",
+                content: `
+                    <h1>🪨 Неделя 3. Глава 3: Орхоно-енисейские руны</h1>
+                    <h2>3.1 Первая письменность тюрков</h2>
+                    <p><strong>Тюрки создали не заимствованную, а собственную оригинальную алфавитно-звуковую письменность.</strong> В VI–VIII веках н.э. Тюркский каганат высекал рунические тексты на каменных стелах. Это принципиально важный факт: алфавитно-звуковое письмо — сложная технология, предполагающая разложение речи на отдельные звуки, и её наличие опровергает представление о степи как о «бесписьменном» пространстве. Тексты читаются <strong>справа налево</strong>.</p>
+
+                    <h2>3.2 Главные памятники</h2>
+                    <p><strong>Рунические стелы — это первые письменные документы истории Казахстана, созданные самими её участниками.</strong> Наиболее известны каменные изваяния в честь <strong>Бильге-кагана</strong>, <strong>Кюль-тегина</strong> и <strong>Тоньюкука</strong> на реке Орхон в Монголии. Это не хозяйственные записи, а политические автобиографии каганов: они объясняют, почему власть законна и что связывает народ с Небом.</p>
+                    <blockquote>«Когда вверху возникло Голубое Небо, а внизу — Бурая Земля, между ними возникли сыны человеческие. Над сынами человеческими воссели мои предки Бумын-каган и Истеми-каган...» — стела Кюль-тегина, VIII в. н.э.</blockquote>
+
+                    <h2>3.3 Расшифровка: Томсен и Радлов</h2>
+                    <p><strong>Руны молчали более тысячи лет, пока в 1893 году не был найден ключ к их чтению.</strong> Датский лингвист <strong>Вильгельм Томсен</strong> расшифровал древнетюркское письмо в <strong>1893 году</strong>, и первыми прочитанными словами стали <em>Тенгри</em> (Небо) и <em>Тюрк</em>. Вслед за ним русский тюрколог <strong>Василий Радлов</strong> перевёл весь массив степных текстов, что превратило отдельное открытие в полноценный исторический источник.</p>
+                    <p><strong>Не путать:</strong> тюркские руны и скандинавские руны похожи только внешне — у них разный язык, разное происхождение и разные системы знаков. Стелы Кюль-тегина — тюркские руны VIII века.</p>
+
+                    <h2>3.4 Что нужно помнить для экзамена</h2>
+                    <p>Древнетюркская письменность — <strong>орхоно-енисейские руны</strong>, VI–VIII вв. н.э., читается <strong>справа налево</strong>. Расшифровал — <strong>Вильгельм Томсен, 1893</strong>. Первое прочитанное слово — <strong>Тенгри</strong>. Перевёл весь корпус — <strong>Василий Радлов</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 4: Шелковый путь и культурный обмен",
+                content: `
+                    <h1>🐪 Неделя 3. Глава 4: Великий Шелковый путь и товарный обмен</h1>
+                    <h2>4.1 Номады как протекторы Шелкового пути</h2>
+                    <p><strong>Кочевые империи выступали не разрушителями торговых путей, а их главными протекторами, логистами и посредниками.</strong> Великий Шелковый путь связывал Китай, Согдиану, Иран, Византию и Западную Европу, и проходил он именно через степь. Караван физически не мог пересечь эти расстояния без кочевников: они обеспечивали вьючных животных, знание маршрутов и водопоев, охрану от грабежа и посреднический обмен. Разрушать путь номадам было невыгодно — он был источником их дохода.</p>
+
+                    <h2>4.2 Безналичный товарный обмен (Moneyless Commodity Exchange)</h2>
+                    <p><strong>До появления монеты обмен между степью и оседлыми оазисами шёл напрямую товар на товар, и именно дефицит товаров породил посредническую торговлю.</strong> В официальном учебнике курса (Уйзбаева А.А., Байсарина Ж.С., Альжанова Г.М. «Culture of Kazakhstan», стр. 10) это описано так:</p>
+                    <blockquote>«Изолированный образ жизни и дефицит многих товаров предопределили возникновение посреднической торговли через прямой обмен товарами (безналичный обмен): земледельцы покупали у номадов скотный навоз для удобрения полей, а также меняли пшеницу, муку, фрукты и овощи на мясо, молоко, молочные продукты, шкуры животных и шерсть. Позже, с определением стоимости товаров, номады ввели металлические деньги, которые стали основным средством обмена и торговли».</blockquote>
+                    <p><strong>Обратите внимание на деталь, которую любят спрашивать:</strong> земледельцы покупали у кочевников именно <strong>скотный навоз</strong> для удобрения полей. Это показывает, что обмен был взаимовыгодным, а не односторонним: степь давала земледельцам то, чего у них не было.</p>
+
+                    <h2>4.3 Великое переселение народов и языковые семьи</h2>
+                    <p><strong>Конная мобильность сделала кочевников двигателем глобальных миграций, изменивших карту Евразии.</strong> Результатом Великого переселения народов стало формирование современной этнолингвистической карты континента, включая окончательное оформление <strong>индоевропейской, семитской, тюркской и монгольской</strong> языковых семей (Уйзбаева и др., стр. 10).</p>
+
+                    <h2>4.4 Что нужно помнить для экзамена</h2>
+                    <p>Роль номадов на Шелковом пути — <strong>протекторы, логисты и посредники</strong>. Безналичный обмен — <strong>прямой обмен товара на товар</strong>; земледельцы покупали <strong>скотный навоз</strong>. Металлические деньги ввели <strong>позже</strong>, после определения стоимости товаров. Четыре языковые семьи — <strong>индоевропейская, семитская, тюркская, монгольская</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 5: Орнамент как семиотический код",
+                content: `
+                    <h1>🎨 Неделя 3. Глава 5: Казахский орнамент и семиотика цвета</h1>
+                    <p><strong>Главная идея темы:</strong> казахский орнамент (<em>Қазақ ою-өрнегі</em>) — это невербальный семиотический текст, а не украшение. Каждая фигура работает как знак-символ в смысле Пирса: связь между узором и значением условна и держится на культурном договоре.</p>
+
+                    <h2>5.1 Қошқар мүйіз («Бараньи рога»)</h2>
+                    <p><strong>Центральный узор казахского прикладного искусства.</strong> В скотоводческой культуре баран символизирует жизненную силу, изобилие скота и благополучие рода. Нанесённый на предмет орнамент читается как пожелание достатка, здоровья и процветания. Логика прямая: богатство кочевника измерялось поголовьем, поэтому знак стада есть знак благополучия.</p>
+
+                    <h2>5.2 Құс тұмсық («Птичий клюв»)</h2>
+                    <p><strong>Символизирует высокое парение, свободу и небесную сферу Тенгри.</strong> Самый показательный пример его работы как знака — этикетная традиция: кольцо с узором <em>Құс тұмсық</em>, отправленное выданной замуж девушкой родителям, означало добрую весть — она свободна и счастлива в семье мужа. Это полноценное сообщение, переданное без единого слова.</p>
+
+                    <h2>5.3 Айшық гүл («Лунная кувшинка»)</h2>
+                    <p><strong>Символ круговорота природы и непрерывного движения жизни.</strong> Узор выражает то же циклическое понимание времени, что и календарь <em>Мүшел жас</em>: время идёт кругами, а не по прямой.</p>
+
+                    <h2>5.4 Семиотика цвета</h2>
+                    <p><strong>Цвет в кочевой культуре тоже знак, а не эстетический выбор.</strong></p>
+                    <p><strong>Синий (Көк):</strong> цвет Неба (Тенгри), мир и верность.<br>
+                    <strong>Зелёный (Жасыл):</strong> цвет земли, весны и обновления.<br>
+                    <strong>Красный (Қызыл):</strong> цвет огня, солнца и жизненной энергии.<br>
+                    <strong>Белый (Ақ):</strong> цвет молока, чистоты и счастья.</p>
+                    <p><strong>Пример:</strong> синий цвет государственного флага Казахстана продолжает именно эту традицию — это цвет Тенгри, а не произвольное дизайнерское решение.</p>
+
+                    <h2>5.5 Что нужно помнить для экзамена</h2>
+                    <p>Жизненная сила и процветание — <strong>Қошқар мүйіз</strong>. Свобода, Небо и добрая весть — <strong>Құс тұмсық</strong>. Круговорот жизни — <strong>Айшық гүл</strong>. Синий — <strong>Небо/Тенгри</strong>, белый — <strong>молоко, чистота, счастье</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 6: Цифровой номадизм (Макимото и Маннерс, 1997)",
+                content: `
+                    <h1>💻 Неделя 3. Глава 6: Цифровой номадизм</h1>
+                    <h2>6.1 Происхождение концепта (1997)</h2>
+                    <p><strong>Термин «цифровой кочевник» появился как прогноз, а не как описание существующего явления.</strong> Его ввели японский учёный <strong>Цугио Макимото</strong> (<em>Tsugio Makimoto</em>) и британский журналист <strong>Дэвид Маннерс</strong> (<em>David Manners</em>) в книге <strong>«Digital Nomad» (1997)</strong>. Они предсказали, что развитие мобильной связи и портативных компьютеров вернёт человечеству мобильный образ жизни — то есть что оседлость была временной фазой, связанной с привязкой работы к месту.</p>
+
+                    <h2>6.2 Определение и виза цифрового кочевника</h2>
+                    <p><strong>Цифровой номадизм — социокультурный феномен XXI века, при котором специалисты работают дистанционно и регулярно перемещаются между странами.</strong> Государства ответили на это новым правовым инструментом: <strong>Digital Nomad Visa</strong> — специальный вид на жительство, позволяющий иностранцу легально проживать в стране, сохраняя дистанционную работу на зарубежного работодателя. Появление такой визы — показательный пример культурного лага из Недели 1: практика возникла раньше, чем закон научился её описывать.</p>
+
+                    <h2>6.3 Плюсы и минусы</h2>
+                    <p><strong>Плюсы:</strong> географическая свобода, снижение личного углеродного следа (на 72% по статистике Nomad Stats), высокий доход (в среднем около $85 000 в год), культурное обогащение от жизни в разных средах.</p>
+                    <p><strong>Минусы:</strong> одиночество и слабые социальные связи, языковые барьеры, зависимость от нестабильного Wi-Fi, сложности двойного налогообложения.</p>
+
+                    <h2>6.4 Связь с классическим номадизмом</h2>
+                    <p><strong>Сходство глубже, чем метафора, но и различие принципиально.</strong> Общее — мобильность как норма, а не как исключение, и лёгкость имущества: юрта разбирается за час, ноутбук закрывается за секунду. Различие — в основе движения: классический кочевник перемещался вслед за пастбищами, то есть был привязан к природному циклу и двигался вместе с родом; цифровой кочевник перемещается вслед за качеством связи и визовым режимом и, как правило, поодиночке.</p>
+
+                    <h2>6.5 Что нужно помнить для экзамена</h2>
+                    <p>Авторы книги «Digital Nomad» (1997) — <strong>Цугио Макимото и Дэвид Маннерс</strong>. <strong>Digital Nomad Visa</strong> — ВНЖ для дистанционной работы на зарубежного работодателя. Приводимое преимущество по статистике 2026 года — снижение выбросов CO₂ на <strong>72%</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 7: Кочевые традиции в современном Казахстане",
+                content: `
+                    <h1>🏛️ Неделя 3. Глава 7: Кочевое наследие в современном Казахстане</h1>
+                    <p><strong>Главная идея темы:</strong> кочевая культура не исчезла с переходом к оседлости — она сохранилась в этике, обрядах и современных культурных формах, то есть перешла из материального слоя в нематериальный.</p>
+
+                    <h2>7.1 Этическая система</h2>
+                    <p><strong>Кочевые нормы выживания превратились в моральные нормы, которые действуют и сегодня.</strong> <strong>Қонақжайлылық</strong> (гостеприимство) в степи было вопросом жизни: отказать путнику в приюте означало обречь его, поэтому гостеприимство стало безусловным долгом. <strong>Үлкенге құрмет</strong> (уважение к старшим) закрепляло за старшим поколением роль хранителя опыта в культуре без письменности. <strong>Жеті ата</strong> (знание семи предков) удерживало границы родства и запрет на близкородственные браки. <strong>Асар</strong> (взаимопомощь) обеспечивал коллективное выполнение работ, неподъёмных для одной семьи.</p>
+
+                    <h2>7.2 Обряды жизненного цикла</h2>
+                    <p><strong>Ключевые переходы в жизни человека закреплялись обрядом, то есть публичным знаком.</strong> <em>Бесікке салу</em> — укладывание младенца в колыбель, первое включение в род. <em>Тұсау кесу</em> — разрезание пут на ногах ребёнка, чтобы он шёл по жизни уверенно и не спотыкался. <em>Беташар</em> — открытие лица невесты, обряд представления её новой семье.</p>
+                    <p><strong>Пример:</strong> <em>Тұсау кесу</em> — наглядная иллюстрация Недели 2: разрезание верёвки материально, но его смысл целиком нематериален и держится на договоре сообщества о значении жеста.</p>
+
+                    <h2>7.3 Современный ренессанс</h2>
+                    <p><strong>Кочевое наследие сегодня работает как язык национальной идентичности, в том числе в самых современных формах.</strong> В архитектуре это Хан Шатыр в Астане — прямая отсылка к форме шатра. В спорте и дипломатии — Всемирные игры кочевников. В музыке — этно-рок и этно-джаз (Hassak, Turan), где домбра и кобыз соединяются с современной аранжировкой.</p>
+
+                    <h2>7.4 Что нужно помнить для экзамена</h2>
+                    <p>Гостеприимство — <strong>Қонақжайлылық</strong>, уважение к старшим — <strong>Үлкенге құрмет</strong>, семь предков — <strong>Жеті ата</strong>, взаимопомощь — <strong>Асар</strong>. Обряды: <strong>Бесікке салу, Тұсау кесу, Беташар</strong>. Современные формы: <strong>Хан Шатыр, Всемирные игры кочевников, этно-рок</strong>.</p>
+                `
+            },
+            {
+                title: "Глава 8: Официальный Тестовый Блок Недели 3 (10 Вопросов с ответами)",
+                content: `
+                    <h1>🔥 Неделя 3. Глава 8: Ключ и разбор 10 тестовых вопросов</h1>
+                    <p><strong>1. Кто является авторами книги «Digital Nomad» (1997)?</strong><br>
+                    Ответ: <strong>Цугио Макимото и Дэвид Маннерс</strong>. Японский учёный и британский журналист предсказали возврат к мобильному образу жизни благодаря мобильной связи и портативным компьютерам.</p>
+
+                    <p><strong>2. Какой орнамент символизирует жизненную силу и процветание?</strong><br>
+                    Ответ: <strong>Қошқар мүйіз</strong> («Бараньи рога»). Логика знака прямая: богатство кочевника измерялось поголовьем скота, поэтому знак барана есть знак достатка.</p>
+
+                    <p><strong>3. Кто и в каком году впервые расшифровал тюркские руны?</strong><br>
+                    Ответ: датский лингвист <strong>Вильгельм Томсен</strong> в <strong>1893 году</strong>. Василий Радлов затем перевёл весь корпус текстов — не путайте роли: Томсен расшифровал, Радлов перевёл.</p>
+
+                    <p><strong>4. Какое первое слово прочитал В. Томсен в тюркских рунах?</strong><br>
+                    Ответ: <strong>Тенгри</strong> (Небо). Вторым прочитанным словом было «Тюрк».</p>
+
+                    <p><strong>5. Что покупали оседлые земледельцы у номадов для удобрения полей?</strong><br>
+                    Ответ: <strong>скотный навоз</strong> (<em>cattle dung</em>), по учебнику Уйзбаевой и др., стр. 10. Вопрос проверяет, что обмен был взаимовыгодным, а не односторонним.</p>
+
+                    <p><strong>6. Что символизирует орнамент Құс тұмсық («Птичий клюв»)?</strong><br>
+                    Ответ: <strong>свободу, небесную сферу и добрые вести</strong>. Кольцо с этим узором девушка присылала родителям как сообщение о счастье в новой семье.</p>
+
+                    <p><strong>7. К какому веку относится Золотой человек из кургана Иссык?</strong><br>
+                    Ответ: <strong>V в. до н.э.</strong> (сакский период). Не путайте с датировкой рун — это VI–VIII вв. н.э., то есть более тысячи лет позже.</p>
+
+                    <p><strong>8. Как называется 12-летний традиционный животный календарный цикл?</strong><br>
+                    Ответ: <strong>Мүшел жас</strong>. Возраст, кратный 12, считался рубежным.</p>
+
+                    <p><strong>9. Какое ключевое преимущество цифрового номадизма приводится в статистике 2026 года?</strong><br>
+                    Ответ: снижение выбросов <strong>CO₂ на 72%</strong> за счёт отказа от ежедневных поездок в офис.</p>
+
+                    <p><strong>10. Какая древнейшая культура Казахстана впервые одомашнила лошадь?</strong><br>
+                    Ответ: <strong>Ботайская культура</strong> (IV тыс. до н.э.) — первое одомашнивание лошади в мире.</p>
+                `
+            },
+            {
+                title: "Глава 9: Устная Защита Перед Преподавателем (10 Экзаменационных Билетов)",
+                content: `
+                    <h1>💬 Неделя 3. Глава 9: 10 Развернутых Устных Билетов с ответами</h1>
+                    <p><strong>Билет 1: Расскажите об инженерных особенностях юрты.</strong><br>
+                    Ответ: Юрта — переносное экологичное жилище из дерева и войлока, состоящее из решёток <em>кереге</em>, купольных жердей <em>уық</em> и сакрального круга <em>шаңырақ</em>. Она собирается за 1–2 часа и полностью разбирается для перевозки. Круглая форма даёт идеальную аэродинамику против степных ветров, а войлок работает в обе стороны: зимой держит тепло, летом не пропускает жар.</p>
+
+                    <p><strong>Билет 2: В чём значение товарного бартера по учебнику Уйзбаевой, Байсариной и Альжановой (стр. 10)?</strong><br>
+                    Ответ: Изолированный образ жизни и дефицит товаров породили посредническую торговлю через прямой обмен без денег. Земледельцы покупали у номадов скотный навоз для удобрения полей и меняли пшеницу, муку, фрукты и овощи на мясо, молоко, шкуры и шерсть. Позже, когда стоимость товаров была определена, номады ввели металлические деньги, ставшие основным средством обмена.</p>
+
+                    <p><strong>Билет 3: Раскройте семиотику орнамента Құс тұмсық.</strong><br>
+                    Ответ: <em>Құс тұмсық</em> («птичий клюв») символизирует высокое парение, свободу и небесную сферу Тенгри. В этикетной традиции кольцо с этим узором выданная замуж девушка присылала родителям как добрую весть о том, что она свободна и счастлива в семье мужа. Это полноценное сообщение, переданное без слов, — поэтому орнамент и называют невербальным семиотическим текстом.</p>
+
+                    <p><strong>Билет 4: Почему стремя считают переломным изобретением?</strong><br>
+                    Ответ: Стремя (<em>үзеңгі</em>) дало всаднику точку опоры в седле. Без опоры невозможно нанести полноценный удар копьём или саблей, не потеряв равновесие. Именно стремя вместе с жёстким седлом сделало возможной тяжёлую конницу и изменило военное дело всей Евразии.</p>
+
+                    <p><strong>Билет 5: Что такое Звериный стиль и чем он отличается от орнамента?</strong><br>
+                    Ответ: Звериный стиль — сако-скифский художественный стиль VII–III вв. до н.э., изображавший динамику борьбы хищников и копытных на золоте, оружии и конской сбруе. Орнамент, в отличие от него, представляет собой геометризованный статичный знак-символ. Битва барса с оленем — Звериный стиль; <em>Қошқар мүйіз</em> — орнамент.</p>
+
+                    <p><strong>Билет 6: Опишите духовную систему кочевников.</strong><br>
+                    Ответ: Основу составляло тенгрианство — культ Великого Синего Неба (<strong>Тенгри</strong>) и Земли-Воды (<strong>Жер-Су</strong>), по своей логике пантеистический. К нему примыкал культ предков: аруахи (<em>аруақтар</em>) — духи умерших, продолжающие покровительствовать роду. Время понималось циклически и измерялось 12-летним животным циклом <em>Мүшел жас</em>.</p>
+
+                    <p><strong>Билет 7: Какова роль номадов на Великом Шелковом пути?</strong><br>
+                    Ответ: Кочевые империи были не разрушителями, а протекторами, логистами и посредниками пути, связывавшего Китай, Согдиану, Иран, Византию и Западную Европу. Караван не мог пройти степь без вьючных животных, знания маршрутов и водопоев и охраны от грабежа — всё это давали кочевники. Разрушать путь им было невыгодно, поскольку он был источником их дохода.</p>
+
+                    <p><strong>Билет 8: Что такое цифровой номадизм и кто ввёл этот термин?</strong><br>
+                    Ответ: Цифровой номадизм — феномен XXI века, при котором специалисты работают дистанционно, регулярно перемещаясь между странами. Термин ввели Цугио Макимото и Дэвид Маннерс в книге «Digital Nomad» (1997) как прогноз: мобильная связь и портативные компьютеры вернут человечеству мобильный образ жизни. Государства ответили введением Digital Nomad Visa — ВНЖ для дистанционной работы на зарубежного работодателя.</p>
+
+                    <p><strong>Билет 9: Какие кочевые этические нормы действуют в современном Казахстане?</strong><br>
+                    Ответ: <em>Қонақжайлылық</em> — гостеприимство, которое в степи было вопросом выживания путника и потому стало безусловным долгом. <em>Үлкенге құрмет</em> — уважение к старшим как к хранителям опыта в культуре без письменности. <em>Жеті ата</em> — знание семи предков, удерживавшее границы родства. <em>Асар</em> — взаимопомощь при работах, неподъёмных для одной семьи.</p>
+
+                    <p><strong>Билет 10: Каково значение расшифровки Томсена?</strong><br>
+                    Ответ: В 1893 году датский лингвист Вильгельм Томсен нашёл ключ к древнетюркскому письму, молчавшему более тысячи лет, и первыми прочитал слова <em>Тенгри</em> и <em>Тюрк</em>. Василий Радлов затем перевёл весь массив орхоно-енисейских текстов. Значение в том, что стелы Кюль-тегина и Бильге-кагана превратились из загадочных камней в первые письменные исторические источники, созданные самими тюрками.</p>
+                `
+            }
         ]
     },
     en: {
@@ -1002,6 +1224,228 @@ const fullBookDatabase = {
 
                     <p><strong>Ticket 10: What is the significance of the Tamgaly petroglyphs?</strong><br>
                     Answer: The rock carvings of the Tamgaly gorge depict the Sun-Headed Deity (Kunhan), a figure bearing a solar disc in place of a head. It is a monument of ancient Eurasian cosmogonic mythology reflecting the solar cult and the worship of the Sky (Tengri). The petroglyph functions precisely as a sign: it is not decoration but a message about the picture of the world, fixed in stone.</p>
+                `
+            }
+        ],
+        week3: [
+            {
+                title: "Chapter 1: Technical Achievements of the Nomads (AITU 3.1)",
+                content: `
+                    <h1>🐎 Week 3. Chapter 1: Technical Achievements of the Nomads</h1>
+                    <p><strong>Core idea of the topic:</strong> nomadic culture was not a "lag" behind settled civilisation but an independent, highly technological system of adaptation to the steppe that gave humanity a series of inventions of global significance.</p>
+
+                    <h2>1.1 The Yurt (Kiiz ui) as an Engineering Solution</h2>
+                    <p><strong>The yurt is not a primitive dwelling but a collapsible structure optimised simultaneously for climate, transport, and speed of assembly.</strong> It consists of lattice walls (<em>kerege</em>), dome poles (<em>uyk</em>), and the crown ring (<em>shanyraq</em>), covered with felt (<em>kiiz</em>). A yurt is erected in 1–2 hours, dismantles completely for transport on pack animals, and its circular form gives ideal aerodynamics against steppe winds: there is no flat wall for the wind to strike.</p>
+                    <p><strong>Example:</strong> felt works in both directions — it retains heat in winter and blocks heat in summer, so a single material solves two opposite problems.</p>
+
+                    <h2>1.2 Horse Domestication and Riding Harness</h2>
+                    <p><strong>It was on the territory of Kazakhstan that humans first turned the horse from prey into transport.</strong> This happened in the <strong>Botai culture</strong> (4th millennium BCE). Nomads went on to invent the rigid saddle, the <strong>stirrup</strong> (<em>uzengi</em>), and riding trousers. The importance of the stirrup is enormous: without a point of support a rider cannot deliver a full-force blow, so the stirrup is precisely what made heavy cavalry possible and reshaped warfare across Eurasia.</p>
+                    <p><strong>Example:</strong> trousers are a direct consequence of horse riding; settled agricultural cultures had no need for them and wore tunic-type garments instead.</p>
+
+                    <h2>1.3 Metallurgy and Weaponry</h2>
+                    <p><strong>Steppe tribes were among the first to master bronze and iron smelting.</strong> The results were the curved sabre, the composite bow, and cavalry armour. The composite bow is especially telling: glued from wood, horn, and sinew, it delivered great power at a short length — the only workable option for shooting from the saddle.</p>
+
+                    <h2>1.4 Animal Style and the Golden Man (Altyn Adam)</h2>
+                    <p><strong>The Saka-Scythian Animal Style expressed a philosophy of dynamism and struggle as the foundation of the cosmos.</strong> The style of the 7th–3rd centuries BCE depicted combat between predators and hoofed animals — snow leopards, tigers, griffins, stags, argali — on weapons, horse harness, and gold ornaments. The key artefact is the <strong>Golden Man from the Issyk kurgan</strong> (5th century BCE), whose headdress encodes a cosmogonic model of the Universe.</p>
+                    <p><strong>Do not confuse:</strong> Animal Style is a dynamic depiction of living beasts in combat; ornament is a geometricised static sign. A snow leopard fighting a stag is Animal Style; <em>Qoshqar muyiz</em> is ornament.</p>
+
+                    <h2>1.5 Guaranteed Exam Items</h2>
+                    <p>First horse domestication — <strong>Botai culture, 4th millennium BCE</strong>. The stirrup (<em>uzengi</em>) is a nomadic invention. The Saka-Scythian art style is the <strong>Animal Style</strong>. The Golden Man of Issyk dates to the <strong>5th century BCE</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 2: Tengriism, Ancestor Spirits & Mushel zhas",
+                content: `
+                    <h1>☀️ Week 3. Chapter 2: The Spiritual System of the Nomads</h1>
+                    <h2>2.1 Tengriism: the Cult of Sky and Earth-Water</h2>
+                    <p><strong>Nomadic spiritual culture was built not on the opposition of human and nature but on the idea of their unity.</strong> Its central figures are <strong>Tengri</strong>, the Great Blue Sky, the supreme principle and source of order, and <strong>Jer-Su</strong>, Earth-Water, protectress and giver of life. In its logic this system is pantheistic: the deity does not stand outside the world, it <em>is</em> the world (compare Tylor's classification of the six forms of religious belief from Week 2).</p>
+                    <p><strong>Example:</strong> an oath or a blessing was pronounced with an appeal to the Sky, because Tengri was not "a separate god up above" but the order of the world itself, witness to every deed.</p>
+
+                    <h2>2.2 The Cult of Ancestors (Aruaqtar)</h2>
+                    <p><strong>In the nomadic picture of the world, death does not sever a person's bond with the lineage.</strong> <strong>Aruaqs</strong> (<em>aruaqtar</em>) are the sacred spirits of deceased ancestors who continue to protect their living descendants. The practical consequence of this belief is a high responsibility toward the clan: a deed is judged not only by contemporaries but by ancestors, and the name of the lineage must not be disgraced.</p>
+                    <p><strong>Example:</strong> hence the requirement to know <em>Jeti ata</em>, the seven generations of ancestors — not a formality but a way of maintaining the bond with the aruaqs and the boundaries of kinship.</p>
+
+                    <h2>2.3 The Mushel zhas Calendar (12-Year Cycle)</h2>
+                    <p><strong>Nomadic time is cyclical rather than linear: it is measured not by counting from a single date but by repeating circles.</strong> <strong>Mushel zhas</strong> is the 12-year animal cycle: Tyshqan (mouse), Siyr (cow), Barys (leopard), Qoyan (hare), Ulu, Zhylan (snake), Zhylqy (horse), Qoi (sheep), Meshin (monkey), Tauyq (hen), It (dog), Donyz (boar). An age that is a multiple of 12 (12, 24, 36, 48) was considered a threshold year demanding particular caution and ritual.</p>
+
+                    <h2>2.4 Guaranteed Exam Items</h2>
+                    <p>Sky — <strong>Tengri</strong>, Earth-Water — <strong>Jer-Su</strong>. Ancestor spirits — <strong>Aruaqtar</strong>. The 12-year animal cycle — <strong>Mushel zhas</strong>. The seven generations of ancestors — <strong>Jeti ata</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 3: The Old Turkic Runic Script",
+                content: `
+                    <h1>🪨 Week 3. Chapter 3: The Orkhon-Yenisei Runes</h1>
+                    <h2>3.1 The First Turkic Writing System</h2>
+                    <p><strong>The Turks created an original alphabetic-phonetic script of their own rather than a borrowed one.</strong> In the 6th–8th centuries CE the Turkic Khaganate carved runic texts into stone stelae. This fact matters fundamentally: alphabetic-phonetic writing is a sophisticated technology presupposing the decomposition of speech into individual sounds, and its existence refutes the notion of the steppe as an "illiterate" space. The texts read <strong>from right to left</strong>.</p>
+
+                    <h2>3.2 The Principal Monuments</h2>
+                    <p><strong>The runic stelae are the first written documents of the history of Kazakhstan produced by its own participants.</strong> The best known are the stone monuments honouring <strong>Bilge Khagan</strong>, <strong>Kultegin</strong>, and <strong>Tonyukuk</strong> on the Orkhon River in Mongolia. These are not economic records but political autobiographies of the khagans: they explain why the ruler's power is legitimate and what binds the people to the Sky.</p>
+                    <blockquote>"When the Blue Sky above and the Brown Earth below were created, between them human beings were created. Over human beings sat my ancestors Bumyn Khagan and Istemi Khagan..." — Kultegin stela, 8th century CE</blockquote>
+
+                    <h2>3.3 Decipherment: Thomsen and Radlov</h2>
+                    <p><strong>The runes stayed silent for over a thousand years until the key to reading them was found in 1893.</strong> The Danish linguist <strong>Vilhelm Thomsen</strong> deciphered the Old Turkic script in <strong>1893</strong>, and the first words he read were <em>Tengri</em> (Sky) and <em>Turk</em>. The Russian Turkologist <strong>Vasily Radlov</strong> then translated the entire corpus of steppe texts, turning an isolated discovery into a fully usable historical source.</p>
+                    <p><strong>Do not confuse:</strong> Turkic runes and Norse runes resemble each other only superficially — they have different languages, different origins, and different sign systems. The Kultegin stelae are 8th-century Turkic runes.</p>
+
+                    <h2>3.4 Guaranteed Exam Items</h2>
+                    <p>The Old Turkic script is the <strong>Orkhon-Yenisei runes</strong>, 6th–8th centuries CE, read <strong>right to left</strong>. Deciphered by <strong>Vilhelm Thomsen, 1893</strong>. The first word read was <strong>Tengri</strong>. The full corpus was translated by <strong>Vasily Radlov</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 4: The Silk Road & Cultural Exchange",
+                content: `
+                    <h1>🐪 Week 3. Chapter 4: The Great Silk Road and Commodity Exchange</h1>
+                    <h2>4.1 Nomads as Protectors of the Silk Road</h2>
+                    <p><strong>The nomadic empires acted not as destroyers of trade routes but as their principal protectors, logisticians, and intermediaries.</strong> The Great Silk Road linked China, Sogdiana, Iran, Byzantium, and Western Europe, and it ran precisely through the steppe. A caravan physically could not cross those distances without the nomads: they supplied pack animals, knowledge of routes and watering places, protection against robbery, and intermediary exchange. Destroying the route was against their interest — it was the source of their income.</p>
+
+                    <h2>4.2 Moneyless Commodity Exchange</h2>
+                    <p><strong>Before coinage appeared, exchange between the steppe and the settled oases ran directly, goods for goods, and it was precisely the scarcity of goods that generated intermediary trade.</strong> The official course textbook (Uyzbayeva A.A., Baisarina Zh.S., Alzhanova G.M., <em>Culture of Kazakhstan</em>, p. 10) describes it as follows:</p>
+                    <blockquote>"The isolated way of life and the shortage of many goods predetermined the emergence of intermediary trade through direct exchange of commodities (moneyless exchange): farmers bought cattle dung from the nomads to fertilise their fields, and also exchanged wheat, flour, fruit and vegetables for meat, milk, dairy products, animal hides and wool. Later, once the value of goods had been determined, the nomads introduced metal money, which became the principal means of exchange and trade."</blockquote>
+                    <p><strong>Note the detail examiners like to ask about:</strong> farmers bought <strong>cattle dung</strong> from the nomads to fertilise their fields. This shows the exchange was mutually beneficial rather than one-sided: the steppe supplied farmers with something they did not have.</p>
+
+                    <h2>4.3 The Great Migration of Peoples and Language Families</h2>
+                    <p><strong>Equestrian mobility made the nomads the engine of global migrations that redrew the map of Eurasia.</strong> The Great Migration of Peoples resulted in the formation of the continent's modern ethnolinguistic map, including the final shaping of the <strong>Indo-European, Semitic, Turkic, and Mongolic</strong> language families (Uyzbayeva et al., p. 10).</p>
+
+                    <h2>4.4 Guaranteed Exam Items</h2>
+                    <p>The role of the nomads on the Silk Road: <strong>protectors, logisticians, intermediaries</strong>. Moneyless exchange is <strong>direct goods-for-goods barter</strong>; farmers bought <strong>cattle dung</strong>. Metal money came <strong>later</strong>, once the value of goods had been determined. The four language families: <strong>Indo-European, Semitic, Turkic, Mongolic</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 5: Ornament as a Semiotic Code",
+                content: `
+                    <h1>🎨 Week 3. Chapter 5: Kazakh Ornament and the Semiotics of Colour</h1>
+                    <p><strong>Core idea of the topic:</strong> Kazakh ornament (<em>Qazaq oyu-ornegi</em>) is a non-verbal semiotic text, not decoration. Each figure works as a sign-symbol in Peirce's sense: the bond between pattern and meaning is conventional and rests on cultural agreement.</p>
+
+                    <h2>5.1 Qoshqar muyiz ("Ram's Horns")</h2>
+                    <p><strong>The central pattern of Kazakh applied art.</strong> In a pastoral culture the ram symbolises vital force, abundance of livestock, and the well-being of the clan. Applied to an object, the ornament reads as a wish for prosperity, health, and the flourishing of the lineage. The logic is direct: a nomad's wealth was measured in head of livestock, so the sign of the herd is the sign of prosperity.</p>
+
+                    <h2>5.2 Qus tumsyq ("Bird's Beak")</h2>
+                    <p><strong>Symbolises soaring flight, freedom, and the celestial sphere of Tengri.</strong> The clearest example of it working as a sign comes from etiquette: a ring bearing the <em>Qus tumsyq</em> pattern, sent by a married-off daughter to her parents, meant good news — she was free and happy in her husband's family. This is a complete message conveyed without a single word.</p>
+
+                    <h2>5.3 Aishyq gul ("Moon Water-Lily")</h2>
+                    <p><strong>A symbol of nature's cycle and the unbroken movement of life.</strong> The pattern expresses the same cyclical understanding of time as the <em>Mushel zhas</em> calendar: time moves in circles, not in a straight line.</p>
+
+                    <h2>5.4 The Semiotics of Colour</h2>
+                    <p><strong>Colour in nomadic culture is likewise a sign rather than an aesthetic choice.</strong></p>
+                    <p><strong>Blue (Kok):</strong> the colour of the Sky (Tengri), peace and fidelity.<br>
+                    <strong>Green (Zhasyl):</strong> the colour of the earth, spring, and renewal.<br>
+                    <strong>Red (Qyzyl):</strong> the colour of fire, the sun, and vital energy.<br>
+                    <strong>White (Aq):</strong> the colour of milk, purity, and happiness.</p>
+                    <p><strong>Example:</strong> the blue of the state flag of Kazakhstan continues precisely this tradition — it is the colour of Tengri, not an arbitrary design decision.</p>
+
+                    <h2>5.5 Guaranteed Exam Items</h2>
+                    <p>Vital force and prosperity — <strong>Qoshqar muyiz</strong>. Freedom, the Sky, and good news — <strong>Qus tumsyq</strong>. The cycle of life — <strong>Aishyq gul</strong>. Blue is <strong>Sky/Tengri</strong>; white is <strong>milk, purity, happiness</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 6: Digital Nomadism (Makimoto & Manners, 1997)",
+                content: `
+                    <h1>💻 Week 3. Chapter 6: Digital Nomadism</h1>
+                    <h2>6.1 Origin of the Concept (1997)</h2>
+                    <p><strong>The term "digital nomad" appeared as a forecast, not as a description of something already existing.</strong> It was introduced by the Japanese scholar <strong>Tsugio Makimoto</strong> and the British journalist <strong>David Manners</strong> in the book <strong>Digital Nomad (1997)</strong>. They predicted that the development of mobile communications and portable computers would return humanity to a mobile way of life — in other words, that settledness had been a temporary phase tied to work being bound to a place.</p>
+
+                    <h2>6.2 Definition and the Digital Nomad Visa</h2>
+                    <p><strong>Digital nomadism is a sociocultural phenomenon of the 21st century in which specialists work remotely and move regularly between countries.</strong> States responded with a new legal instrument: the <strong>Digital Nomad Visa</strong>, a special residence permit allowing a foreigner to reside legally in a country while retaining remote work for a foreign employer. The appearance of such a visa is a textbook case of the cultural lag from Week 1: the practice emerged before the law learned how to describe it.</p>
+
+                    <h2>6.3 Advantages and Disadvantages</h2>
+                    <p><strong>Advantages:</strong> geographical freedom, a reduced personal carbon footprint (by 72% according to Nomad Stats), high income (roughly $85,000 per year on average), and cultural enrichment from living in different environments.</p>
+                    <p><strong>Disadvantages:</strong> loneliness and weak social ties, language barriers, dependence on unstable Wi-Fi, and the complications of double taxation.</p>
+
+                    <h2>6.4 The Link with Classical Nomadism</h2>
+                    <p><strong>The resemblance runs deeper than metaphor, yet the difference is fundamental.</strong> What they share is mobility as the norm rather than the exception, and lightness of possessions: a yurt dismantles in an hour, a laptop closes in a second. What differs is the basis of the movement: the classical nomad moved after pasture, bound to the natural cycle and travelling with the clan; the digital nomad moves after connection quality and visa regimes, and usually travels alone.</p>
+
+                    <h2>6.5 Guaranteed Exam Items</h2>
+                    <p>The authors of <em>Digital Nomad</em> (1997) are <strong>Tsugio Makimoto and David Manners</strong>. The <strong>Digital Nomad Visa</strong> is a residence permit for remote work for a foreign employer. The advantage cited in the 2026 statistics is a <strong>72%</strong> reduction in CO₂ emissions.</p>
+                `
+            },
+            {
+                title: "Chapter 7: Nomadic Traditions in Modern Kazakhstan",
+                content: `
+                    <h1>🏛️ Week 3. Chapter 7: The Nomadic Heritage in Modern Kazakhstan</h1>
+                    <p><strong>Core idea of the topic:</strong> nomadic culture did not vanish with the transition to settled life — it survived in ethics, rites, and contemporary cultural forms, that is, it migrated from the material layer into the non-material one.</p>
+
+                    <h2>7.1 The Ethical System</h2>
+                    <p><strong>Nomadic survival norms turned into moral norms that still operate today.</strong> <strong>Qonaqzhailylyq</strong> (hospitality) was a matter of life in the steppe: refusing a traveller shelter meant condemning them, so hospitality became an unconditional duty. <strong>Ulkenge qurmet</strong> (respect for elders) assigned the older generation the role of keeper of experience in a culture without writing. <strong>Jeti ata</strong> (knowledge of seven ancestors) maintained the boundaries of kinship and the prohibition on close-kin marriage. <strong>Asar</strong> (mutual aid) ensured the collective performance of work beyond a single family's capacity.</p>
+
+                    <h2>7.2 Rites of the Life Cycle</h2>
+                    <p><strong>Key transitions in a person's life were fixed by rite, that is, by a public sign.</strong> <em>Besikke salu</em> — laying the infant in the cradle, the first inclusion into the lineage. <em>Tusau kesu</em> — the cutting of the bonds on a child's legs so that they may walk through life confidently and without stumbling. <em>Betashar</em> — the unveiling of the bride's face, the rite of presenting her to her new family.</p>
+                    <p><strong>Example:</strong> <em>Tusau kesu</em> is a vivid illustration of Week 2: cutting the cord is material, yet its meaning is entirely non-material and rests on the community's agreement about what the gesture signifies.</p>
+
+                    <h2>7.3 The Contemporary Renaissance</h2>
+                    <p><strong>Today the nomadic heritage functions as a language of national identity, including in its most modern forms.</strong> In architecture this is Khan Shatyr in Astana, a direct reference to the form of a tent. In sport and diplomacy, the World Nomad Games. In music, ethno-rock and ethno-jazz (Hassak, Turan), where the dombra and kobyz meet contemporary arrangement.</p>
+
+                    <h2>7.4 Guaranteed Exam Items</h2>
+                    <p>Hospitality — <strong>Qonaqzhailylyq</strong>, respect for elders — <strong>Ulkenge qurmet</strong>, seven ancestors — <strong>Jeti ata</strong>, mutual aid — <strong>Asar</strong>. Rites: <strong>Besikke salu, Tusau kesu, Betashar</strong>. Modern forms: <strong>Khan Shatyr, the World Nomad Games, ethno-rock</strong>.</p>
+                `
+            },
+            {
+                title: "Chapter 8: Official Week 3 Test Answer Key (10 Questions)",
+                content: `
+                    <h1>🔥 Week 3. Chapter 8: Official Test Answer Key (10 Questions)</h1>
+                    <p><strong>1. Who are the authors of the book Digital Nomad (1997)?</strong><br>
+                    Answer: <strong>Tsugio Makimoto and David Manners</strong>. A Japanese scholar and a British journalist who predicted a return to a mobile way of life thanks to mobile communications and portable computers.</p>
+
+                    <p><strong>2. Which ornament symbolises vital force and prosperity?</strong><br>
+                    Answer: <strong>Qoshqar muyiz</strong> ("Ram's Horns"). The logic of the sign is direct: a nomad's wealth was measured in livestock, so the sign of the ram is the sign of prosperity.</p>
+
+                    <p><strong>3. Who first deciphered the Turkic runes, and in what year?</strong><br>
+                    Answer: the Danish linguist <strong>Vilhelm Thomsen</strong> in <strong>1893</strong>. Vasily Radlov then translated the whole corpus — do not mix up the roles: Thomsen deciphered, Radlov translated.</p>
+
+                    <p><strong>4. Which word did V. Thomsen read first in the Turkic runes?</strong><br>
+                    Answer: <strong>Tengri</strong> (Sky). The second word he read was "Turk."</p>
+
+                    <p><strong>5. What did settled farmers buy from the nomads to fertilise their fields?</strong><br>
+                    Answer: <strong>cattle dung</strong>, according to Uyzbayeva et al., p. 10. The question tests whether you understand that the exchange was mutually beneficial rather than one-sided.</p>
+
+                    <p><strong>6. What does the ornament Qus tumsyq ("Bird's Beak") symbolise?</strong><br>
+                    Answer: <strong>freedom, the celestial sphere, and good news</strong>. A ring bearing this pattern was sent by a daughter to her parents as a message that she was happy in her new family.</p>
+
+                    <p><strong>7. To which century does the Golden Man of the Issyk kurgan belong?</strong><br>
+                    Answer: the <strong>5th century BCE</strong> (Saka period). Do not confuse this with the dating of the runes — those are 6th–8th centuries CE, more than a thousand years later.</p>
+
+                    <p><strong>8. What is the traditional 12-year animal calendar cycle called?</strong><br>
+                    Answer: <strong>Mushel zhas</strong>. An age that is a multiple of 12 was considered a threshold year.</p>
+
+                    <p><strong>9. Which key advantage of digital nomadism is cited in the 2026 statistics?</strong><br>
+                    Answer: a <strong>72% reduction in CO₂ emissions</strong> through the elimination of the daily commute to an office.</p>
+
+                    <p><strong>10. Which most ancient culture of Kazakhstan first domesticated the horse?</strong><br>
+                    Answer: the <strong>Botai culture</strong> (4th millennium BCE) — the first domestication of the horse in the world.</p>
+                `
+            },
+            {
+                title: "Chapter 9: Strict Oral Defense Master Block (10 Exam Tickets)",
+                content: `
+                    <h1>💬 Week 3. Chapter 9: 10 Detailed Exam Tickets & Model Answers</h1>
+                    <p><strong>Ticket 1: Describe the engineering features of the yurt.</strong><br>
+                    Answer: The yurt is a portable, ecological dwelling of wood and felt consisting of <em>kerege</em> lattice walls, <em>uyk</em> dome poles, and the sacred <em>shanyraq</em> crown ring. It is erected in 1–2 hours and dismantles completely for transport. Its circular form gives ideal aerodynamics against steppe winds, and the felt works both ways: it holds heat in winter and blocks it in summer.</p>
+
+                    <p><strong>Ticket 2: What is the significance of commodity barter according to Uyzbayeva, Baisarina and Alzhanova (p. 10)?</strong><br>
+                    Answer: An isolated way of life and a shortage of goods generated intermediary trade through direct moneyless exchange. Farmers bought cattle dung from the nomads to fertilise their fields and exchanged wheat, flour, fruit and vegetables for meat, milk, hides and wool. Later, once the value of goods had been determined, the nomads introduced metal money, which became the principal means of exchange.</p>
+
+                    <p><strong>Ticket 3: Explain the semiotics of the Qus tumsyq ornament.</strong><br>
+                    Answer: <em>Qus tumsyq</em> ("bird's beak") symbolises soaring flight, freedom, and the celestial sphere of Tengri. In the etiquette tradition, a married-off daughter would send her parents a ring bearing this pattern as good news that she was free and happy in her husband's family. It is a complete message conveyed without words — which is why ornament is called a non-verbal semiotic text.</p>
+
+                    <p><strong>Ticket 4: Why is the stirrup considered a turning-point invention?</strong><br>
+                    Answer: The stirrup (<em>uzengi</em>) gave the rider a point of support in the saddle. Without support it is impossible to deliver a full blow with lance or sabre without losing balance. Together with the rigid saddle, the stirrup is precisely what made heavy cavalry possible and reshaped warfare across Eurasia.</p>
+
+                    <p><strong>Ticket 5: What is Animal Style and how does it differ from ornament?</strong><br>
+                    Answer: Animal Style is the Saka-Scythian artistic style of the 7th–3rd centuries BCE depicting the dynamics of combat between predators and hoofed animals on gold, weapons, and horse harness. Ornament, by contrast, is a geometricised static sign-symbol. A snow leopard fighting a stag is Animal Style; <em>Qoshqar muyiz</em> is ornament.</p>
+
+                    <p><strong>Ticket 6: Describe the spiritual system of the nomads.</strong><br>
+                    Answer: Its foundation was Tengriism — the cult of the Great Blue Sky (<strong>Tengri</strong>) and Earth-Water (<strong>Jer-Su</strong>), pantheistic in its logic. Alongside it stood the cult of ancestors: the aruaqs (<em>aruaqtar</em>), spirits of the dead who continue to protect the lineage. Time was understood cyclically and measured by the 12-year animal cycle <em>Mushel zhas</em>.</p>
+
+                    <p><strong>Ticket 7: What was the role of the nomads on the Great Silk Road?</strong><br>
+                    Answer: The nomadic empires were not destroyers but protectors, logisticians, and intermediaries of the route linking China, Sogdiana, Iran, Byzantium, and Western Europe. A caravan could not cross the steppe without pack animals, knowledge of routes and watering places, and protection from robbery — all supplied by the nomads. Destroying the route was against their interest, since it was their source of income.</p>
+
+                    <p><strong>Ticket 8: What is digital nomadism and who introduced the term?</strong><br>
+                    Answer: Digital nomadism is a 21st-century phenomenon in which specialists work remotely while moving regularly between countries. The term was introduced by Tsugio Makimoto and David Manners in <em>Digital Nomad</em> (1997) as a forecast: mobile communications and portable computers would return humanity to a mobile way of life. States responded with the Digital Nomad Visa, a residence permit for remote work for a foreign employer.</p>
+
+                    <p><strong>Ticket 9: Which nomadic ethical norms operate in modern Kazakhstan?</strong><br>
+                    Answer: <em>Qonaqzhailylyq</em> — hospitality, which in the steppe was a matter of a traveller's survival and therefore became an unconditional duty. <em>Ulkenge qurmet</em> — respect for elders as keepers of experience in a culture without writing. <em>Jeti ata</em> — knowledge of seven ancestors, which maintained the boundaries of kinship. <em>Asar</em> — mutual aid for work beyond one family's capacity.</p>
+
+                    <p><strong>Ticket 10: What is the significance of Thomsen's decipherment?</strong><br>
+                    Answer: In 1893 the Danish linguist Vilhelm Thomsen found the key to the Old Turkic script, silent for more than a thousand years, and was the first to read the words <em>Tengri</em> and <em>Turk</em>. Vasily Radlov then translated the entire body of Orkhon-Yenisei texts. The significance is that the Kultegin and Bilge Khagan stelae turned from enigmatic stones into the first written historical sources created by the Turks themselves.</p>
                 `
             }
         ]

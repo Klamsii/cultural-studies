@@ -15,7 +15,7 @@
 ## 📌 Table of Contents
 
 1. [Seminar 2.1: Four Global Cultural Codes](#1-seminar-21-four-global-cultural-codes)
-   - 1.1 Defining Cultural Code (*Cultural Code*)
+   - 1.1 Defining Cultural Code
    - 1.2 Preliterate (Traditional) Code
    - 1.3 Written (Book) Code
    - 1.4 Screen Code (Cinema and TV)
@@ -48,7 +48,7 @@
 6. [Lecture 2.6: Conventional Signs, Symbols, Lotman's Semiosphere & Suleimenov (AITU 2.3)](#6-lecture-26-conventional-signs-symbols-lotmans-semiosphere--suleimenov)
    - 6.1 Conventional Signs (*Conventional Signs* — STOP signs) vs. Natural Signs
    - 6.2 Yuri Lotman: Concept of the "Semiosphere" (*Semiosphere*) — Culture as Dynamic Text with Codes
-   - 6.3 Olzhas Suleimenov (*Olzhas Suleimenov*): Historical-Linguistic Work *AZ i IA* (1975) — Semiotic Analysis of "The Song of Igor's Campaign" from a Turkic Perspective
+   - 6.3 Olzhas Suleimenov: Historical-Linguistic Work *AZ i IA* (1975) — Semiotic Analysis of "The Song of Igor's Campaign" from a Turkic Perspective
 7. [Seminar 2.7: Semiotic Film Analysis: The Da Vinci Code (Langdon Lecture)](#7-seminar-27-semiotic-film-analysis-the-da-vinci-code)
    - 7.1 Applying Peirce's Triad in Practice: Icon, Index, Symbol
    - 7.2 Slide Image Analysis (Kazakh Ornament *Koshkar Muiz*, Handprint, Clock Icon, Octocat)
@@ -64,7 +64,7 @@
 
 ## 1. Seminar 2.1: Four Global Cultural Codes
 
-### 1.1 Defining Cultural Code (*Cultural Code*)
+### 1.1 Defining Cultural Code
 A **Cultural Code** represents a fundamental category in modern culturology and semiotics. It is an encoded matrix of signs, symbols, value systems, mental stereotypes, and semantic structures through which a specific society preserves its historical experience, transmits it across generations, and decodes incoming information from the surrounding world. 
 
 The cultural code determines a nation's unique mindset, shapes national character, sets boundaries of acceptable behavior, and constructs a specific worldview. Without mastering the cultural code, an individual cannot fully interpret the meanings embedded in art, traditions, rituals, and language.
@@ -157,7 +157,7 @@ Moral commandments claim absolute universality ("Thou shalt not kill"), yet prac
 ### 3.3 Paradox 2: Conscience Autonomy vs. External Social Shame (*Uyat*)
 True morality demands internal conscience. However, culture frequently enforces norms through external social shame (**Uyat**) and peer pressure.
 
-### 3.4 Paradox 3: The Trolley Problem (*Trolley Problem*)
+### 3.4 Paradox 3: The Trolley Problem
 - **Utilitarian Ethics (Bentham, Mill):** Mandates flipping the switch to save 5 lives at the cost of 1 (math of utility).
 - **Kantian Deontology:** Forbids flipping the lever, as active intervention turns the actor into a murderer, violating the categorical imperative.
 

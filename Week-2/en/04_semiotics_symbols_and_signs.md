@@ -44,8 +44,8 @@
 ### 1. The Role of Symbols and Signs in Cultural Communication
 **Cultural communication cannot occur without operating signs and symbols.**
 Every act of intercultural or intracultural communication is a process of **encoding** (*encoding*) thoughts into signs by a sender, and **decoding** (*decoding*) them by a receiver using a shared cultural code.
-- **Sign (Sign):** A basic element of communication replacing an object or event (acoustic sound, gesture, road line).
-- **Symbol (Symbol):** A high-level sign imbued with deep social meaning. A symbol does not merely point; it transmits an entire worldview (the Kazakh *Shanyraq* as a symbol of home and cosmic peace; the Dove of Peace).
+- **Sign:** A basic element of communication replacing an object or event (acoustic sound, gesture, road line).
+- **Symbol:** A high-level sign imbued with deep social meaning. A symbol does not merely point; it transmits an entire worldview (the Kazakh *Shanyraq* as a symbol of home and cosmic peace; the Dove of Peace).
 **Example:** The color red alone is a physical traffic light sign; red within a national flag is a symbol of courage or revolution.
 
 ### 2. Ferdinand de Saussure's Dyadic Sign in Communication

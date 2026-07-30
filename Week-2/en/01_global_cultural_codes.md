@@ -30,7 +30,7 @@
 
 ## 📖 Main Content
 
-### 1. Concept of the Cultural Code (Cultural Code)
+### 1. Concept of the Cultural Code
 **The cultural code determines national mindset and perception frameworks.**
 A Cultural Code is an encoded matrix of symbols, stereotypes, and value orientations through which a society preserves and transmits historical experience across generations. Without knowing the code, one cannot decipher national art and traditions.
 
@@ -51,7 +51,7 @@ A Cultural Code is an encoded matrix of symbols, stereotypes, and value orientat
 
 1. **Preliterate (Traditional) Code:** Spoken word, rituals, zhyrau songs. Knowledge is preserved in the collective memory of elders and epic bards.
 2. **Written (Book) Code:** Emerged with alphabets and Gutenberg's press (15th c.). Created the "Gutenberg Galaxy" (Marshall McLuhan) — linear, analytical, and reflective mind.
-3. **Screen Code (20th c.):** Cinema and television. Relies on mass broadcasting (*mass broadcasting*), generating passive visual images.
+3. **Screen Code (20th c.):** Cinema and television. Relies on mass broadcasting, generating passive visual images.
 4. **Digital Code (21st c.):** Internet, social networks, and AI algorithms. Users become **prosumers** (*prosumers*), actively generating content.
 
 ---

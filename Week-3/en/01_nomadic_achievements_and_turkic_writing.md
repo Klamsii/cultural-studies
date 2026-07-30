@@ -9,7 +9,7 @@
 
 ## 🎯 Essence in 60 Seconds
 - **Technological Breakthrough of Nomads:** Invention of the yurt (*Kiiz ui*), horse domestication, iron metallurgy, invention of stirrups (*uzengi*), curved saber, and equestrian harness.
-- **Animal Style (*Animal Style*):** Saka-Scythian artistic tradition (1st millennium BCE) expressing dynamic predator-prey combat. Iconic masterpiece — **The Golden Man of Issyk (*Altyn Adam*)**.
+- **Animal Style:** Saka-Scythian artistic tradition (1st millennium BCE) expressing dynamic predator-prey combat. Iconic masterpiece — **The Golden Man of Issyk (*Altyn Adam*)**.
 - **Spiritual Foundations:** Tengriism (cult of Sky **Tengri** & Earth-Water **Jer-Su**), ancestor worship (**Aruaqs**), and the 12-year animal calendar cycle (**Mushel zhas**).
 - **Old Turkic Runic Writing (*Orkhon-Yenisei Runes*):** First alphabetic-phonetic script of the Turkic steppe empires (6th–8th c. CE). Monuments dedicated to **Bilge Khagan** and **Kultegin**. Deciphered by **Vilhelm Thomsen (1893)** and **Vasily Radlov**.
 
@@ -36,7 +36,7 @@
 - **Horse Domestication & Harness:** Nomads first domesticated the horse on earth (Botai Culture, 4th mill. BCE) and invented the rigid saddle, stirrups (*Uzengi*), and riding trousers, revolutionizing global transport and warfare.
 - **Ancient Metallurgy:** Steppe tribes pioneered bronze and iron smelting, crafting composite bows, sabers, and heavy cavalry armor.
 
-### 2. Animal Style (*Animal Style*) & The Golden Man (*Altyn Adam*)
+### 2. Animal Style & The Golden Man (*Altyn Adam*)
 **The Saka-Scythian Animal Style expressed a philosophy of cosmic dynamic struggle.**
 Emerging in the 7th–3rd c. BCE, this style depicted predator-prey battles (snow leopards, tigers, griffins, stags, rams) on gold armor, weapons, and harnesses. Its crowning discovery is **The Golden Man from the Issyk Kurgan** (5th c. BCE), whose headdress encodes a cosmogonic model of the Universe.
 

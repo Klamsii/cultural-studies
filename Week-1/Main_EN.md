@@ -134,7 +134,7 @@ British ethnographer and founding figure of cultural anthropology **Sir Edward B
 2. **Systemic Complex:** Culture encompasses far more than high art or formal education; it includes everyday habits, moral codes, legal systems, customs, and beliefs shared by society.
 
 ### 2.5 Kroeber & Kluckhohn Classification: Behavioral Definition (*Shared, learned behavior*)
-American anthropologists **Alfred L. Kroeber and Clyde Kluckhohn** published a major critical review in 1952 analyzing over 160 definitions of culture. In their typology, the **behavioral definition (*behavioral definition*)** stands out as a core benchmark:
+American anthropologists **Alfred L. Kroeber and Clyde Kluckhohn** published a major critical review in 1952 analyzing over 160 definitions of culture. In their typology, the **behavioral definition** stands out as a core benchmark:
 
 > **Kroeber & Kluckhohn's Behavioral Definition:** Culture is "shared, learned human behavior, a way of life."
 
@@ -174,8 +174,8 @@ Prominent American anthropologist **Leslie Alvin White (1900–1975)** in *The S
 └─────────────────────────┘  └─────────────────────────┘  └─────────────────────────┘
 ```
 
-1. **Material Subsystem (*Material Subsystem*):** Physical objects created or altered by human labor, agricultural tools, industrial machinery, architectural structures (nomadic yurts, modern buildings), transportation, clothing, foodways, and digital hardware.
-2. **Spiritual Subsystem (*Spiritual Subsystem*):** The domain of abstract ideas, scientific theories, religious doctrines, philosophical systems, ethical codes, aesthetic values, literature, and visual arts.
+1. **Material Subsystem:** Physical objects created or altered by human labor, agricultural tools, industrial machinery, architectural structures (nomadic yurts, modern buildings), transportation, clothing, foodways, and digital hardware.
+2. **Spiritual Subsystem:** The domain of abstract ideas, scientific theories, religious doctrines, philosophical systems, ethical codes, aesthetic values, literature, and visual arts.
 3. **Social/Institutional Subsystem (*Social/Institutional Subsystem*):** Rules governing human social interaction, family organization, legal codes, civic rituals, educational systems, and state institutions.
 
 > ⚠️ **Critical Exam Requirement:**  
@@ -183,8 +183,8 @@ Prominent American anthropologist **Leslie Alvin White (1900–1975)** in *The S
 
 ---
 
-### 3.3 Research Methodologies: The Genetic Method (*Genetic Method*)
-Culturology utilizes diverse analytical tools. The specialized scientific method that studies the **origin (genesis), historical roots, and evolutionary development of cultural forms** is known as the **Genetic Method (*Genetic Method*)**.
+### 3.3 Research Methodologies: The Genetic Method
+Culturology utilizes diverse analytical tools. The specialized scientific method that studies the **origin (genesis), historical roots, and evolutionary development of cultural forms** is known as the **Genetic Method**.
 
 ### 3.4 Sociobiological Meme Theory: Richard Dawkins (1976)
 The theoretical framework explaining cultural transmission through **memes** — replicating units of cultural information passed between minds — introduced by evolutionary biologist Richard Dawkins in *The Selfish Gene* (1976), is categorized as a **Sociobiological Theory of Culture (*Sociobiological Theory*)**.
@@ -233,10 +233,10 @@ The theoretical framework explaining cultural transmission through **memes** —
 
 **Video Source:** Task 1(b) — *Material vs Non-material culture* ([Watch on YouTube](https://www.youtube.com/watch?v=w5GVXwMXKbw))  
 
-### 5.1 Material Culture (*Material Culture*)
+### 5.1 Material Culture
 Physical, tangible artifacts created by human technology and labor (architecture, tools, clothing, machinery).
 
-### 5.2 Non-Material Culture (*Non-Material Culture*)
+### 5.2 Non-Material Culture
 Abstract, intangible human creations (ideas, values, beliefs, laws, moral codes, language).
 
 ---
@@ -291,8 +291,8 @@ The traditional Kazakh yurt provides a prime illustration of how a physical mate
 └───────────────────────────┘                     └───────────────────────────┘
 ```
 
-1. **Dominant Culture (*Dominant Culture*):** The mainstream cultural patterns supported by the societal majority and dominant state institutions.
-2. **High Culture (*High Culture*) vs. Popular Culture (*Popular Culture*):** Elite artistic forms requiring specialized training (opera, classical ballet) vs. mass commercial entertainment (pop music, blockbusters, memes).
+1. **Dominant Culture:** The mainstream cultural patterns supported by the societal majority and dominant state institutions.
+2. **High Culture vs. Popular Culture:** Elite artistic forms requiring specialized training (opera, classical ballet) vs. mass commercial entertainment (pop music, blockbusters, memes).
 3. **Subculture (*Subculture*, Chris Barker 2012):** A cultural group within mainstream society maintaining distinct jargon, fashion, and values without rejecting dominant society (gamers, K-pop fandoms).
 4. **Counterculture:** A group actively opposing and seeking to undermine dominant cultural foundations (1960s Hippies, Punk movement).
 5. **Evaluative Attitudes:** Ethnocentrism (judging other cultures by one's own standards) vs. Cultural Relativism (evaluating a culture objectively within its own historical context).
