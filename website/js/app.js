@@ -2199,6 +2199,297 @@ const uiTranslations = {
 // Bilingual Question Master Bank
 const masterQuestionBank = [
 {
+        "id": 41,
+        "cat": "5",
+        "q": {
+            "ru": "The word from kazakh means brave, courage man who has skilled military art:",
+            "en": "The word from kazakh means brave, courage man who has skilled military art:"
+        },
+        "opts": {
+            "ru": [
+                "batyr",
+                "akyn",
+                "poet",
+                "brave man",
+                "soldier"
+            ],
+            "en": [
+                "batyr",
+                "akyn",
+                "poet",
+                "brave man",
+                "soldier"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "В казахском языке слово «Батыр» обозначает храброго воина, владеющего искусством ведения боя.",
+            "en": "The Kazakh word 'batyr' designates a brave warrior skilled in military arts."
+        }
+    },
+    {
+        "id": 42,
+        "cat": "5",
+        "q": {
+            "ru": "He considers being an unsurpassed author and performer of kyuis of the shertpe style:",
+            "en": "He considers being an unsurpassed author and performer of kyuis of the shertpe style:"
+        },
+        "opts": {
+            "ru": [
+                "Tattimbet",
+                "Kurmangazy",
+                "Dina Nurpeysova",
+                "Bukhar zhyrau",
+                "Akhan seri"
+            ],
+            "en": [
+                "Tattimbet",
+                "Kurmangazy",
+                "Dina Nurpeysova",
+                "Bukhar zhyrau",
+                "Akhan seri"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Таттимбет Казангапулы является непревзойденным автором и исполнителем кюев пальцевого стиля шертпе.",
+            "en": "Tattimbet Kazangapuly is recognized as the unsurpassed master and author of shertpe-style kyuis."
+        }
+    },
+    {
+        "id": 43,
+        "cat": "5",
+        "q": {
+            "ru": "Choral song (in aitys form between man and woman) performed at the wedding celebration:",
+            "en": "Choral song (in aitys form between man and woman) performed at the wedding celebration:"
+        },
+        "opts": {
+            "ru": [
+                "zhar-zhar",
+                "koshtasu",
+                "zhoktau",
+                "tolgau",
+                "zhyr"
+            ],
+            "en": [
+                "zhar-zhar",
+                "koshtasu",
+                "zhoktau",
+                "tolgau",
+                "zhyr"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Жар-жар — это хороводная свадебная песня в форме айтыса-диалога между сторонами джигитов и девушек.",
+            "en": "Zhar-zhar is the ceremonial wedding song performed in antiphonal aitys form between groomsmen and bridesmaids."
+        }
+    },
+    {
+        "id": 44,
+        "cat": "5",
+        "q": {
+            "ru": "Genre of zhyrau poetry:",
+            "en": "Genre of zhyrau poetry:"
+        },
+        "opts": {
+            "ru": [
+                "tolgau",
+                "aitys",
+                "zhar-zhar",
+                "songs",
+                "poems"
+            ],
+            "en": [
+                "tolgau",
+                "aitys",
+                "zhar-zhar",
+                "songs",
+                "poems"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Толгау (Tolgau) — ключевой философско-дидактический поэтический жанр поэзии жырау.",
+            "en": "Tolgau is the major philosophical-didactic poetic genre of the zhyrau."
+        }
+    },
+    {
+        "id": 45,
+        "cat": "5",
+        "q": {
+            "ru": "Сhief adviser of Abylai Khan:",
+            "en": "Сhief adviser of Abylai Khan:"
+        },
+        "opts": {
+            "ru": [
+                "Bukhar zhyrau Kalkamanuly",
+                "Kaztugan zhyrau",
+                "Margaska zhyrau",
+                "Dospambet zhyrau",
+                "Asan-kaygy zhyrau"
+            ],
+            "en": [
+                "Bukhar zhyrau Kalkamanuly",
+                "Kaztugan zhyrau",
+                "Margaska zhyrau",
+                "Dospambet zhyrau",
+                "Asan-kaygy zhyrau"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Бухар жырау Калкаманулы являлся главным советником и великим поэтом Абылай хана.",
+            "en": "Bukhar zhyrau Kalkamanuly was the chief adviser and poet of Abylai Khan."
+        }
+    },
+    {
+        "id": 46,
+        "cat": "5",
+        "q": {
+            "ru": "Musical piece for dombra:",
+            "en": "Musical piece for dombra:"
+        },
+        "opts": {
+            "ru": [
+                "kyu",
+                "zhyr",
+                "tolgau",
+                "symphony",
+                "etude"
+            ],
+            "en": [
+                "kyu",
+                "zhyr",
+                "tolgau",
+                "symphony",
+                "etude"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Кюй (kyu) — инструментное музыкальное произведение для домбры или кобыза.",
+            "en": "Kyu (kyui) is an instrumental musical composition for dombra or kobyz."
+        }
+    },
+    {
+        "id": 47,
+        "cat": "5",
+        "q": {
+            "ru": "Individual social group that had own ideology, life of style according to their public service, military tradition, rules and ethics to follow in interrelation with other social groups:",
+            "en": "Individual social group that had own ideology, life of style according to their public service, military tradition, rules and ethics to follow in interrelation with other social groups:"
+        },
+        "opts": {
+            "ru": [
+                "batyrs",
+                "akyns",
+                "zhyrau",
+                "Man",
+                "soldier"
+            ],
+            "en": [
+                "batyrs",
+                "akyns",
+                "zhyrau",
+                "Man",
+                "soldier"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Сословие батыров (batyrs) составляло отдельную социальную группу со своей воинской идеологией и этикой.",
+            "en": "The Batyr estate (batyrs) formed an individual warrior social group with distinct military tradition and ethics."
+        }
+    },
+    {
+        "id": 48,
+        "cat": "5",
+        "q": {
+            "ru": "The founder of Zar Zaman movement:",
+            "en": "The founder of Zar Zaman movement:"
+        },
+        "opts": {
+            "ru": [
+                "Dulat Babatayuly",
+                "Shortanbai Kanayuly",
+                "Isatay Taimanov",
+                "Birzhan sal",
+                "Akhan seri"
+            ],
+            "en": [
+                "Dulat Babatayuly",
+                "Shortanbai Kanayuly",
+                "Isatay Taimanov",
+                "Birzhan sal",
+                "Akhan seri"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Дулат Бабатайулы (1802–1874) является основоположником поэтического движения Зар Заман («Эпоха скорби»).",
+            "en": "Dulat Babatayuly (1802–1874) is recognized as the founder of the Zar Zaman movement."
+        }
+    },
+    {
+        "id": 49,
+        "cat": "5",
+        "q": {
+            "ru": "Famous song of Jayau Musa Bayzhanuly:",
+            "en": "Famous song of Jayau Musa Bayzhanuly:"
+        },
+        "opts": {
+            "ru": [
+                "Ak sisa",
+                "Maira",
+                "Ademau",
+                "Kusny Korlan",
+                "Balkadisha"
+            ],
+            "en": [
+                "Ak sisa",
+                "Maira",
+                "Ademau",
+                "Kusny Korlan",
+                "Balkadisha"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "«Ақ сиса» (Ak sisa) — знаменитая протестная песня Жаяу Мусы Байжанулы.",
+            "en": "'Ak sisa' is the celebrated song composed by Jayau Musa Bayzhanuly."
+        }
+    },
+    {
+        "id": 50,
+        "cat": "5",
+        "q": {
+            "ru": "An outstanding Kazakh composer - kyushi, the author of the famous kyuis «Adai», «Saryarka»:",
+            "en": "An outstanding Kazakh composer - kyushi, the author of the famous kyuis «Adai», «Saryarka»:"
+        },
+        "opts": {
+            "ru": [
+                "Kurmangazy",
+                "Dauletkerey",
+                "Tattimbet",
+                "Seitek",
+                "Ahan-Seri"
+            ],
+            "en": [
+                "Kurmangazy",
+                "Dauletkerey",
+                "Tattimbet",
+                "Seitek",
+                "Ahan-Seri"
+            ]
+        },
+        "ans": 0,
+        "exp": {
+            "ru": "Курмангазы Сагырбайулы — выдающийся композитор-кюйши, автор кюев «Адай» и «Сарыарқа».",
+            "en": "Kurmangazy Sagyrbaev is the supreme composer-kyushi author of 'Adai' and 'Saryarka'."
+        }
+    },
+
+{
         "id": 21,
         "cat": "3",
         "q": {
@@ -2707,7 +2998,7 @@ function switchLanguage(lang) {
 function switchWeek(weekVal) {
     selectedWeek = weekVal;
     if (mainViewMode === 'main') {
-        if (weekVal === '1' || weekVal === '2' || weekVal === '3') {
+        if (['1','2','3','4','5'].includes(weekVal)) {
             loadReaderWeek(parseInt(weekVal, 10));
         }
     } else {
